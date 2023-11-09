@@ -2041,10 +2041,6 @@ li:hover {
   text-align: left;
 }
 
-.glide__slides {
-  overflow: unset !important;
-}
-
 .hr-line {
   display: flex;
   align-items: center;
@@ -2062,6 +2058,9 @@ li:hover {
   .home__right {
     width: 100vw;
     contain: inline-size;
+  }
+  .glide__slides {
+    overflow: unset !important;
   }
 
   .tablet-menu {
