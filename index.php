@@ -127,7 +127,7 @@
 			</div>
 			<div class="carousel py-3 glide">
 				<div data-glide-el="track" class="glide__track js-stories stories__row stories__row-reviews" id="js-stories">
-					<div class="glide__slides" style="overflow: none!important;">
+					<div class="glide__slides" style="overflow: unset!important;">
 						<div class="reviews js-reviews glide__slide">
 							<div class="reviews__svg-container">
 								<svg class="reviews__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
