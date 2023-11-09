@@ -85,11 +85,10 @@
 <section id="ball-section" class="bg-white shadow-lg">
 	<div class="grid md:grid-cols-2 px-[4rem] py-[3rem] gap-10 items-center lg:mx-48">
 		<div class="w-full px-3 py-2">
-			<video id="myVideo" preload="auto" autoplay muted loop controls="false" style="width: 100%; height: auto;">
+			<video id="myVideo" preload="auto" autoplay muted loop style="width: 100%; height: auto;">
 				<source src="./static/images/PSYC.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 			</video>
-			<!-- <video src="" autoplay="true" loop controls="false"></video> -->
 		</div>
 		<div class="w-full px-3 py-2 text-left">
 			<h1 class="pb-14 ball__title-heading">Elevate Your Mental Health: No Cost, No Card, No Stress</h1>
