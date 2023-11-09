@@ -410,15 +410,14 @@
 						<img src="./static/images/phones/left-concentration-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 					</div>
 					<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
-						<p class="catty_text mb-6">Learn to manage feelings and thoughts with the lifelong skill of
-							everyday mindfulness, any time of the day.</p>
+						<p class="catty_text mb-6">Concentration is the ability to focus one's attention and mental effort on a particular task, thought, or activity while ignoring distractions..</p>
 						<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
 							<div class="play-btn">
 								<img src="./static/images/play-btn.svg" alt="play-btn">
 							</div>
 							<div class="text-2multi-line text-blalck gap-4">
-								<h1 class="font-medium text-2xl lg:text-4xl">Ambient sleep </h1>
-								<p class="lg:text-2xl">Music with soft and binaural pads</p>
+								<h1 class="font-medium text-2xl lg:text-4xl">Stressed out</h1>
+								<p class="lg:text-2xl">Music with soft and Lo-Fi</p>
 							</div>
 							<div class="time_baseline text-white items-baseline" hidden>
 								<p>15:01</p>

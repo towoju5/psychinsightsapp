@@ -84,7 +84,7 @@ function validatePassword(password) {
 		document.getElementById("error-message").textContent = "";
 	}
 }
-P;
+
 /* end of getting the numbers running */
 
 /* start of phone transitioning code */
@@ -182,3 +182,4 @@ homeLeft.animProps = {
 };
 
 homeLeft.animate(homeLeft.keyframes, homeLeft.animProps);
+

@@ -1,6 +1,8 @@
 <?php require_once 'header.php'?>
 
-
+<section id="hero-section">
+	//
+</section>
 <section>
 	<div class="about__inner">
 		<section class="ceo">
@@ -109,25 +111,16 @@
 			</div>
 		</section>
 		<section class="mission">
-			<div class="mission__row grid md:grid-cols-2 w-full">
-				<h4 class="mission__heading mission__heading--1 font-bold lg:w-1/4">Mission</h4>
-				<span class="mission__small lg:w-3/4">
-					Our aim with Psych Insight is to have an unwavering commitment to pursue knowledge and
-					personal growth consistently. We strive to stay curious, open-minded, and always seek opportunities
-					to
-					expand
-					our knowledge and skills. This enables us to adapt, innovate, and thrive in an ever-changing world.
+			<div class="mission__row">
+				<h4 class="mission__heading mission__heading--1 font-bold w-full md:w-1/6">Mission</h4>
+				<span class="mission__small lg:w-5/6">
+					Our aim with Psych Insight is to have an unwavering commitment to pursue knowledge and personal growth consistently. We strive to stay curious, open-minded, and always seek opportunities to expand our knowledge and skills. This enables us to adapt, innovate, and thrive in an ever-changing world.
 				</span>
 			</div>
-			<div class="mission__row grid md:grid-cols-2">
-				<h4 class="mission__heading mission__heading--1 font-bold lg:w-1/4">Vision</h4>
-				<span class="mission__small lg:w-3/4">
-					In the nearest future, we envision Psych Insight is to have an unwavering commitment to pursue
-					knowledge and
-					personal growth consistently. We strive to stay curious, open-minded, and always seek opportunities
-					to
-					expand
-					our knowledge and skills. This enables us to adapt, innovate, and thrive in an ever-changing world.
+			<div class="mission__row">
+				<h4 class="mission__heading mission__heading--1 font-bold w-full md:w-1/6">Vision</h4>
+				<span class="mission__small lg:w-5/6">
+					In the nearest future, we envision Psych Insight is to have an unwavering commitment to pursue knowledge and personal growth consistently. We strive to stay curious, open-minded, and always seek opportunities to expand our knowledge and skills. This enables us to adapt, innovate, and thrive in an ever-changing world.
 				</span>
 			</div>
 		</section>
