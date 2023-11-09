@@ -158,7 +158,7 @@
 						<img src="./static/images/humaan-stoic.png" alt="Budha_Prayer" class="mx-auto">
 						<p class="font-medium text-xl">Define your goals clearly – be it reducing stress, improving sleep, or boosting happiness.</p>
 					</div>
-					<div class="w-full md:w-3/5">
+					<div class="w-full md:w-3/5 pb-4 md:pb-0">
 						<form class="py-24 px-8 space-y-6 mx-12" method="post" action="#">
 							<h2 class="text-[24.24px] text-center text-[#207384]">Welcome back</h2>
 							<div class="form-group space-y-2">
