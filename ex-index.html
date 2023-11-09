@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/static/images/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/static/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<title>Psychinsights App &#8212; Everyone deserves a sound mental health.</title>
+	<link rel="canonical" href="https://psychinsights-1-k5009643.deta.app" />
+	<link rel="stylesheet" href="static/css/styles.css">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+	<!-- <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"> -->
+	<!-- <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"> -->
+</head>
+
+<body style="overflow-x: hidden;">
+	<section class="home h-screen items-center">
+
+		<nav class="bg-white border-gray-200">
+			<div class="md:mx-32 lg:mx-48 flex flex-wrap items-center justify-between mx-auto p-4">
+				<div class="group flex gap-10">
+					<button data-collapse-toggle="navbar-cta" type="button" class="lg:hidden">
+						<span class="sr-only">Open main menu</span>
+						<svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+							viewBox="0 0 17 14">
+							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M1 1h15M1 7h15M1 13h15" />
+						</svg>
+					</button>
+					<a class="navbar__link navbar__logo" href="index">
+						<img class="navbar__image" src="static/images/logo.png" alt="psychinsights logo" />
+						<span class="navbar__text">PsychInsights</span>
+					</a>
+				</div>
+				<div class="flex md:order-2">
+					<a href="https://web.psychinsightsapp.com/#signup" class="btn btn--free">Try for free</a>
+				</div>
+				<div class="items-center justify-end hidden w-full lg:flex md:w-auto md:order-1" id="navbar-cta">
+					<ul
+						class="navbar__list font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+						<li class="navbar__list-item">
+						<li class="navbar__list-item">
+							<a href="plans" class="navbar__list-href">Plan</a>
+						</li>
+						<li class="navbar__list-item">
+							<a href="about" class="navbar__list-href">About Us</a>
+						</li>
+						<li class="navbar__list-item">
+							<a href="contact" class="navbar__list-href">Contact Us</a>
+						</li>
+						<li class="navbar__list-item">
+							<a href="help" class="navbar__list-href">Help</a>
+						</li>
+						<li class="navbar__list-item">
+							<a href="https://web.psychinsightsapp.com/#login" class="navbar__list-href">Login</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<main class="mx-8 md:mx-32 lg:mx-48 lg:flex justify-between items-center gap-10 mt-4">
+			<div class="lg:w-1/2">
+				<div id="carouselExampleCrossfade" class="relative" data-te-carousel-init data-te-ride="carousel">
+					<!--Carousel items-->
+					<div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+						<!--First item-->
+						<div class="relative float-left -mr-[100%] w-full !transform-none opacity-0 transition-opacity duration-[100ms] ease-in-out motion-reduce:transition-none"
+							data-te-carousel-fade data-te-carousel-item data-te-carousel-active>
+							<div class="home__texts home__texts-empower home__texts-active text-left w-full">
+								<h1 class="home__heading home__heading-good">Good Mental Health&colon;<br>A Right&comma; Not a Privilege</h1>
+								<p><small class="home__small">Every individual deserves mental clarity and peace&period; Explore our
+									extensive
+									resources&comma;
+									ensuring accessible&comma; quality mental health solutions for all&period;</small></p>
+							</div>
+						</div>
+						<!--Second item-->
+						<div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[100ms] ease-in-out motion-reduce:transition-none"
+							data-te-carousel-fade data-te-carousel-item>
+							<div class="home__texts home__texts-empower home__texts-active text-left w-full">
+								<h1 class="home__heading home__heading-elevate">Elevate And Optimize Your Mental Well&dash;Being </h1>
+								<small class="home__small">Embrace a comprehensive approach&period; Personalized mental wellness
+									strategries
+									designed
+									for everyone&period; Elevate your mindset&comma; and find balance in daily life&period;</small>
+							</div>
+						</div>
+						<!--Third item-->
+						<div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[100ms] ease-in-out motion-reduce:transition-none"
+							data-te-carousel-fade data-te-carousel-item>
+							<div class="home__texts home__texts-empower home__texts-active text-left w-full">
+								<h1 class="home__heading home__heading-empower">Empower Your Journey With Our Insightful Guidance </h1>
+								<small class="home__small home__small-empower">Uncover deep insights to guide your life&apos;s
+									journey&period;
+									We provide
+									strategries and perspectives to help you take charge & thrive with confidence&period;</small>
+							</div>
+						</div>
+						<!--Third item-->
+						<div class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[100ms] ease-in-out motion-reduce:transition-none"
+							data-te-carousel-fade data-te-carousel-item>
+							<div class="home__texts home__texts-empower home__texts-active text-left w-full">
+								<h1 class="home__heading home__heading-empower">Get useful insight and optimise your mental health </h1>
+								<small class="home__small home__small-empower">Uncover deep insights to guide your life&apos;s
+									journey&period;
+									We provide
+									strategries and perspectives to help you take charge & thrive with confidence&period;</small>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="gap-4 hidden lg:flex">
+					<a href="#" class="home__link">
+						<img src="static/images/playstore.svg" alt="this is a google playstore icon">
+					</a>
+					<a href="#" class="home__link">
+						<img src="static/images/applestore.svg" alt="this is an apple store icon">
+					</a>
+				</div>
+			</div>
+
+			<!-- // download buttons -->
+			<div class="animee__ home__right lg:w-1/2 justify-center">
+				<img src="static/images/phones/iPhone-14-Pro-Space-Black-1x.png" alt="mockup for an iphone phone"
+					class="home__image home__image--1 fly_in">
+				<img src="static/images/phones/group48095554.png" alt="mockup for an iphone phone"
+					class="home__image home__image--2 fly_out">
+			</div>
+
+			<div class="flex justify-center gap-4 block lg:hidden mt-10">
+				<a href="#" class="home__link">
+					<img src="static/images/playstore.svg" alt="this is a google playstore icon">
+				</a>
+				<a href="#" class="home__link">
+					<img src="static/images/applestore.svg" alt="this is an apple store icon">
+				</a>
+			</div>
+
+		</main>
+	</section>
+	<section>
+		<div class="bg-[#207384] p-3 text-white text-center my-6 md:my-16 lg:my-32 rounded-[9rem]">
+			<div class="grid grid-cols-3 gap-1 justify-center mx-4 md:mx-32 lg:mx-44 py-24">
+				<div class="items-center text-center mx-auto">
+					<p class="home__tab-text">Simplicity</p>
+					<div class="flex">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+					</div>
+					<div class="info-col">
+						<img src="static/images/bed.png" alt="this is a bed" class="home__info-png">
+						<p class="text-center">Sleep better</p>
+					</div>
+				</div>
+
+				<div class="grid grid-cols-1 mx-auto">
+					<p class="home__tab-text">Information</p>
+					<div class="home__tab-stars">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+					</div>
+					<img src="static/images/bad habit.png" alt="this is a bunch of books" class="home__info-png">
+					<p class="text-center">Developing the <br> learning habit</p>
+				</div>
+				
+				<div class="items-center align-content-center mx-auto" style="justify-content: center;">
+					<p class="home__tab-text">Engagement</p>
+					<div class="home__tab-stars">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+						<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+					</div>
+					<img src="static/images/dumbbell.png" alt="this is a dumbbell" class="home__info-png">
+					<p class="text-center">Exercise more</p>
+				</div>
+			</div>
+		</div>
+		<div class="home__ellipse" hidden>
+			<div class="home__info bg-[#207384] p-3 text-white text-center">
+				<div class="home__info-row">
+					<div class="grid grid-cols-3 gap-4 items-center mx-6 px-6">
+						<div class="home__tab text-center">
+							
+						</div>
+						<div class="home__tab">
+							<p class="home__tab-text">Information</p>
+							<div class="home__tab-stars">
+								<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+								<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+								<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+								<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+								<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+							</div>
+						</div>
+						<div class="home__tab">
+							<p class="home__tab-text">Engagement</p>
+							<div class="home__tab-stars">
+								<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+								<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+								<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+								<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+								<img class="home__tab-star" src="static/images/stars.svg" alt="star">
+							</div>
+						</div>
+					</div>
+					<div class="grid grid-cols-3 gap-4">
+						<div class="info-col">
+							<img src="static/images/bed.png" alt="this is a bed" class="home__info-png">
+							<p class="info-text">Sleep better</p>
+						</div>
+						<div class="info-col">
+							<img src="static/images/bad habit.png" alt="this is a bunch of books"
+								class="home__info-png">
+							<p class="info-text">Developing the <br> learning habit</p>
+						</div>
+						<div class="info-col">
+							<img src="static/images/dumbbell.png" alt="this is a dumbbell" class="home__info-png">
+							<p class="info-text">Exercise more</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="stories">
+			<div class="stories__inner">
+				<div class="stories__row">
+					<h2 class="stories__heading">Stories you'd love to read</h2>
+				</div>
+				<div class="carousel">
+					<div class="js-stories stories__row stories__row-reviews">
+						<div class="reviews js-reviews">
+							<div class="reviews__svg-container">
+								<svg class="reviews__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+									viewBox="0 0 24 24">
+									<path fill="#207384"
+										d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Z" />
+								</svg>
+							</div>
+							<p class="reviews__text">With psychinsights, we have finally accomplished things that have
+								been waiting forever to get done.</p>
+							<p class="reviews__author"><strong>Grayson Morgan</strong></p>
+						</div>
+						<div class="reviews js-reviews">
+							<div class="reviews__svg-container">
+								<svg class="reviews__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+									viewBox="0 0 24 24">
+									<path fill="#207384"
+										d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Z" />
+								</svg>
+							</div>
+							<p class="reviews__text">psychinsights has helped my team and I stay on the same page.
+								Previously, we were all over the board. Using psychinsights has definitely saved us time
+								and money.</p>
+							<p class="reviews__author"><strong>Elise Martin</strong></p>
+						</div>
+						<div class="reviews js-reviews">
+							<div class="reviews__svg-container">
+								<svg class="reviews__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+									viewBox="0 0 24 24">
+									<path fill="#207384"
+										d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Z" />
+								</svg>
+							</div>
+							<p class="reviews__text">If you are a business owner, and you don&#39;t have psychinsights
+								in your toolkit just yet, I highly recommend that you check it out.</p>
+							<p class="reviews__author"><strong>Johnny Briggs</strong></p>
+						</div>
+						<div class="reviews js-reviews">
+							<div class="reviews__svg-container">
+								<svg class="reviews__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+									viewBox="0 0 24 24">
+									<path fill="#207384"
+										d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Z" />
+								</svg>
+							</div>
+							<p class="reviews__text">I love psychinsights! This is an amazing service and it has saved
+								me and my small business so much time. I plan to use it for a long time to come.</p>
+							<p class="reviews__author"><strong>Blakely Gomez</strong></p>
+						</div>
+						<div class="reviews js-reviews">
+							<div class="reviews__svg-container">
+								<svg class="reviews__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+									viewBox="0 0 24 24">
+									<path fill="#207384"
+										d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Z" />
+								</svg>
+							</div>
+							<p class="reviews__text">I have been using psychinsights for over a year now and I love it!
+								I can&#39;t imagine life without it. It&#39;s so easy to use, and the customer service
+								is great.</p>
+							<p class="reviews__author"><strong>Harrison Simpson</strong></p>
+						</div>
+						<div class="reviews js-reviews">
+							<div class="reviews__svg-container">
+								<svg class="reviews__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+									viewBox="0 0 24 24">
+									<path fill="#207384"
+										d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Z" />
+								</svg>
+							</div>
+							<p class="reviews__text">With psychinsights, we have finally accomplished things that have
+								been waiting forever to get done.</p>
+							<p class="reviews__author"><strong>Jaxon Klein</strong></p>
+						</div>
+						<div class="reviews js-reviews">
+							<div class="reviews__svg-container">
+								<svg class="reviews__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+									viewBox="0 0 24 24">
+									<path fill="#207384"
+										d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Z" />
+								</svg>
+							</div>
+							<p class="reviews__text">Everyone’s on the same page. Many of our people are not very
+								organized naturally, so psychinsights is a godsend!</p>
+							<p class="reviews__author"><strong>Wyatt Meyer</strong></p>
+						</div>
+					</div>
+				</div>
+				<div class="stories__row stories__row-chevron">
+					<div class="button-group">
+						<button class="button button--left js-button-left">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+								<path d="M15.41 7.41L14 6l-6 6l6 6l1.41-1.41L10.83 12l4.58-4.59z" />
+							</svg>
+						</button>
+						<button class="button button--right js-button-right">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+								<path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6l-6-6z" />
+							</svg>
+						</button>
+					</div>
+				</div>
+
+
+				<div class="text-center mx-6 md:mx-16 lg:mx-32  mt-10 ">
+					<div class="grid md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-10">
+						<div class="text-center mx-auto">
+							<h3 class="humaans__heading-3">Take a moment for yourself</h3>
+							<img src="static/images/humaan-stoic.png" alt="this is a humaan stoic file"
+								class="humaans__image mx-auto">
+							<p class="humaans__text">Define your goals clearly &dash; be it reducing stress&comma;
+								improving
+								sleep&comma; or boosting happiness&period;</p>
+						</div>
+						<div class="hidden lg:block text-center mx-auto">
+							<h3 class="humaans__heading-3">Take a break&comma; <br> refresh your mind&period;</h3>
+							<img src="static/images/humaan-yoga.png" alt="yoga posture" class="humaans__image mx-auto">
+							<p class="humaans__text">Learn&comma; measure&comma; set daily goals and optimise your
+								mental well
+								being&period;</p>
+						</div>
+						<div class="grid-2 text-center mx-auto">
+							<h3 class="humaans__heading-3">Remain calm and maintain control&period;</h3>
+							<img src="static/images/humaan-meditation.png" alt="meditation posture"
+								class="humaans__image mx-auto">
+							<p class="humaans__text">Learn ways to embrace the present&comma; seek inner peace&comma;
+								and
+								release what
+								no longer
+								serves you&period;</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="categories">
+		<div class="categories__inner mx-10">
+			<div class="flex justify-center gap-10 overflow-x-scroll px-10">
+				<button type="button" class="bg-[#EFC49D] md:text-xl lg:text-2xl text-black rounded-xl px-10 py-1">Depression</button>
+				<button type="button" class="bg-[#EFC49D] md:text-xl lg:text-2xl text-black rounded-xl px-10 py-1">Anxiety</button>
+				<button type="button" class="bg-[#EFC49D] md:text-xl lg:text-2xl text-black rounded-xl px-10 py-1">Stress</button>
+				<button type="button" class="bg-[#EFC49D] md:text-xl lg:text-2xl text-black rounded-xl px-10 py-1">Sleep</button>
+				<button type="button" class="bg-[#EFC49D] md:text-xl lg:text-2xl text-black rounded-xl px-10 py-1">Motivation</button>
+				<button type="button" class="bg-[#EFC49D] md:text-xl lg:text-2xl text-black rounded-xl px-10 py-1">Concentration</button>
+			</div>
+			<div class="categories__row categories__row-content" hidden>
+				<div class="categories__body">
+					<p class="categories__text">
+						Learn to manage feelings and thoughts with the lifelong skill of everyday
+						mindfulness, any time of the day.
+					</p>
+					<!-- this is what our audio controls will look like -->
+					<!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+					<div class="categories__audio">
+						<div class="categories__audio-row categories__audio-row--1">
+							<button class="categories__audio-button" type="button">
+								<svg class="categories__audio-svg" xmlns="http://www.w3.org/2000/svg" height="1em"
+									viewBox="0 0 384 512">
+									<path
+										d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+								</svg>
+							</button>
+						</div>
+						<div class="categories__audio-row categories__audio-row--2">
+							<p class="categories__audio-title">Ambient sleep</p>
+							<small class="categories__audio-small">Music with soft and binaural pads</small>
+						</div>
+						<div class="categories__audio-row categories__audio-row--3">
+							<p class="categories__audio-time">15&colon;01</p>
+						</div>
+					</div>
+					<!-- end of audio controls -->
+					<!-- this is what our video controls looks like -->
+					<!-- <div class="categories__video">&nbsp;</div> -->
+				</div>
+				<div class="categories-phones categories-phones-active categories-depression-phones"></div>
+				<div class="categories-phones categories-anxiety-phones"></div>
+				<div class="categories-phones categories-stress-phones"></div>
+				<div class="categories-phones categories-concentration-phones"></div>
+				<div class="categories-phones categories-motivation-phones"></div>
+				<div class="categories-phones categories-sleep-phones"></div>
+			</div>
+		</div>
+	</section>
+	<section class="articles">
+		<div class="articles__inner">
+			<div class="articles__row">
+				<h3 class="articles__heading">Articles of the Day</h3>
+			</div>
+			<div class="articles__row articles__row-content">
+				<div class="articles__div">
+					<div class="articles__div-row articles__div-row--1">
+						<div class="articles__div-col articles__div-col--1">
+							<small class="articles__category">Sleep</small>
+							<a href="blog" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right"
+									class="articles__chevron">
+							</a>
+						</div>
+						<div class="articles__div-col articles__div-col--2">
+							<small class="articles__category">Depression</small>
+							<a href="" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right"
+									class="articles__chevron">
+							</a>
+						</div>
+					</div>
+					<div class="articles__div-row articles__div-row--2">
+						<div class="articles__div-col articles__div-col--3">
+							<small class="articles__category">Anxiety</small>
+							<a href="" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right"
+									class="articles__chevron">
+							</a>
+						</div>
+						<div class="articles__div-col articles__div-col--4">
+							<small class="articles__category">Stress</small>
+							<a href="" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right"
+									class="articles__chevron">
+							</a>
+						</div>
+					</div>
+					<div class="articles__div-row articles__div-row--3">
+						<div class="articles__div-col articles__div-col--5">
+							<small class="articles__category">Concentration</small>
+							<a href="" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right"
+									class="articles__chevron">
+							</a>
+						</div>
+						<div class="articles__div-col articles__div-col--6">
+							<small class="articles__category">Motivation</small>
+							<a href="" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right"
+									class="articles__chevron">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="community js-community">
+		<div class="community__inner">
+			<div class="community__row">
+				<h3 class="community__heading">Be a part of the large Psychinsight’s community</h3>
+			</div>
+			<div class="community__row community__row--2">
+				<div class="community__col">
+					<div class="community__stars">
+						<span class="community__svg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 512 512">
+								<path fill="#F1BE3F"
+									d="M394 480a16 16 0 0 1-9.39-3L256 383.76L127.39 477a16 16 0 0 1-24.55-18.08L153 310.35L23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480Z" />
+							</svg>
+						</span>
+						<span class="community__svg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 512 512">
+								<path fill="#F1BE3F"
+									d="M394 480a16 16 0 0 1-9.39-3L256 383.76L127.39 477a16 16 0 0 1-24.55-18.08L153 310.35L23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480Z" />
+							</svg>
+						</span>
+						<span class="community__svg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 512 512">
+								<path fill="#F1BE3F"
+									d="M394 480a16 16 0 0 1-9.39-3L256 383.76L127.39 477a16 16 0 0 1-24.55-18.08L153 310.35L23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480Z" />
+							</svg>
+						</span>
+						<span class="community__svg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 512 512">
+								<path fill="#F1BE3F"
+									d="M394 480a16 16 0 0 1-9.39-3L256 383.76L127.39 477a16 16 0 0 1-24.55-18.08L153 310.35L23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480Z" />
+							</svg>
+						</span>
+						<span class="community__svg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 512 512">
+								<path fill="#F1BE3F"
+									d="M394 480a16 16 0 0 1-9.39-3L256 383.76L127.39 477a16 16 0 0 1-24.55-18.08L153 310.35L23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480Z" />
+							</svg>
+						</span>
+					</div>
+					<p class="community__text"><span class="js-counter" data-target="5">5</span> Star rating</p>
+				</div>
+				<div class="community__col">
+					<img src="static/images/Group.svg" alt="Group.svg" class="community__svg">
+					<p class="community__text"><span class="js-counter" data-target="1200">1200</span> <br> Ratings</p>
+					<small class="community__small">ios & Google play</small>
+				</div>
+				<div class="community__col">
+					<img src="static/images/Vector.svg" alt="Vector.svg" class="community__svg">
+					<p class="community__text"><span class="js-counter" data-target="6000">6000</span> <br> Downloads
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__up">
+				<div class="footer__div footer__div--1">
+					<a href="plans" class="footer__link">Plan</a>
+					<a href="help" class="footer__link">Help</a>
+					<a href="about" class="footer__link">About</a>
+					<a href="contact" class="footer__link">Contact</a>
+				</div>
+				<div class="footer__div footer__div--2">
+					<a href="partnerships" class="footer__link">Partnerships</a>
+					<a href="accessibility" class="footer__link">Accessibility</a>
+					<a href="privacy-policy" class="footer__link">Privacy Policy</a>
+					<a href="terms" class="footer__link">Terms of Service</a>
+				</div>
+				<div class="footer__div footer__div--3">
+					<a href="" class="footer__anchor">
+						<img src="static/images/applestore.svg" alt="link to google play store" class="footer__image">
+					</a>
+					<a href="" class="footer__anchor">
+						<img src="static/images/playstore.svg" alt="link to google play store" class="footer__image">
+					</a>
+				</div>
+				<div class="footer__div footer__div--4">
+					<p class="footer__text">Get the freshest news from us</p>
+					<div class="input__group input__group--email">
+						<input type="email" name="email" id="email" class="input__email js-email-input"
+							placeholder="Your email address..." title="Please enter a valid email address" required>
+						<input type="submit" value="Subscribe" class="btn btn--subscribe js-subscribe-button">
+					</div>
+					<div class="js-footer-message">
+						<p class="footer__message footer__message--valid js-message-valid"></p>
+						<p class="footer__message footer__message--invalid js-message-invalid"></p>
+					</div>
+				</div>
+			</div>
+			<hr class="divider">
+			<div class="footer__down">
+				<div class="footer__socials">
+					<a href="" class="footer__social-link">
+						<svg xmlns="http://www.w3.org/2000/svg" height="1em"
+							viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+							<path
+								d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+						</svg>
+					</a>
+					<a href="https://twitter.com/Psych_Insights_" class="footer__social-link">
+						<svg xmlns="http://www.w3.org/2000/svg" height="1em"
+							viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+							<path
+								d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+						</svg>
+					</a>
+					<a href="https://www.youtube.com/@psychinsightsapp" class="footer__social-link">
+						<svg xmlns="http://www.w3.org/2000/svg" height="1em"
+							viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+							<path
+								d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
+						</svg>
+					</a>
+					<a href="https://instagram.com/psychinsightsapp" class="footer__social-link">
+						<svg xmlns="http://www.w3.org/2000/svg" height="1em"
+							viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+							<path
+								d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+						</svg>
+					</a>
+				</div>
+				<p class="footer__copy">psychinsights &copy; 2023. All rights reserved</p>
+			</div>
+		</div>
+	</footer>
+	<script src="npm/-glidejs/glide.js"></script>
+	<script src="static/js/scripts.js"></script>
+	<script src="ajax/libs/animejs/3.2.1/anime.min.js"></script>
+	<script src="static/js/index.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+</body>
+
+</html>
