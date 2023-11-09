@@ -205,7 +205,7 @@
 							</div>
 						</form>
 						<div class="mt-4 mx-8">
-							<div class="hr-line">
+							<div class="hr-line flex">
 								<hr>
 								<span>or</span>
 								<hr>
