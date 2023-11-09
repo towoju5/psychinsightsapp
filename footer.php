@@ -205,11 +205,13 @@
 							</div>
 						</form>
 						<div class="mt-4 mx-8">
-							<div class="hr-line flex">
+							<!-- <div class="hr-line flex">
 								<hr>
 								<span>or</span>
 								<hr>
-							</div>
+							</div> -->
+
+							<img src="./static/images/divider.png" alt="divider" class="mx-auto">
 
 							<div class="flex justify-center gap-5 mt-4">
 								<a href="https://google.com/">
