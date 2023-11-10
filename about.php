@@ -9,36 +9,36 @@
 	</div>
 </section>
 
-<section>
+<section class="lg:mx-28 xl:mx-56 mt-12">
 	<div class="about__inner">
 		<section class="ceo">
 			<!-- <p class="text-center lg:hidden text-2xl py-8">About Us</p> -->
 			<div class="grid lg:grid-cols-2 gap-20 items-center py-20">
 				<div class="ceo__col ceo__col--1 py-18">
 					<div class="ceo__text-group">
-						<h3 class="text-center lg:text-left text-[32px] font-bold">Bridging the Gap in Mental Health
-							Support</h3>
-						<small class="text-center lg:text-left text-[20px]">Empowering individuals with insights for
-							better mental well-being.</small>
+						<div class="tick__border-top mx-auto"></div>
+						<h3 class="text-center lg:text-left text-[32px] font-bold">Optimize your Mental Health and Live a Better Life</h3>
+						<small class="text-center lg:text-left text-[20px]">Personalized support for your well being and mental health journey.</small>
 					</div>
 				</div>
 				<div class="better-life">
-					<img class="ceo__image" src="./static/images/about-us/together.png" alt="a group of people holding hands together">
+					<img class="ceo__image about__images mx-auto" src="./static/images/about-us/about-001.png" alt="stage">
 				</div>
 			</div>
-			<div class="border border-[#2E2F32]"></div>
+
 			<div class="ceo__row ceo__row--2">
-				<div class="ceo__inner-row ceo__inner-row--1">
-					<h3 class="text-[32px] font-bold">Our President & CEO</h3>
-				</div>
 				<div class="grid lg:grid-cols-2 gap-20 items-center">
 					<div class="xoxo">
 						<div class="ceo-image">
-							<img src="./static/images/about-us/ceo.png" alt="" class="ceo__image">
+							<img src="./static/images/about-us/ceo.png" alt="" class="ceo__image mx-auto about__images rounded-2xl">
 						</div>
 					</div>
 					<div class="xoxo">
 						<div class="ceo__text-group">
+							<div class="ceo__inner-row ceo__inner-row--1 grid">
+								<div class="tick__border-top mx-auto"></div>
+								<h3 class="text-[56px] font-bold">Our President & CEO</h3>
+							</div>
 							<small class="ceo__small">
 								Our vision is to create a global community of empowered individuals who have the skills
 								and knowledge to proactively manage their mental health and lead fulfilling lives.
@@ -52,40 +52,14 @@
 				</div>
 			</div>
 		</section>
+
 		<section class="ourstory">
 			<div class="ourstory__row ourstory__row--1">
-				<h3 class="ceo__heading ceo__heading--3">Our Story</h3>
-			</div>
-			<div class="ourstory__row ourstory__row--2">
-				<div class="hidden lg:block">
-					<div class="ourstory__diagram">
-						<div class="ourstory__diagram-col ourstory__diagram-col--1">
-							<span>Onboarding</span>
-						</div>
-						<div class="ourstory__diagram-col ourstory__diagram-col--2">
-							<span>Personalization</span>
-						</div>
-						<div class="ourstory__diagram-col ourstory__diagram-col--3">
-							<span>Personalized resource</span>
-						</div>
-						<img src="static/images/arrow.svg" alt="" class="ourstory__direction">
-					</div>
+				<h3 class="ceo__heading ceo__heading--3 text-[56px]">Our Story</h3>
+				<div class="py-20">
+					<img src="./static/images/about-us/Image 6.png" alt="our story is togetherness" class="mx-auto rounded-2xl">
 				</div>
-
-				<div class="lg:hidden text-center flex justify-center">
-					<div class="space-y-12">
-						<div class="bg-[#A6C1ED] p-20 rounded-xl">
-							<span class="bg-white text-2xl py-2 px-2 rounded-xl">Onboarding</span>
-						</div>
-						<div class="bg-[#EFC49D] p-20 rounded-xl">
-							<span class="bg-white text-2xl py-2 px-2 rounded-xl">Personalization</span>
-						</div>
-						<div class="bg-[#EEC1C1] p-20 rounded-xl">
-							<span class="bg-white text-2xl py-2 px-2 rounded-xl">Personalized resource</span>
-						</div>
-						<img src="static/images/about-us/our story.png" alt="" class="hidden">
-					</div>
-				</div>
+				
 			</div>
 			<div class="ourstory__row ourstory__row--3">
 				<p class="ceo__small">
@@ -116,29 +90,43 @@
 			</div>
 		</section>
 		<section class="mission">
-			<div class="mission__row">
-				<h4 class="mission__heading mission__heading--1 font-bold w-full md:w-1/6">Mission</h4>
-				<span class="mission__small lg:w-5/6">
+			<div class="grid md:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
+				<div class="values__col md:order-2">
+					<img class="values__image" src="static/images/about-us/001.png" alt="people holding hands in a .png picture">
+				</div>
+				<div class="values__col values__col--text  md:order-1">
+					<div class="tick__border-top mx-auto"></div>
+					<h4 class="values__heading font-bold">Mission</h4>
+					<p class="values__text">
 					Our aim with Psych Insight is to have an unwavering commitment to pursue knowledge and personal growth consistently. We strive to stay curious, open-minded, and always seek opportunities to expand our knowledge and skills. This enables us to adapt, innovate, and thrive in an ever-changing world.
-				</span>
+					</p>
+				</div>
 			</div>
-			<div class="mission__row">
-				<h4 class="mission__heading mission__heading--1 font-bold w-full md:w-1/6">Vision</h4>
-				<span class="mission__small lg:w-5/6">
+			<div class="grid md:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
+				<div class="values__col md:order-1">
+					<img class="values__image" src="static/images/about-us/002.png" alt="two people holding hands in a .png picture">
+				</div>
+				<div class="values__col values__col--text md:order-2">
+					<div class="tick__border-top mx-auto"></div>
+					<h4 class="values__heading font-bold">Vision</h4>
+					<p class="values__text">
 					In the nearest future, we envision Psych Insight is to have an unwavering commitment to pursue knowledge and personal growth consistently. We strive to stay curious, open-minded, and always seek opportunities to expand our knowledge and skills. This enables us to adapt, innovate, and thrive in an ever-changing world.
-				</span>
+					</p>
+				</div>
 			</div>
 		</section>
 
 		<section class="values">
-			<div class="values__row values__row--heading">
-				<h3 class="ceo__heading ceo__heading--3 font-bold" style="text-align: center;">Our Values and Culture</h3>
+			<div class="values__row values__row--heading grid">
+				<div class="tick__border-top mx-auto text-center"></div>
+				<h3 class="ceo__heading ceo__heading--3 font-bold text-[56px]" style="text-align: center;">Our Values and Culture</h3>
 			</div>
 			<div class="grid md:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
 				<div class="values__col md:order-2">
 					<img class="values__image" src="static/images/about-us/001.png" alt="people holding hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text  md:order-1">
+					<div class="tick__border-top mx-auto"></div>
 					<h4 class="values__heading font-bold">Empowerment</h4>
 					<p class="values__text">We believe in empowering individuals to take an active role in their mental
 						well-being, providing them with the tools and knowledge to make positive changes in their lives.
@@ -150,6 +138,7 @@
 					<img class="values__image" src="static/images/about-us/002.png" alt="two people holding hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text md:order-2">
+					<div class="tick__border-top mx-auto"></div>
 					<h4 class="values__heading font-bold">Compassion</h4>
 					<p class="values__text">We approach our users with empathy and compassion, understanding the
 						challenges they
@@ -161,6 +150,7 @@
 					<img class="values__image" src="static/images/about-us/003.png" alt="two people shaking hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text md:order-1">
+					<div class="tick__border-top mx-auto"></div>
 					<h4 class="values__heading font-bold">Integrity</h4>
 					<p class="values__text">We operate with transparency and integrity, ensuring that our application's
 						content
@@ -172,6 +162,7 @@
 					<img class="values__image" src="static/images/about-us/004.png" alt="two people shaking hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text  md:order-2">
+					<div class="tick__border-top mx-auto"></div>
 					<h4 class="values__heading font-bold">Community</h4>
 					<p class="values__text">We foster a sense of community among our users, providing a platform for
 						sharing
