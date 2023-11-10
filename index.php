@@ -72,10 +72,10 @@
 
 			<div class="gap-4 flex justify-center lg:justify-start">
 				<a href="#" class="home__link">
-					<img src="static/images/playstore.svg" alt="this is a google playstore icon">
+					<img src="static/images/applestore.svg" alt="this is an apple store icon">
 				</a>
 				<a href="#" class="home__link">
-					<img src="static/images/applestore.svg" alt="this is an apple store icon">
+					<img src="static/images/playstore.svg" alt="this is a google playstore icon">
 				</a>
 			</div>
 		</div>
