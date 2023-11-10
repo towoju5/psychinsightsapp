@@ -1,12 +1,18 @@
-<?php require_once 'header.php'?>
+<?php require_once 'header.php' ?>
 
-<section id="hero-section">
-	//
+<section id="about__hero-section">
+	<div class="center-container">
+		<div class="center-content">
+			<h1 class="text-white text-[24px]">About us</h1>
+			<h1 class="text-white font-bold text-[72px]">Who We Are</h1>
+		</div>
+	</div>
 </section>
+
 <section>
 	<div class="about__inner">
 		<section class="ceo">
-			<p class="text-center lg:hidden text-2xl py-8">About Us</p>
+			<!-- <p class="text-center lg:hidden text-2xl py-8">About Us</p> -->
 			<div class="grid lg:grid-cols-2 gap-20 items-center py-20">
 				<div class="ceo__col ceo__col--1 py-18">
 					<div class="ceo__text-group">
@@ -17,8 +23,7 @@
 					</div>
 				</div>
 				<div class="better-life">
-					<img class="ceo__image" src="./static/images/about-us/together.png"
-						alt="a group of people holding hands together">
+					<img class="ceo__image" src="./static/images/about-us/together.png" alt="a group of people holding hands together">
 				</div>
 			</div>
 			<div class="border border-[#2E2F32]"></div>
@@ -179,4 +184,4 @@
 </section>
 
 
-<?php require_once 'footer.php'?>
+<?php require_once 'footer.php' ?>
