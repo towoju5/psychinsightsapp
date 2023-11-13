@@ -26,6 +26,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	text-align: justify;
 	overflow-x: hidden;
+	background: #E2F8F9;
 }
 
 a:hover,
@@ -274,16 +275,6 @@ li:hover {
 	height: fit-content;
 	justify-content: center;
 }
-
-/* .values__col {
-  width: 55%;
-}
-
-.values__col--text {
-  flex-basis: 45%;
-  align-self: center;
-  text-align: justify;
-} */
 
 .values__image {
 	width: 100%;

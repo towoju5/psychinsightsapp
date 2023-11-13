@@ -131,4 +131,4 @@
     </section>
     
 
-<?php require_once 'footers.php'?>
+<?php require_once 'footer.php' ?>

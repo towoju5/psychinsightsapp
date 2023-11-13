@@ -23,9 +23,9 @@
 </head>
 
 <body>
-	<section class="home items-center">
+	<header class="home items-center">
 		<nav class="bg-white border-gray-200">
-			<div class="md:mx-32 lg:mx-48 flex flex-wrap items-center justify-between mx-auto p-4">
+			<div class="md:mx-12 flex flex-wrap items-center justify-between mx-auto p-4">
 				<div class="group flex gap-10">
 					<button data-collapse-toggle="navbar-cta" type="button" class="lg:hidden">
 						<span class="sr-only">Open main menu</span>
@@ -64,4 +64,4 @@
 				</div>
 			</div>
 		</nav>
-	</section>
+	</header>

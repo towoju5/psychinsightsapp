@@ -2,6 +2,16 @@
  * This is for functionalities on the index page
  ***/
 
+
+document.addEventListener("wheel", (event) => {
+	event.preventDefault();
+	const delta = Math.sign(event.deltaY);
+	window.scrollBy({
+		top: delta * window.innerHeight,
+		behavior: 'smooth'
+	});
+});
+
 // Get all tab buttons and tab content
 const tabButtons = document.querySelectorAll('[role="tab"]');
 const tabContents = document.querySelectorAll('[role="tabpanel"]');

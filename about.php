@@ -9,7 +9,7 @@
 	</div>
 </section>
 
-<section class="lg:mx-28 xl:mx-56 mt-12">
+<div class="lg:mx-28 xl:mx-56 mt-12">
 	<div class="about__inner">
 		<section class="ceo">
 			<!-- <p class="text-center lg:hidden text-2xl py-8">About Us</p> -->
@@ -89,6 +89,7 @@
 				</p>
 			</div>
 		</section>
+
 		<section class="mission">
 			<div class="grid md:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
 				<div class="values__col md:order-2">
@@ -172,7 +173,7 @@
 			</div>
 		</section>
 	</div>
-</section>
+</div>
 
 
 <?php require_once 'footer.php' ?>

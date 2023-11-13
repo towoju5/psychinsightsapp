@@ -40,7 +40,7 @@
 				</div>
 				<div class="form-group">
 					<label class="text-xl lg:text-2xl" for="message">Message</label>
-					<textarea class="w-full rounded-xl p-3 border-2 border-[#207384]" name="message" id="" cols="24"
+					<textarea class="w-full rounded-xl p-3 border-2 border-[#207384]" minlength="100" name="message" id="" cols="24"
 						rows="10"></textarea>
 				</div>
 				<div class="flex justify-start gap-2">

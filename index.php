@@ -86,7 +86,7 @@
 	<div class="grid md:grid-cols-2 px-[4rem] py-[3rem] gap-10 items-center lg:mx-48">
 		<div class="w-full px-3 py-2">
 			<video id="myVideo" preload="auto" autoplay muted loop style="width: 100%; height: auto;">
-				<source src="./static/images/PSYC.mp4" type="video/mp4">
+				<source src="./static/images/psyc.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 			</video>
 		</div>
@@ -554,7 +554,4 @@
 	</div>
 </section>
 
-<script>
-	document.getElementById('myVideo').setAttribute('controls', 'false');
-</script>
 <?php require_once('footer.php') ?>
