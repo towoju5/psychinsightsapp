@@ -1,146 +1,148 @@
-<footer class="footer">
-	<div class="footer__inner">
-		<div class="footer__up">
-			<div class="w-full md:grid md:grid-cols-2 gap-20">
-				<div class="group-2 flex gap-10 md:order-2">
-					<div class="footer__div footer__div--4 w-full">
-						<p class="footer__text">Get the freshest news from us</p>
-						<div class="input__group input__group--email">
-							<input type="email" name="email" id="subscribe-email" class="rounded-xl py-3 px-3 bg-white w-full" placeholder="Your email address..." title="Please enter a valid email address" required>
-							<button type="submit" class="bg-blue-600 text-white py-2 px-3 rounded-xl" id="subscribeBtn">
-								Subscribe
-							</button>
+<section class="bottom-0">
+	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__up">
+				<div class="w-full md:grid md:grid-cols-2 gap-20">
+					<div class="group-2 flex gap-10 md:order-2">
+						<div class="footer__div footer__div--4 w-full">
+							<p class="footer__text">Get the freshest news from us</p>
+							<input type="email" name="email" id="subscribe-email" class="rounded-xl py-3 px-3 bg-white w-[74%]" placeholder="First and Last name" title="First and Last name" required>
+							<div class="input__group input__group--email">
+								<input type="email" name="email" id="subscribe-email" class="rounded-xl py-3 px-3 bg-white w-[75%]" placeholder="Your email address..." title="Please enter a valid email address" required>
+								<button type="submit" class="bg-blue-600 text-white py-2 px-6 w-[25%] rounded-xl" id="subscribeBtn">
+									Subscribe
+								</button>
+							</div>
+							<div class="js-footer-message">
+								<p class="footer__message footer__message--valid js-message-valid"></p>
+								<p class="footer__message footer__message--invalid js-message-invalid"></p>
+							</div>
 						</div>
-						<div class="js-footer-message">
-							<p class="footer__message footer__message--valid js-message-valid"></p>
-							<p class="footer__message footer__message--invalid js-message-invalid"></p>
+					</div>
+					<div class="group flex items-center md:order-1">
+						<div class="hidden md:flex justify-bewteen gap-10 items-center lg:gap-20">
+							<div class="footer__div footer__div--1">
+								<ul class="space-y-6">
+									<li>
+										<a href="/help.php" class="footer_menu-test footer__link">Help</a>
+									</li>
+									<li>
+										<a href="/plans.php" class="footer_menu-test footer__link">Plan</a>
+									</li>
+									<li>
+										<a href="/about.php" class="footer_menu-test footer__link">About</a>
+									</li>
+									<li>
+										<a href="/contact.php" class="footer_menu-test footer__link">Resources</a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="footer__div footer__div--2">
+								<ul class="space-y-6">
+									<li>
+										<a href="/partnerships.php" class="footer_menu-test footer__link">Legal</a>
+									</li>
+									<li>
+										<a href="/accessibility.php" class="footer_menu-test footer__link">Accessibility</a>
+									</li>
+									<li>
+										<a href="/privacy-policy.php" class="footer_menu-test footer__link">Privacy Policy</a>
+									</li>
+									<li>
+										<a href="/terms.php" class="footer_menu-test footer__link">Terms of Service</a>
+									</li>
+								</ul>
+							</div>
+							<div class="hidden lg:block">
+								<div class="space-y-5">
+									<a href="/" class="footer__anchor">
+										<img src="static/images/applestore.svg" alt="link to google play store" class="footer__image">
+									</a>
+									<a href="/" class="footer__anchor">
+										<img src="static/images/playstore.svg" alt="link to google play store" class="footer__image">
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="group flex items-center md:order-1">
-					<div class="hidden lg:block desktop space-y-5">
-						<img src="./static/images/footer-logo.svg" alt="#">
-						<div class="menu-footer">
-							<ul class="flex gap-12">
-								<li><a href="/plans.php" class="footer_menu-test footer__link">Plan</a></li>
-								<li><a href="/help.php" class="footer_menu-test footer__link">Help</a></li>
-								<li><a href="/about.php" class="footer_menu-test footer__link">About</a></li>
-								<li><a href="/contact.php" class="footer_menu-test footer__link">Contact</a></li>
-							</ul>
+			</div>
+			<div class="md:border-t border-[#71777D] py-6">
+				<div class="md:flex md:justify-between lg:justify-center md:gap-10 md:items-center">
+					<div class="hidden md:block lg:hidden table__footer--app group-2">
+						<div class="flex gap-12">
+							<a href="/" class="footer__anchor">
+								<img src="static/images/applestore.svg" alt="link to google play store" class="footer__image">
+							</a>
+							<a href="/" class="footer__anchor">
+								<img src="static/images/playstore.svg" alt="link to google play store" class="footer__image">
+							</a>
 						</div>
+					</div>
+					<div class="group-3 footer__socials">
+						<div class="group-as-one">
 						<div class="social-footer">
-							<ul class="flex gap-x-6">
+							<ul class="flex justify-center gap-x-6">
 								<li>
-									<a href="/https://facebook.com/psychinsightsapp" class="footer__social-link">
-										<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
-											<!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-											<path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
-											</path>
+									<a href="https://x.com/psychinsightsapp" class="footer__social-link">
+										<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M11.776 8.80553L18.0814 1.42285H16.587L11.1135 7.83288L6.73964 1.42285H1.6958L8.30883 11.117L1.6958 18.8583H3.19027L8.97138 12.0884L13.5905 18.8583H18.6344L11.776 8.80553ZM9.72982 11.2017L9.0598 10.2365L3.72828 2.55616H6.02354L10.3251 8.75447L10.9951 9.71965L16.5882 17.7773H14.2929L9.72982 11.2017Z" fill="#E2F8F9" />
 										</svg>
 									</a>
 								</li>
 								<li>
-									<a href="/https://twitter.com/Psych_Insights_" class="footer__social-link">
-										<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
-											<!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-											<path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z">
-											</path>
+									<a href="https://youtube.com/psychinsightsapp" class="footer__social-link">
+										<svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_536_7256)">
+												<path d="M22.7106 4.91525C22.4618 3.97839 21.7287 3.24055 20.798 2.99016C19.111 2.53516 12.3463 2.53516 12.3463 2.53516C12.3463 2.53516 5.58166 2.53516 3.89461 2.99016C2.96389 3.24059 2.23086 3.97839 1.98206 4.91525C1.53003 6.61336 1.53003 10.1563 1.53003 10.1563C1.53003 10.1563 1.53003 13.6993 1.98206 15.3974C2.23086 16.3342 2.96389 17.0413 3.89461 17.2917C5.58166 17.7467 12.3463 17.7467 12.3463 17.7467C12.3463 17.7467 19.111 17.7467 20.798 17.2917C21.7287 17.0413 22.4618 16.3342 22.7106 15.3974C23.1626 13.6993 23.1626 10.1563 23.1626 10.1563C23.1626 10.1563 23.1626 6.61336 22.7106 4.91525ZM10.1339 13.373V6.93958L15.7878 10.1564L10.1339 13.373Z" fill="#E2F8F9" />
+											</g>
+											<defs>
+												<clipPath id="clip0_536_7256">
+													<rect width="22.8156" height="20.2821" fill="white" transform="translate(0.938599)" />
+												</clipPath>
+											</defs>
 										</svg>
 									</a>
 								</li>
 								<li>
-									<a href="/https://www.youtube.com/@psychinsightsapp" class="footer__social-link">
-										<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
-											<!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-											<path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
-											</path>
+									<a href="https://instagram.com/psychinsightsapp" class="footer__social-link">
+										<svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_536_7258)">
+												<path d="M9.44252 5.58554C6.92285 5.58554 4.89047 7.61771 4.89047 10.1371C4.89047 12.6565 6.92285 14.6887 9.44252 14.6887C11.9622 14.6887 13.9946 12.6565 13.9946 10.1371C13.9946 7.61771 11.9622 5.58554 9.44252 5.58554ZM9.44252 13.0963C7.81424 13.0963 6.4831 11.7692 6.4831 10.1371C6.4831 8.50505 7.81028 7.178 9.44252 7.178C11.0748 7.178 12.4019 8.50505 12.4019 10.1371C12.4019 11.7692 11.0708 13.0963 9.44252 13.0963ZM15.2425 5.39936C15.2425 5.9896 14.7671 6.461 14.1808 6.461C13.5905 6.461 13.119 5.98564 13.119 5.39936C13.119 4.81308 13.5944 4.33772 14.1808 4.33772C14.7671 4.33772 15.2425 4.81308 15.2425 5.39936ZM18.2574 6.47685C18.1901 5.05472 17.8652 3.79501 16.8232 2.75714C15.7853 1.71927 14.5254 1.39444 13.1032 1.32313C11.6373 1.23995 7.24375 1.23995 5.77791 1.32313C4.3596 1.39048 3.09977 1.71531 2.05783 2.75318C1.01589 3.79105 0.694988 5.05076 0.623677 6.47288C0.54048 7.93858 0.54048 12.3317 0.623677 13.7974C0.691026 15.2195 1.01589 16.4792 2.05783 17.5171C3.09977 18.555 4.35564 18.8798 5.77791 18.9511C7.24375 19.0343 11.6373 19.0343 13.1032 18.9511C14.5254 18.8838 15.7853 18.559 16.8232 17.5171C17.8612 16.4792 18.1861 15.2195 18.2574 13.7974C18.3406 12.3317 18.3406 7.94254 18.2574 6.47685ZM16.3637 15.3701C16.0547 16.1465 15.4564 16.7447 14.676 17.0576C13.5073 17.5211 10.734 17.4141 9.44252 17.4141C8.15099 17.4141 5.37381 17.5171 4.20905 17.0576C3.43255 16.7486 2.83433 16.1505 2.52135 15.3701C2.05783 14.2015 2.1648 11.4285 2.1648 10.1371C2.1648 8.84573 2.06179 6.06883 2.52135 4.90419C2.83037 4.12777 3.42859 3.5296 4.20905 3.21666C5.37777 2.75318 8.15099 2.86014 9.44252 2.86014C10.734 2.86014 13.5112 2.75714 14.676 3.21666C15.4525 3.52564 16.0507 4.12381 16.3637 4.90419C16.8272 6.07279 16.7202 8.84573 16.7202 10.1371C16.7202 11.4285 16.8272 14.2054 16.3637 15.3701Z" fill="#E2F8F9" />
+											</g>
+											<defs>
+												<clipPath id="clip0_536_7258">
+													<rect width="17.7486" height="20.2821" fill="white" transform="translate(0.563965)" />
+												</clipPath>
+											</defs>
 										</svg>
 									</a>
 								</li>
 								<li>
-									<a href="/https://instagram.com/psychinsightsapp" class="footer__social-link">
-										<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
-											<!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-											<path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
-											</path>
+									<a href="https://tiktok.com/psychinsightsapp" class="footer__social-link">
+										<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M13.9049 5.01028C13.3373 4.36236 13.0246 3.53029 13.0248 2.66895H10.4593V12.9642C10.4395 13.5213 10.2043 14.049 9.80318 14.4362C9.40208 14.8233 8.86638 15.0398 8.3089 15.0398C7.12993 15.0398 6.15023 14.0767 6.15023 12.8812C6.15023 11.4531 7.52846 10.3821 8.94821 10.8221V8.19848C6.0838 7.81656 3.57642 10.0417 3.57642 12.8812C3.57642 15.6459 5.86794 17.6136 8.3006 17.6136C10.9076 17.6136 13.0248 15.4965 13.0248 12.8812V7.65881C14.0651 8.40593 15.3141 8.80677 16.5949 8.80458V6.23907C16.5949 6.23907 15.034 6.31379 13.9049 5.01028Z" fill="#E2F8F9" />
+										</svg>
+									</a>
+								</li>
+								<li>
+									<a href="https://linkedin.com/psychinsightsapp" class="footer__social-link">
+										<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M16.6332 2.66895C17.0736 2.66895 17.4959 2.84389 17.8073 3.1553C18.1188 3.46671 18.2937 3.88907 18.2937 4.32947V15.9531C18.2937 16.3935 18.1188 16.8159 17.8073 17.1273C17.4959 17.4387 17.0736 17.6136 16.6332 17.6136H5.00952C4.56912 17.6136 4.14676 17.4387 3.83535 17.1273C3.52395 16.8159 3.349 16.3935 3.349 15.9531V4.32947C3.349 3.88907 3.52395 3.46671 3.83535 3.1553C4.14676 2.84389 4.56912 2.66895 5.00952 2.66895H16.6332ZM16.218 15.538V11.1376C16.218 10.4198 15.9329 9.73131 15.4253 9.22372C14.9177 8.71612 14.2292 8.43096 13.5114 8.43096C12.8057 8.43096 11.9837 8.86269 11.5852 9.5103V8.58871H9.26876V15.538H11.5852V11.4448C11.5852 10.8055 12.1 10.2824 12.7393 10.2824C13.0475 10.2824 13.3432 10.4049 13.5612 10.6229C13.7792 10.8409 13.9016 11.1365 13.9016 11.4448V15.538H16.218ZM6.57041 7.2852C6.94035 7.2852 7.29513 7.13824 7.55671 6.87666C7.8183 6.61508 7.96525 6.26029 7.96525 5.89036C7.96525 5.11822 7.34256 4.48722 6.57041 4.48722C6.19828 4.48722 5.84138 4.63505 5.57824 4.89819C5.3151 5.16133 5.16727 5.51822 5.16727 5.89036C5.16727 6.6625 5.79827 7.2852 6.57041 7.2852ZM7.72448 15.538V8.58871H5.42465V15.538H7.72448Z" fill="#E2F8F9" />
 										</svg>
 									</a>
 								</li>
 							</ul>
 						</div>
-					</div>
-					<div class="tablet-menu">
-						<div class="footer__div footer__div--1">
-							<ul class="space-y-6">
-								<li>
-									<a href="/plans.php" class="footer_menu-test footer__link">Plan</a>
-								</li>
-								<li>
-									<a href="/help.php" class="footer_menu-test footer__link">Help</a>
-								</li>
-								<li>
-									<a href="/about.php" class="footer_menu-test footer__link">About</a>
-								</li>
-								<li>
-									<a href="/contact.php" class="footer_menu-test footer__link">Contact</a>
-								</li>
-							</ul>
-						</div>
-
-						<div class="footer__div footer__div--2">
-							<ul class="space-y-6">
-								<li>
-									<a href="/partnerships.php" class="footer_menu-test footer__link">Partnerships</a>
-								</li>
-								<li>
-									<a href="/accessibility.php" class="footer_menu-test footer__link">Accessibility</a>
-								</li>
-								<li>
-									<a href="/privacy-policy.php" class="footer_menu-test footer__link">Privacy
-										Policy</a>
-								</li>
-								<li>
-									<a href="/terms.php" class="footer_menu-test footer__link">Terms of Service</a>
-								</li>
-							</ul>
+						<span style="font-size: 12px;" class="text-white">Pyschinsights © <?= date('Y') ?>. All right  reserved</span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="hidden lg:block border-t border-[#71777D] py-6">
-			<div class="flex justify-between gap-10 items-center">
-				<div class="group-1">
-					<ul class="flex space-x-4">
-						<li><a href="partnerships.php" class="footer_menu-test footer__link">Partnerships</a>
-						</li>
-						<li><a href="accessibility.php" class="footer_menu-test footer__link">Accessibility</a>
-						</li>
-						<li><a href="privacy-policy.php" class="footer_menu-test footer__link">Privacy
-								Policy</a></li>
-						<li><a href="terms.php" class="footer_menu-test footer__link">Terms of Service</a>
-						</li>
-					</ul>
-				</div>
-				<div class="group-2">
-					<div class="flex gap-12" hidden>
-						<a href="/" class="footer__anchor">
-							<img src="static/images/applestore.svg" alt="link to google play store" class="footer__image">
-						</a>
-						<a href="/" class="footer__anchor">
-							<img src="static/images/playstore.svg" alt="link to google play store" class="footer__image">
-						</a>
-					</div>
-				</div>
-				<div class="group-3">
-					<span style="font-size: 12px;" class="text-white">Pyschinsights © <?= date('Y') ?>. All right
-						reserved</span>
-				</div>
-			</div>
-		</div>
-	</div>
-</footer>
-
+	</footer>
+</section>
 <!-- // login Modal -->
 
 
@@ -235,16 +237,27 @@
 	</div>
 </div>
 
-<script src="./npm/-glidejs/glide.js"></script>
-<script src="./static/js/plans.js"></script>
-<script src="./static/js/scripts.js"></script>
-<script src="./ajax/libs/animejs/3.2.1/anime.min.js"></script>
-<script src="./static/js/index.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/glide.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
-<script src="./static/js/jquery.matchHeight.js" type="text/javascript"></script>
-<script src="https://kit.fontawesome.com/fc49c28ef9.js" crossorigin="anonymous"></script>
+<!-- Dynamic Modal for testimonials -->
+<div data-te-modal-init class="fixed left-0 top-0 z-[1055] hidden h-full w-full overflow-y-auto overflow-x-hidden outline-none rounded" id="exampleModalLg" tabindex="-1" aria-labelledby="exampleModalLgLabel" aria-modal="true" role="dialog">
+	<div data-te-modal-dialog-ref class="pointer-events-none relative w-auto translate-y-[-50px] opacity-0 transition-all duration-300 ease-in-out min-[576px]:mx-auto min-[576px]:mt-7 min-[576px]:max-w-[500px] min-[992px]:max-w-[800px]">
+		<div class="pointer-events-auto relative flex w-full flex-col rounded-3xl border-none bg-white bg-clip-padding text-current shadow-lg outline-none">
+			<!--Modal body-->
+			<div class="reviews js-reviews glide__slide">
+				<!--Close button-->
+				<button type="button" class="box-content flex justify-end rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none" data-te-modal-dismiss aria-label="Close">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10 w-10">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				</button>
+				<div class="reviews__svg-container">
+					<img src="./static/images/quote-icon.svg" alt="quote" class="mx-auto h-28">
+				</div>
+				<div class="relative p-4 modal_stories " id="ttBody">...</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <script>
 	$(document).ready(function() {
 		const config = {
@@ -277,16 +290,33 @@
 			$("#modal").toggle()
 		})
 		// document.querySelector('#contacts-tab-Sleep').click();
-		document.addEventListener('contextmenu', event => event.preventDefault());
-		$("html").on("contextmenu",function(e){
-            return false;
-        });
-        // Disable cut, copy and paste on web page
-        $('html').bind('cut copy paste', function (e) {
-             e.preventDefault();
-        });
+		// document.addEventListener('contextmenu', event => event.preventDefault());
+		// $("html").on("contextmenu",function(e){
+		//     return false;
+		// });
+		// // Disable cut, copy and paste on web page
+		// $('html').bind('cut copy paste', function (e) {
+		//      e.preventDefault();
+		// });
+
+		$(".openTestimonialModal").click(function() {
+			var _message = $(this).data('message')
+			$("#ttBody").empty().html(_message);
+			console.log(_message)
+		})
 	})
 </script>
+
+<script src="./npm/-glidejs/glide.js"></script>
+<script src="./static/js/plans.js"></script>
+<script src="./static/js/scripts.js"></script>
+<script src="./ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="./static/js/index.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/glide.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+<script src="./static/js/jquery.matchHeight.js" type="text/javascript"></script>
+<script src="https://kit.fontawesome.com/fc49c28ef9.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
