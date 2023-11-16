@@ -34,16 +34,10 @@
 					</a>
 				</div>
 				<div class="ml-auto flex gap-10">
-					<div class="flex md:order-1">
+					<div class="flex lg:order-2">
 						<a href="#!signup" class="btn btn--free signup" data-te-toggle="modal" data-te-target="#loginModal" data-te-ripple-init data-te-ripple-color="light">Try for free</a>
 					</div>
-					<button data-collapse-toggle="navbar-cta" type="button" class="lg:hidden md:order-2">
-						<span class="sr-only">Open main menu</span>
-						<svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
-						</svg>
-					</button>
-					<div class="items-center justify-end hidden w-full lg:flex md:w-auto md:order-1" id="navbar-cta">
+					<div class="items-center justify-end hidden w-full lg:flex md:w-auto lg:order-1" id="navbar-cta">
 						<ul class="navbar__list font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
 							<li class="navbar__list-item">
 								<a href="plans.php" class="navbar__list-href">Plan</a>
@@ -64,6 +58,12 @@
 							</li>
 						</ul>
 					</div>
+					<button data-collapse-toggle="navbar-cta" type="button" class="lg:hidden">
+						<span class="sr-only">Open main menu</span>
+						<svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+						</svg>
+					</button>
 				</div>
 			</div>
 		</nav>

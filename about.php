@@ -16,8 +16,8 @@
 			<div class="grid lg:grid-cols-2 gap-20 items-center py-20">
 				<div class="ceo__col ceo__col--1 py-18">
 					<div class="ceo__text-group">
-						<div class="tick__border-top mx-auto"></div>
 						<h3 class="text-center lg:text-left text-[32px] font-bold">Optimize your Mental Health and Live a Better Life</h3>
+						<div class="tick__border-top mx-auto"></div>
 						<small class="text-center lg:text-left text-[20px]">Personalized support for your well being and mental health journey.</small>
 					</div>
 				</div>
@@ -36,8 +36,8 @@
 					<div class="xoxo">
 						<div class="ceo__text-group">
 							<div class="ceo__inner-row ceo__inner-row--1 grid">
-								<div class="tick__border-top mx-auto"></div>
 								<h3 class="text-[56px] font-bold">Our President & CEO</h3>
+								<div class="tick__border-top mx-auto"></div>
 							</div>
 							<small class="ceo__small">
 								Our vision is to create a global community of empowered individuals who have the skills
