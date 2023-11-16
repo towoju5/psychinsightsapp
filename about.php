@@ -96,8 +96,8 @@
 					<img class="values__image" src="static/images/about-us/001.png" alt="people holding hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text  md:order-1">
-					<div class="tick__border-top mx-auto"></div>
 					<h4 class="values__heading font-bold">Mission</h4>
+					<div class="tick__border-top mx-auto"></div>
 					<p class="values__text">
 					Our aim with Psych Insight is to have an unwavering commitment to pursue knowledge and personal growth consistently. We strive to stay curious, open-minded, and always seek opportunities to expand our knowledge and skills. This enables us to adapt, innovate, and thrive in an ever-changing world.
 					</p>
@@ -108,8 +108,8 @@
 					<img class="values__image" src="static/images/about-us/002.png" alt="two people holding hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text md:order-2">
-					<div class="tick__border-top mx-auto"></div>
 					<h4 class="values__heading font-bold">Vision</h4>
+								<div class="tick__border-top mx-auto"></div>
 					<p class="values__text">
 					In the nearest future, we envision Psych Insight is to have an unwavering commitment to pursue knowledge and personal growth consistently. We strive to stay curious, open-minded, and always seek opportunities to expand our knowledge and skills. This enables us to adapt, innovate, and thrive in an ever-changing world.
 					</p>
@@ -119,7 +119,6 @@
 
 		<section class="values">
 			<div class="values__row values__row--heading grid">
-				<div class="tick__border-top mx-auto text-center"></div>
 				<h3 class="ceo__heading ceo__heading--3 font-bold text-[56px]" style="text-align: center;">Our Values and Culture</h3>
 			</div>
 			<div class="grid md:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
@@ -127,8 +126,8 @@
 					<img class="values__image" src="static/images/about-us/001.png" alt="people holding hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text  md:order-1">
-					<div class="tick__border-top mx-auto"></div>
 					<h4 class="values__heading font-bold">Empowerment</h4>
+					<div class="tick__border-top mx-auto"></div>
 					<p class="values__text">We believe in empowering individuals to take an active role in their mental
 						well-being, providing them with the tools and knowledge to make positive changes in their lives.
 					</p>
@@ -139,8 +138,8 @@
 					<img class="values__image" src="static/images/about-us/002.png" alt="two people holding hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text md:order-2">
-					<div class="tick__border-top mx-auto"></div>
 					<h4 class="values__heading font-bold">Compassion</h4>
+					<div class="tick__border-top mx-auto"></div>
 					<p class="values__text">We approach our users with empathy and compassion, understanding the
 						challenges they
 						may be facing and providing support without judgment</p>
@@ -151,8 +150,8 @@
 					<img class="values__image" src="static/images/about-us/003.png" alt="two people shaking hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text md:order-1">
-					<div class="tick__border-top mx-auto"></div>
 					<h4 class="values__heading font-bold">Integrity</h4>
+					<div class="tick__border-top mx-auto"></div>
 					<p class="values__text">We operate with transparency and integrity, ensuring that our application's
 						content
 						and features align with our mission and the best interests of our users.</p>
@@ -163,8 +162,8 @@
 					<img class="values__image" src="static/images/about-us/004.png" alt="two people shaking hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text  md:order-2">
-					<div class="tick__border-top mx-auto"></div>
 					<h4 class="values__heading font-bold">Community</h4>
+					<div class="tick__border-top mx-auto"></div>
 					<p class="values__text">We foster a sense of community among our users, providing a platform for
 						sharing
 						experiences, insights, and support in a safe and respectful environment.
