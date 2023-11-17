@@ -76,15 +76,15 @@
 
 		<section class="mission ">
 			<div class="grid lg:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
-				<div class="values__col values__col--text md:order-1 lg:order-2">
+				<div class="values__col values__col--text lg:order-1">
 					<h4 class="values__heading font-bold">Mission</h4>
 					<div class="tick__border-top mx-auto"></div>
 					<p class="values__text">
 						Our aim with Psych Insight is to have an unwavering commitment to pursue knowledge and personal growth consistently. We strive to stay curious, open-minded, and always seek opportunities to expand our knowledge and skills. This enables us to adapt, innovate, and thrive in an ever-changing world.
 					</p>
 				</div>
-				<div class="values__col md:order-2 lg:order-1">
-					<img class="values__image" src="static/images/about-us/001.png" alt="people holding hands in a .png picture">
+				<div class="values__col lg:order-2">
+					<img class="values__image" src="./static/images/about-us/about-mission.png" alt="people holding hands in a .png picture">
 				</div>
 			</div>
 			<div class="grid lg:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
@@ -96,7 +96,7 @@
 					</p>
 				</div>
 				<div class="values__col lg:order-1">
-					<img class="values__image" src="static/images/about-us/vision.png" alt="two people holding hands in a .png picture">
+					<img class="values__image" src="./static/images/about-us/about-vision.png" alt="two people holding hands in a .png picture">
 				</div>
 			</div>
 		</section>
@@ -111,7 +111,7 @@
 					<div class="tick__border-top mx-auto"></div>
 				</div>
 				<div class="values__col md:order-2">
-					<img class="values__image" src="static/images/about-us/001.png" alt="people holding hands in a .png picture">
+					<img class="values__image" src="static/images/about-us/about-empowerment.png" alt="people holding hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text lg:order-1">
 					<div class="hidden md:block">
@@ -129,7 +129,7 @@
 					<div class="tick__border-top mx-auto"></div>
 				</div>
 				<div class="values__col md:order-2 lg:order-1">
-					<img class="values__image" src="./static/images/about-us/002.png" alt="two people holding hands in a .png picture">
+					<img class="values__image" src="./static/images/about-us/about-compasssion.png" alt="two people holding hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text md:order-1 lg:order-2">
 					<div class="hidden md:block">
@@ -145,7 +145,7 @@
 					<div class="tick__border-top mx-auto"></div>
 				</div>
 				<div class="values__col md:order-2">
-					<img class="values__image" src="./static/images/about-us/003.png" alt="two people shaking hands in a .png picture">
+					<img class="values__image" src="./static/images/about-us/about-integrity.png" alt="two people shaking hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text md:order-1">
 					<div class="hidden md:block">
@@ -161,7 +161,7 @@
 					<div class="tick__border-top mx-auto"></div>
 				</div>
 				<div class="values__col md:order-2 lg:order-1">
-					<img class="values__image" src="static/images/about-us/004.png" alt="two people shaking hands in a .png picture">
+					<img class="values__image" src="static/images/about-us/about-community.png" alt="two people shaking hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text md:order-1 lg:order-2">
 					<div class="hidden md:block">
