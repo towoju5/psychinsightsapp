@@ -2158,6 +2158,15 @@ li:hover {
 		overflow: unset !important;
 	}
 
+	.about__images {
+		width: 100%;
+		height: 100%;
+	}
+
+	.ceo__inner-row {
+		display: block !important;
+	}
+
 	.tablet-menu {
 		justify-content: center;
 		margin-left: auto;
