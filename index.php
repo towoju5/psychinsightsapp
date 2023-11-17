@@ -471,7 +471,7 @@
 		</div>
 	</section>
 
-	<section class="community my-10 js-community py-24 lg:py-44 ">
+	<section hidden class="community my-10 js-community py-24 lg:py-44 ">
 		<div class="community__inner">
 			<div class="community__row">
 				<h3 class="community__heading">Be a part of the large Psychinsight’s community</h3>
