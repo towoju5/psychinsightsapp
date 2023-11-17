@@ -29,7 +29,7 @@
 			<div class="ceo__row ceo__row--2 md:hidden border-b md:border-b-0">
 				<div class="grid lg:grid-cols-2 gap-20 items-center">
 					<div class="ceo__inner-row ceo__inner-row--1 lg:order-2">
-						<h3 class="text-[20px] font-bold">Founder and CEO: Sam Frerer</h3>
+						<p class="text-[20px] font-bold ceo__inner-row">Founder and CEO: Sam Frerer</p>
 						<div class="tick__border-top mx-auto"></div>
 					</div>
 					<div class="lg:order-1">
