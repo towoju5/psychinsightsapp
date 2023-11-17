@@ -389,7 +389,7 @@
 		</div>
 	</section>
 
-	<section class="articles mb-3">
+	<section class="articles pb-12">
 		<div class="articles__inner">
 			<div class="articles__row">
 				<h3 class="articles__heading">Articles of the Day</h3>

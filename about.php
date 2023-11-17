@@ -30,8 +30,8 @@
 				<div class="grid lg:grid-cols-2 gap-20 items-center">
 					<div class="ceo__inner-row ceo__inner-row--1 lg:order-2">
 						<p class="text-[20px] font-bold ceo__inner-row">Founder and CEO: Sam Frerer</p>
-					</div>
 						<div class="tick__border-top mx-auto"></div>
+					</div>
 					<div class="lg:order-1">
 						<div class="ceo-image">
 							<img src="./static/images/about-us/ceo.png" alt="" class="ceo__image mx-auto about__images rounded-2xl">
@@ -46,7 +46,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="ceo__row ceo__row--2 hidden md:block">
+			<div class="ceo__row ceo__row--2 hidden lg:block">
 				<div class="content py-2 px-10">
 					<img class="float-left pr-8 pb-8 ceo__image" src="./static/images/about-us/ceo.png" alt="">
 					<div class="ceo__inner-row ceo__inner-row--1 grid mb-8">
