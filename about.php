@@ -28,17 +28,17 @@
 
 			<div class="ceo__row ceo__row--2 md:hidden border-b md:border-b-0">
 				<div class="grid lg:grid-cols-2 gap-20 items-center">
-					<div class="ceo__inner-row ceo__inner-row--1 grid">
+					<div class="ceo__inner-row ceo__inner-row--1 lg:order-2">
 						<h3 class="text-[32px] font-bold">Our President & CEO</h3>
 						<div class="tick__border-top mx-auto"></div>
 					</div>
-					<div class="xoxo">
+					<div class="lg:order-1">
 						<div class="ceo-image">
 							<img src="./static/images/about-us/ceo.png" alt="" class="ceo__image mx-auto about__images rounded-2xl">
 						</div>
 					</div>
-					<div class="xoxo">
-						<div class="ceo__text-group">
+					<div class="lg:order-3">
+						<div class="ceo__text-group mt-4 lg:mt-0">
 							<small class="ceo__small">
 								Sam Frerer stands at the crossroads of mental and physical well-being as both a fully qualified Psychologist and Personal  Trainer. Currently, she serves with dedication as an Army Psychologist (Officer) in the Australian Defence Force, a role that requires a deep understanding of human psychology under the challenging environment of military service. <br>Graduating with a Bachelor of Psychology (Honours) from the renowned Monash University in 2018, Sam's thirst for knowledge didn't stop there. She ventured into the demanding  landscape of Defence to complete her internship, where she not only honed her skills but also achieved General Registration. Over the years, Sam has had the privilege of working with hundreds of clients, reflecting a tapestry of human experiences. Prior to her role as a Psychologist, her stint as a Personal Trainer equipped her with insights into the symbiotic relationship between mental strength and physical health. <br>This unique blend of expertise makes Sam a beacon for those seeking a balanced, holistic approach to wellness. Beyond her professional commitments, Sam is an ardent believer in the power of resilience, both of the body and the mind, and she continues to empower individuals in their personal journeys toward optimal health.
 							</small>
@@ -75,106 +75,96 @@
 		</section>
 
 		<section class="mission ">
-			<div class="grid md:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
-				<div class="lg:hidden">
+			<div class="grid lg:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
+				<div class="values__col values__col--text md:order-1 lg:order-2">
 					<h4 class="values__heading font-bold">Mission</h4>
 					<div class="tick__border-top mx-auto"></div>
-				</div>
-				<div class="values__col lg:order-2">
-					<img class="values__image" src="static/images/about-us/001.png" alt="people holding hands in a .png picture">
-				</div>
-				<div class="values__col values__col--text  md:order-1">
-					<div class="hidden lg:block">
-						<h4 class="values__heading font-bold">Mission</h4>
-						<div class="tick__border-top mx-auto"></div>
-					</div>
 					<p class="values__text">
 						Our aim with Psych Insight is to have an unwavering commitment to pursue knowledge and personal growth consistently. We strive to stay curious, open-minded, and always seek opportunities to expand our knowledge and skills. This enables us to adapt, innovate, and thrive in an ever-changing world.
 					</p>
 				</div>
+				<div class="values__col md:order-2 lg:order-1">
+					<img class="values__image" src="static/images/about-us/001.png" alt="people holding hands in a .png picture">
+				</div>
 			</div>
-			<div class="grid md:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
-				<div class="lg:hidden">
+			<div class="grid lg:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
+				<div class="values__col values__col--text lg:order-2">
 					<h4 class="values__heading font-bold">Vision</h4>
 					<div class="tick__border-top mx-auto"></div>
-				</div>
-				<div class="values__col lg:order-1">
-					<img class="values__image" src="static/images/about-us/vision.png" alt="two people holding hands in a .png picture">
-				</div>
-				<div class="values__col values__col--text lg:order-2">
-					<div class="hidden lg:block">
-						<h4 class="values__heading font-bold">Vision</h4>
-						<div class="tick__border-top mx-auto"></div>
-					</div>
 					<p class="values__text">
 						In the nearest future, we envision Psych Insight is to have an unwavering commitment to pursue knowledge and personal growth consistently. We strive to stay curious, open-minded, and always seek opportunities to expand our knowledge and skills. This enables us to adapt, innovate, and thrive in an ever-changing world.
 					</p>
+				</div>
+				<div class="values__col lg:order-1">
+					<img class="values__image" src="static/images/about-us/vision.png" alt="two people holding hands in a .png picture">
 				</div>
 			</div>
 		</section>
 
 		<section class="values ">
 			<div class="values__row values__row--heading grid">
-				<h3 class="ceo__heading ceo__heading--3 font-bold text-[56px] space-y-2" style="text-align: center;">Our Values and Culture</h3>
+				<h3 class="ceo__heading ceo__heading--3 font-bold text-[3rem] md:text-[56px] space-y-2" style="text-align: center;font-family: lato;letter-spacing: unset;">Our Values and Culture</h3>
 			</div>
-			<div class="grid md:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2 hidden md:block">
+			<div class="grid lg:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
+				<div class="md:hidden">
+					<h4 class="values__heading font-bold">Empowerment</h4>
+					<div class="tick__border-top mx-auto"></div>
+				</div>
 				<div class="values__col md:order-2">
 					<img class="values__image" src="static/images/about-us/001.png" alt="people holding hands in a .png picture">
 				</div>
-				<div class="values__col values__col--text  md:order-1">
-					<h4 class="values__heading font-bold">Empowerment</h4>
-					<div class="tick__border-top mx-auto"></div>
+				<div class="values__col values__col--text lg:order-1">
+					<div class="hidden md:block">
+						<h4 class="values__heading font-bold">Empowerment</h4>
+						<div class="tick__border-top mx-auto"></div>
+					</div>
 					<p class="values__text">We believe in empowering individuals to take an active role in their mental
 						well-being, providing them with the tools and knowledge to make positive changes in their lives.
 					</p>
 				</div>
 			</div>
-			<div class="grid md:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
-					<div class="md:block">
-						<h4 class="values__heading font-bold">Compassion</h4>
-						<div class="tick__border-top mx-auto"></div>
-					</div>
-				<div class="values__col md:order-1">
-					<img class="values__image" src="static/images/about-us/002.png" alt="two people holding hands in a .png picture">
+			<div class="grid lg:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
+				<div class="md:hidden">
+					<h4 class="values__heading font-bold">Compassion</h4>
+					<div class="tick__border-top mx-auto"></div>
 				</div>
-				<div class="values__col values__col--text md:order-2">
-					<div class="hidden lg:block">
+				<div class="values__col md:order-2 lg:order-1">
+					<img class="values__image" src="./static/images/about-us/002.png" alt="two people holding hands in a .png picture">
+				</div>
+				<div class="values__col values__col--text md:order-1 lg:order-2">
+					<div class="hidden md:block">
 						<h4 class="values__heading font-bold">Compassion</h4>
 						<div class="tick__border-top mx-auto"></div>
 					</div>
-					<p class="values__text">We approach our users with empathy and compassion, understanding the
-						challenges they
-						may be facing and providing support without judgment</p>
+					<p class="values__text">We approach our users with empathy and compassion, understanding the challenges they may be facing and providing support without judgment</p>
 				</div>
 			</div>
-			<div class="grid md:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
+			<div class="grid lg:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
 				<div class="md:hidden">
 					<h4 class="values__heading font-bold">Integrity</h4>
 					<div class="tick__border-top mx-auto"></div>
 				</div>
-				<div class="values__col  md:order-2">
-					<img class="values__image" src="static/images/about-us/003.png" alt="two people shaking hands in a .png picture">
+				<div class="values__col md:order-2">
+					<img class="values__image" src="./static/images/about-us/003.png" alt="two people shaking hands in a .png picture">
 				</div>
 				<div class="values__col values__col--text md:order-1">
-					<div class="hidden lg:block">
+					<div class="hidden md:block">
 						<h4 class="values__heading font-bold">Integrity</h4>
 						<div class="tick__border-top mx-auto"></div>
 					</div>
-					<p class="values__text">We operate with transparency and integrity, ensuring that our application's
-						content
-						and features align with our mission and the best interests of our users.</p>
+					<p class="values__text">We operate with transparency and integrity, ensuring that our application's content and features align with our mission and the best interests of our users.</p>
 				</div>
 			</div>
-			<div class="grid md:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
+			<div class="grid lg:grid-cols-2 items-center gap-10 border-b md:border-b-0 pb-2">
 				<div class="md:hidden">
 					<h4 class="values__heading font-bold">Community</h4>
 					<div class="tick__border-top mx-auto"></div>
 				</div>
-				<div class="values__col md:order-1">
+				<div class="values__col md:order-2 lg:order-1">
 					<img class="values__image" src="static/images/about-us/004.png" alt="two people shaking hands in a .png picture">
 				</div>
-				<div class="values__col values__col--text  md:order-2">
-					<div class="hidden lg:block">
+				<div class="values__col values__col--text md:order-1 lg:order-2">
+					<div class="hidden md:block">
 						<h4 class="values__heading font-bold">Community</h4>
 						<div class="tick__border-top mx-auto"></div>
 					</div>
