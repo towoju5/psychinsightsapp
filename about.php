@@ -30,8 +30,8 @@
 				<div class="grid lg:grid-cols-2 gap-20 items-center">
 					<div class="ceo__inner-row ceo__inner-row--1 lg:order-2">
 						<p class="text-[20px] font-bold ceo__inner-row">Founder and CEO: Sam Frerer</p>
-						<div class="tick__border-top mx-auto"></div>
 					</div>
+						<div class="tick__border-top mx-auto"></div>
 					<div class="lg:order-1">
 						<div class="ceo-image">
 							<img src="./static/images/about-us/ceo.png" alt="" class="ceo__image mx-auto about__images rounded-2xl">
