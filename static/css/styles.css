@@ -45,22 +45,18 @@ li:hover {
 	margin: 1.25rem auto 9.25rem;
 }
 
-.about__images {
-	max-width: 646px;
-	max-height: 428px;
-}
 
 .ceo {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
-
+/* 
 .ceo__image {
 	object-fit: cover;
 	border-radius: 5px;
 	align-self: center;
-}
+} */
 
 .ceo__image-container {
 	height: 36rem;
@@ -116,14 +112,21 @@ li:hover {
 	flex-basis: 55%;
 }
 
-.ceo__small,
-.ceo__heading {
-	font-size: 24px;
+.ceo__small {
+	font-size: 20px;
 	font-weight: 400;
-	line-height: 38px;
+	line-height: 40px !important;
 	letter-spacing: 0em;
 	text-align: left;
 	color: #2E2F32;
+}
+
+.ourstory__small {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: 0em;
+	text-align: left;
 }
 
 .ceo__heading {
@@ -133,14 +136,6 @@ li:hover {
 
 .ceo__heading--3 {
 	text-align: center;
-}
-
-.ceo__small {
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 27px;
-	letter-spacing: 0em;
-	text-align: left;
 }
 
 .ceo__text-group {
@@ -261,7 +256,7 @@ li:hover {
 }
 
 .values__text {
-	font-size: 1.72rem;
+	font-size: 20px;
 	text-align: left;
 }
 
@@ -2238,8 +2233,21 @@ li:hover {
 		font-size: 40px;
 	}
 
+
+.ceo__image {
+	max-width: 600px;
+	max-height: 400px;
+	border-radius: 5%;
+}
+
+
 	.mission__row {
 		display: inherit;
+	}
+
+	.about__images {
+		max-width: 646px;
+		max-height: 428px;
 	}
 
 	.plans__heading {
