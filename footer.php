@@ -289,7 +289,7 @@
 		$('.login-now').click(function() {
 			$("#modal").toggle()
 		})
-		document.querySelector('#contacts-tab-Sleep').click();
+		document.querySelector('#profile-tab-Depression').click();
 		document.addEventListener('contextmenu', event => event.preventDefault());
 		$("html").on("contextmenu",function(e){
 		    return false;

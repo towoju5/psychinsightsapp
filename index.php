@@ -400,7 +400,7 @@
 					<div class="md:flex md:justify-between w-full">
 						<div class="bg-white rounded-lg p-4 shadow-md w-full md:1/2 lg:w-8/12">
 							<div class="articles__div-col articles__div-col--1" style="background-image: url('./static/images/blog/blog-001.png');">
-								<small class="articles__category">Sleep</small>
+								<small class="articles__category">Meditation</small>
 								<a href="blog.php" class="articles__link">
 									<p class="">Simple meditation strategries for beginners</p>
 									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
@@ -423,7 +423,7 @@
 						<!-- Third Blog Card -->
 						<div class="bg-white rounded-lg p-4 shadow-md w-full md:1/2 lg:w-4/12">
 							<div class="articles__div-col articles__div-col--1" style="background-image: url('./static/images/blog/blog-003.png');">
-								<small class="articles__category">Anxiety</small>
+								<small class="articles__category">Depression</small>
 								<a href="blog.php" class="articles__link">
 									<p class="">Simple meditation strategries for beginners</p>
 									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
@@ -434,7 +434,7 @@
 						<!-- Forth Blog Card -->
 						<div class="bg-white rounded-lg p-4 shadow-md w-full md:1/2 lg:w-8/12">
 							<div class="articles__div-col articles__div-col--1" style="background-image: url('./static/images/blog/blog-004.png');">
-								<small class="articles__category">Stress</small>
+								<small class="articles__category">Focus</small>
 								<a href="blog.php" class="articles__link">
 									<p class="">Simple meditation strategries for beginners</p>
 									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
@@ -446,7 +446,7 @@
 						<!-- Fifth Blog Card -->
 						<div class="bg-white rounded-lg p-4 shadow-md w-full md:1/2 lg:w-8/12">
 							<div class="articles__div-col articles__div-col--1" style="background-image: url('./static/images/blog/blog-005.png');">
-								<small class="articles__category">Concentration</small>
+								<small class="articles__category">Stress</small>
 								<a href="blog.php" class="articles__link">
 									<p class="">Simple meditation strategries for beginners</p>
 									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
@@ -457,7 +457,7 @@
 						<!-- Sixth Blog Card -->
 						<div class="bg-white rounded-lg p-4 shadow-md w-full md:1/2 lg:w-4/12">
 							<div class="articles__div-col articles__div-col--1" style="background-image: url('./static/images/blog/blog-006.png');">
-								<small class="articles__category">Motivation</small>
+								<small class="articles__category">Focus</small>
 								<a href="blog.php" class="articles__link">
 									<p class="">Simple meditation strategries for beginners</p>
 									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
