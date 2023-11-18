@@ -902,9 +902,6 @@ li:hover {
 	gap: 0.75rem;
 }
 
-.faqs__accordion {
-	width: 70%;
-}
 
 .faqs__button--active,
 .faqs__button:hover {
@@ -2241,6 +2238,10 @@ nav {
 		letter-spacing: 0.0015em;
 		text-align: center;
 	}
+		
+	.faqs__accordion {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -2250,6 +2251,11 @@ nav {
 
 	.table__footer--app {
 		display: block;
+	}
+
+		
+	.faqs__accordion {
+		width: 100%;
 	}
 }
 
@@ -2334,6 +2340,11 @@ nav {
 
 	.table__footer--app {
 		display: none;
+	}
+
+
+	.faqs__accordion {
+		width: 70%;
 	}
 
 	/* body, html {
