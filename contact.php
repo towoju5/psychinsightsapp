@@ -32,7 +32,7 @@
 				<img src="static/images/bx-mail-send.svg" alt="contact us icon" class="mx-auto">
 			</div>
 
-			<div class="space-y-6">
+			<form class="space-y-6">
 				<div class="form-group">
 					<label class="text-xl lg:text-2xl" for="email">Email</label>
 					<input class="w-full py-3 px-3 rounded-xl border-2 border-[#207384]" type="email" name="email"
@@ -46,14 +46,14 @@
 				<div class="flex justify-start gap-2">
 					<input type="checkbox" name="agree" id="agree" class="js-agree">
 					<label class="text-xl" for="agree">
-						You agree to our <a href="terms">terms of service.</a>
+						You agree to our <a href="terms" class="font-bold">terms of service.</a>
 					</label>
 				</div>
 
 				<div class="mt-3">
 					<button class="w-full py-3 px-4 text-white rounded-lg text-xl bg-[#207384]" type="submit">Submit</button>
 				</div>
-			</div>
+			</form>
 		</div>
 	</div>
 
