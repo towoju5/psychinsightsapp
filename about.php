@@ -178,5 +178,9 @@
 	</div>
 </div>
 
-
+<style>
+	.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+		margin-top: 0rem!important;
+	}
+</style>
 <?php require_once 'footer.php' ?>
