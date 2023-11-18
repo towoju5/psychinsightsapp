@@ -2350,6 +2350,12 @@ nav {
 		width: 70%;
 	}
 
+	.ceo__image {
+		min-width: 400px;
+		min-height: 400px;
+		border-radius: 5%;
+	}
+
 	/* body, html {
 		overflow-y: hidden;
 	}

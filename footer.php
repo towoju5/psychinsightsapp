@@ -307,16 +307,16 @@
 	})
 </script>
 
-<script src="./npm/-glidejs/glide.js"></script>
-<script src="./static/js/plans.js"></script>
-<script src="./static/js/scripts.js"></script>
-<script src="./ajax/libs/animejs/3.2.1/anime.min.js"></script>
-<script src="./static/js/index.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/glide.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
-<script src="./static/js/jquery.matchHeight.js" type="text/javascript"></script>
-<script src="https://kit.fontawesome.com/fc49c28ef9.js" crossorigin="anonymous"></script>
+<script src="./npm/-glidejs/glide.js?v=<?= md5(date('d-m-y H:i'))?>"></script>
+<script src="./static/js/plans.js?v=<?= md5(date('d-m-y H:i'))?>"></script>
+<script src="./static/js/scripts.js?v=<?= md5(date('d-m-y H:i'))?>"></script>
+<script src="./ajax/libs/animejs/3.2.1/anime.min.js?v=<?= md5(date('d-m-y H:i'))?>"></script>
+<script src="./static/js/index.js?v=<?= md5(date('d-m-y H:i'))?>"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/glide.min.js?v=<?= md5(date('d-m-y H:i'))?>"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js?v=<?= md5(date('d-m-y H:i'))?>"></script>
+<script src="//cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js?v=<?= md5(date('d-m-y H:i'))?>"></script>
+<script src="./static/js/jquery.matchHeight.js?v=<?= md5(date('d-m-y H:i'))?>" type="text/javascript"></script>
+<script src="//kit.fontawesome.com/fc49c28ef9.js?v=<?= md5(date('d-m-y H:i'))?>" crossorigin="anonymous"></script>
 </body>
 
 </html>

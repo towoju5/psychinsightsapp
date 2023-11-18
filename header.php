@@ -15,16 +15,16 @@
 	<link rel="canonical" href="//psychinsights-1-k5009643.deta.app" />
 	<link rel="stylesheet" href="static/css/styles.css">
 	<script src="//cdn.tailwindcss.com"></script>
-	<link href="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowsbite.min.css">
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
-	<link href='//fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
-	<script src="//code.jquery.com/jquery-3.7.1.min.js"></script>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" rel="stylesheet" />
+	<link href="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowsbite.min.css?v=<?= md5(date('d-m-y H:i'))?>">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css?v=<?= md5(date('d-m-y H:i'))?>" />
+	<link href='//fonts.googleapis.com/css?family=Jost?v=<?= md5(date('d-m-y H:i'))?>' rel='stylesheet'>
+	<script src="//code.jquery.com/jquery-3.7.1.min.js?v=<?= md5(date('d-m-y H:i'))?>"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css?v=<?= md5(date('d-m-y H:i'))?>" rel="stylesheet" />
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/draggable/1.1.0/draggable.bundle.legacy.min.js"></script> -->
 </head>
 
 <body>
-	<header class="home items-center">
+	<header class="home items-center mb-24">
 		<nav class="bg-white lg:hidden">
 			<div class="md:mx-12 flex flex-wrap items-center justify-between mx-auto p-4">
 				<div class="group flex gap-10">
