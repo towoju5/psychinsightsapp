@@ -44,16 +44,16 @@
 				</button>
 				<div class="items-center justify-end w-full lg:flex lg:w-auto hidden lg:order-1" id="navbar-cta">
 					<ul class="navbar__list font-medium flex flex-col p-4 lg:p-0 mt-4 rounded-lg">
-						<li class="navbar__list-item">
+						<li class="navbar__list-item border-b border-b-['#2E2F32'] md:border-b-0 pb-3">
 							<a href="plans.php" class="navbar__list-href">Plan</a>
 						</li>
-						<li class="navbar__list-item">
+						<li class="navbar__list-item border-b border-b-['#2E2F32'] md:border-b-0 pb-3">
 							<a href="about.php" class="navbar__list-href">About Us</a>
 						</li>
-						<li class="navbar__list-item">
+						<li class="navbar__list-item border-b border-b-['#2E2F32'] md:border-b-0 pb-3">
 							<a href="contact.php" class="navbar__list-href">Contact Us</a>
 						</li>
-						<li class="navbar__list-item">
+						<li class="navbar__list-item border-b border-b-['#2E2F32'] md:border-b-0 pb-3">
 							<a href="help.php" class="navbar__list-href">Help</a>
 						</li>
 						<li class="navbar__list-item login-now">
