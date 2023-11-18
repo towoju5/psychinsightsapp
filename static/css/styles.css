@@ -2342,6 +2342,9 @@ nav {
 		display: none;
 	}
 
+	.navbar__list-item {
+		text-align: center!important;
+	}
 
 	.faqs__accordion {
 		width: 70%;
