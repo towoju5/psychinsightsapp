@@ -263,13 +263,18 @@
                                 </svg>
                             </span>
                         </button>
-                        <div class="js-faq-answer faqs__answer">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                            fugit, sed quia consequuntur maNemo
-                            enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur maNemo enim
-                            ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur maNemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur maNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur ma</div>
+                        <div class="js-faq-answer faqs__answer">
+                            <p>If you're facing issues with our app, try these quick fixes:</p>
+                            <ul>
+                                <li class="list-decimal">Internet Connection: Confirm your device has a stable internet connection.</li>
+                                <li class="list-decimal">Update the App: Ensure Psych Insights is updated to the latest version in your app store.</li>
+                                <li class="list-decimal">Clear Cache: Go to your device's settings, select Psych Insights, and clear the cache.</li>
+                                <li class="list-decimal">Restart Device: Sometimes, a simple restart of your device can resolve the issue.</li>
+                                <li class="list-decimal">Reinstall App: Uninstall and then reinstall Psych Insights.</li>
+                                <li class="list-decimal">Contact Support: If problems persist, please contact our support team with details about your device and the issue.</li>
+                            </ul>
+                            <small>For immediate updates on app performance and fixes, follow our official channels.</small>
+                        </div>
                     </div>
                     <div class="faqs__accordion">
                         <button class="js-faq-button faqs__button" type="button">
@@ -352,13 +357,7 @@
                                 </svg>
                             </span>
                         </button>
-                        <div class="js-faq-answer faqs__answer">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                            fugit, sed quia consequuntur maNemo
-                            enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur maNemo enim
-                            ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur maNemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur maNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur ma</div>
+                        <div class="js-faq-answer faqs__answer">Currently, we do not offer the option to pause subscriptions. If you need to discontinue the service for a period, you may consider canceling your subscription and re-subscribing when you're ready to return. We are always here.</div>
                     </div>
                     <div class="faqs__accordion">
                         <button class="js-faq-button faqs__button" type="button">
@@ -400,10 +399,16 @@
                                 </svg>
                             </span>
                         </button>
-                        <div class="js-faq-answer faqs__answer">The Psychinsights app is currently available on Apple (iPhone, iPad,
-                            iPod Touch) and Android (smartphones
-                            and tablets) devices.
-                            To download the app, search for &#34;Psychinsights&#34; in the Apple App Store or the Google Play Store.
+                        <div class="js-faq-answer faqs__answer">
+                            <ol>
+                                <li>To purchase a subscription, simply:</li>
+                                <li class="list-disc">Visit our website or download the Psych Insights app.</li>
+                                <li class="list-disc">Create your account and verify your email.</li>
+                                <li class="list-disc">Click on the “Unlock Premium Membership” button by the top left corner.</li>
+                                <li class="list-disc">Choose the plan duration that best suits your needs.</li>
+                                <li class="list-disc">Follow the prompts to complete the payment process.</li>
+                                <li class="list-disc">If you encounter any issues or have questions during the process, our support team is available to assist you.</li>
+                            </ol>
                         </div>
                     </div>
                     <div class="faqs__accordion">
@@ -428,6 +433,17 @@
                 </div>
             </div>
         </div>
+
+        <div class="flex-col justify-between items-center inline-flex  space-y-3">
+            <div class="text-center text-zinc-800 text-4xl font-extrabold font-['Lato'] leading-10">Can’t find what you are looking for?</div>
+            <div class="Frame1000002118 justify-end items-center gap-20 inline-flex">
+                <div class="WeAreHereToHelp text-zinc-800 text-2xl font-normal font-['Lato'] leading-loose">We are here to help.</div>
+                <div class="Cta px-6 py-3.5 bg-cyan-700 rounded-2xl shadow justify-center items-center gap-3 flex">
+                    <a href="./contact.php" class="TryForFree text-center text-white text-lg font-semibold font-['Noto Sans'] leading-normal tracking-tight">Contact us</a>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 
