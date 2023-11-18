@@ -25,17 +25,57 @@
 
 <body>
 	<header class="home items-center">
-		<nav class="bg-white border-gray-200">
+		<nav class="bg-white lg:hidden">
 			<div class="md:mx-12 flex flex-wrap items-center justify-between mx-auto p-4">
 				<div class="group flex gap-10">
 					<a class="navbar__link navbar__logo" href="index.php">
-						<img class="navbar__image" src="static/images/logo.png" alt="psychinsights logo" />
+						<img class="navbar__image" src="static/images/logo.png" alt="psychinsights logo">
+						<span class="navbar__text">PsychInsights</span>
+					</a>
+				</div>
+				<div class="flex lg:order-2 ml-auto mr-10">
+					<a href="#!signup" class="btn btn--free signup" data-te-toggle="modal" data-te-target="#loginModal" data-te-ripple-init="" data-te-ripple-color="light">Try for free</a>
+				</div>
+				<button data-collapse-toggle="navbar-cta" type="button" class="lg:hidden" aria-expanded="false">
+					<span class="sr-only">Open main menu</span>
+					<svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+						<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+					</svg>
+				</button>
+				<div class="items-center justify-end w-full lg:flex lg:w-auto hidden lg:order-1" id="navbar-cta">
+					<ul class="navbar__list font-medium flex flex-col p-4 lg:p-0 mt-4 rounded-lg">
+						<li class="navbar__list-item">
+							<a href="plans.php" class="navbar__list-href">Plan</a>
+						</li>
+						<li class="navbar__list-item">
+							<a href="about.php" class="navbar__list-href">About Us</a>
+						</li>
+						<li class="navbar__list-item">
+							<a href="contact.php" class="navbar__list-href">Contact Us</a>
+						</li>
+						<li class="navbar__list-item">
+							<a href="help.php" class="navbar__list-href">Help</a>
+						</li>
+						<li class="navbar__list-item login-now">
+							<button type="button" data-te-toggle="modal" data-te-target="#loginModal" data-te-ripple-init="" data-te-ripple-color="light">
+								Login
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<nav class="bg-white hidden lg:block">
+			<div class="md:mx-12 flex flex-wrap items-center justify-between mx-auto p-4">
+				<div class="group flex gap-10">
+					<a class="navbar__link navbar__logo" href="index.php">
+						<img class="navbar__image" src="static/images/logo.png" alt="psychinsights logo">
 						<span class="navbar__text">PsychInsights</span>
 					</a>
 				</div>
 				<div class="ml-auto flex gap-10">
 					<div class="flex lg:order-2">
-						<a href="#!signup" class="btn btn--free signup" data-te-toggle="modal" data-te-target="#loginModal" data-te-ripple-init data-te-ripple-color="light">Try for free</a>
+						<a href="#!signup" class="btn btn--free signup" data-te-toggle="modal" data-te-target="#loginModal" data-te-ripple-init="" data-te-ripple-color="light">Try for free</a>
 					</div>
 					<div class="items-center justify-end hidden w-full lg:flex md:w-auto lg:order-1" id="navbar-cta">
 						<ul class="navbar__list font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
@@ -52,7 +92,7 @@
 								<a href="help.php" class="navbar__list-href">Help</a>
 							</li>
 							<li class="navbar__list-item login-now">
-								<button type="button" data-te-toggle="modal" data-te-target="#loginModal" data-te-ripple-init data-te-ripple-color="light">
+								<button type="button" data-te-toggle="modal" data-te-target="#loginModal" data-te-ripple-init="" data-te-ripple-color="light">
 									Login
 								</button>
 							</li>
@@ -61,7 +101,7 @@
 					<button data-collapse-toggle="navbar-cta" type="button" class="lg:hidden">
 						<span class="sr-only">Open main menu</span>
 						<svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
 						</svg>
 					</button>
 				</div>
