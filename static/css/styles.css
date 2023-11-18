@@ -51,6 +51,7 @@ li:hover {
 	display: flex;
 	flex-direction: column;
 }
+
 /* 
 .ceo__image {
 	object-fit: cover;
@@ -720,6 +721,10 @@ li:hover {
 	flex-direction: column;
 	gap: 2.6rem;
 	padding: 3rem 0;
+}
+
+#textCount {
+	float: right;
 }
 
 .footer__link {
@@ -1798,7 +1803,7 @@ nav {
 }
 
 .anim-bounce {
-    animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
 }
 
 @keyframes bounce {
@@ -2158,7 +2163,7 @@ nav {
 	}
 
 	.navbar__list-item {
-		text-align: left!important;
+		text-align: left !important;
 	}
 
 	.glide__slides {
@@ -2238,7 +2243,7 @@ nav {
 		letter-spacing: 0.0015em;
 		text-align: center;
 	}
-		
+
 	.faqs__accordion {
 		width: 100%;
 	}
@@ -2253,7 +2258,7 @@ nav {
 		display: block;
 	}
 
-		
+
 	.faqs__accordion {
 		width: 100%;
 	}
@@ -2343,7 +2348,7 @@ nav {
 	}
 
 	.navbar__list-item {
-		text-align: center!important;
+		text-align: center !important;
 	}
 
 	.faqs__accordion {

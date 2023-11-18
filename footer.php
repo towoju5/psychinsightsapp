@@ -6,7 +6,7 @@
 					<div class="group-2 flex gap-10 md:order-2">
 						<div class="footer__div footer__div--4 w-full">
 							<p class="footer__text">Get the freshest news from us</p>
-							<input type="email" name="email" id="subscribe-email" class="rounded-xl py-3 px-3 bg-white w-[74%]" placeholder="First and Last name" title="First and Last name" required>
+							<input type="text" name="name" id="subscribe-name" class="rounded-xl py-3 px-3 bg-white w-[74%]" placeholder="First and Last name" title="First and Last name" required>
 							<div class="input__group input__group--email">
 								<input type="email" name="email" id="subscribe-email" class="rounded-xl py-3 px-3 bg-white w-[75%]" placeholder="Your email address..." title="Please enter a valid email address" required>
 								<button type="submit" class="bg-blue-600 text-white py-2 px-6 w-[25%] rounded-xl" id="subscribeBtn">
