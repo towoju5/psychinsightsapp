@@ -31,7 +31,7 @@
 							</div>
 						</div>
 						<!--Second item-->
-						<div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>>
+						<div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
 							<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
 								<h1 class="home__heading home__heading-elevate">Elevate And Optimize Your Mental
 									Well&dash;Being </h1>
@@ -44,7 +44,7 @@
 							</div>
 						</div>
 						<!--Third item-->
-						<div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>>
+						<div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
 							<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
 								<h1 class="home__heading home__heading-empower">Empower Your Journey With Our Insightful
 									Guidance </h1>
@@ -57,7 +57,7 @@
 							</div>
 						</div>
 						<!--Third item-->
-						<div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>>
+						<div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
 							<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
 								<h1 class="home__heading home__heading-empower">Get useful insight and optimise your
 									mental health </h1>
