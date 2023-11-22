@@ -236,18 +236,17 @@
 							<img src="./static/images/phones/mock up dashboard.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
-							<p class="catty_text mb-6">Learn to manage feelings and thoughts with the lifelong skill of
-								everyday mindfulness, any time of the day.</p>
+							<p class="catty_text mb-6">Emotions Soothing Heavy Emotions is a guided practice designed to help individuals find calm and inner peace by addressing and soothing overwhelming or intense emotions.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn">
-									<img src="./static/images/play-btn.svg" alt="play-btn">
+								<div class="play-btn w-1/4">
+									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Depression)  Believe in Yourself.mp3">
 								</div>
-								<div class="text-2multi-line text-blalck gap-4">
-									<h1 class="font-medium text-2xl lg:text-4xl">Ambient sleep </h1>
-									<p class="lg:text-2xl">Music with soft and binaural pads</p>
+								<div class="text-2multi-line text-blalck gap-4 w-full">
+									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
+									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
 								</div>
-								<div class="time_baseline text-white items-baseline" hidden>
-									<p>15:01</p>
+								<div class="time_baseline text-white items-baseline w-full">
+									<div id="time-left" class="text-end"></div>
 								</div>
 							</div>
 						</div>
@@ -262,18 +261,17 @@
 							<img src="./static/images/phones/iPhone 15 Pro Portrait Mockup.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow" style="background-image: url('./static/images/video-card-bg.png');">
-							<p class="catty_text mb-6">Learn to manage feelings and thoughts with the lifelong skill of
-								everyday mindfulness, any time of the day.</p>
+							<p class="catty_text mb-6">Mindfulness Meditation is a guided practice that encourages individuals to cultivate present-moment awareness, reduce stress, and enhance their overall well-being through focused attention and mindful breathing.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn">
-									<img src="./static/images/play-btn.svg" alt="play-btn">
+								<div class="play-btn w-1/4">
+									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Anxiety)  Mindfulness Meditation.mp3">
 								</div>
-								<div class="text-2multi-line text-blalck gap-4">
-									<h1 class="font-medium text-2xl lg:text-4xl">Ambient sleep </h1>
-									<p class="lg:text-2xl">Music with soft and binaural pads</p>
+								<div class="text-2multi-line text-blalck gap-4 w-full">
+									<h1 class="font-medium text-2xl lg:text-4xl py-3">Mindfulness Meditation</h1>
+									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
 								</div>
-								<div class="time_baseline text-white items-baseline" hidden>
-									<p>15:01</p>
+								<div class="time_baseline text-white items-baseline w-full">
+									<div id="time-left" class="text-end"></div>
 								</div>
 							</div>
 						</div>
@@ -288,18 +286,17 @@
 							<img src="./static/images/phones/left-stress-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
-							<p class="catty_text mb-6">Learn to manage feelings and thoughts with the lifelong skill of
-								everyday mindfulness, any time of the day.</p>
+							<p class="catty_text mb-6">Powerful Stress Reduction is a guided practice that empowers individuals with effective techniques to significantly reduce stress, fostering relaxation, mental clarity, and emotional balance.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn">
-									<img src="./static/images/play-btn.svg" alt="play-btn">
+								<div class="play-btn w-1/4">
+									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Stress) Powerful Stress Reduction.mp3">
 								</div>
-								<div class="text-2multi-line text-blalck gap-4">
-									<h1 class="font-medium text-2xl lg:text-4xl">Ambient sleep </h1>
-									<p class="lg:text-2xl">Music with soft and binaural pads</p>
+								<div class="text-2multi-line text-blalck gap-4 w-full">
+									<h1 class="font-medium text-2xl lg:text-4xl py-3">Powerful Stress Reduction</h1>
+									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
 								</div>
-								<div class="time_baseline text-white items-baseline" hidden>
-									<p>15:01</p>
+								<div class="time_baseline text-white items-baseline w-full">
+									<div id="time-left" class="text-end"></div>
 								</div>
 							</div>
 						</div>
@@ -314,18 +311,17 @@
 							<img src="./static/images/phones/left-sleep-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
-							<p class="catty_text mb-6">Learn to manage feelings and thoughts with the lifelong skill of
-								everyday mindfulness, any time of the day.</p>
+							<p class="catty_text mb-6">Improve Your Concentration is a guided practice designed to enhance focus and attention by providing techniques and exercises that support individuals in sharpening their concentration skills and mental clarity.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn">
-									<img src="./static/images/play-btn.svg" alt="play-btn">
+								<div class="play-btn w-1/4">
+									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
-								<div class="text-2multi-line text-blalck gap-4">
-									<h1 class="font-medium text-2xl lg:text-4xl">Ambient sleep </h1>
-									<p class="lg:text-2xl">Music with soft and binaural pads</p>
+								<div class="text-2multi-line text-blalck gap-4 w-full">
+									<h1 class="font-medium text-2xl lg:text-4xl py-3">Improving Your Concentration</h1>
+									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
 								</div>
-								<div class="time_baseline text-white items-baseline" hidden>
-									<p>15:01</p>
+								<div class="time_baseline text-white items-baseline w-full">
+									<div id="time-left" class="text-end"></div>
 								</div>
 							</div>
 						</div>
@@ -340,18 +336,17 @@
 							<img src="./static/images/phones/iPhone 15 Pro Portrait Mockup.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
-							<p class="catty_text mb-6">Learn to manage feelings and thoughts with the lifelong skill of
-								everyday mindfulness, any time of the day.</p>
+							<p class="catty_text mb-6">Energizing Breath is a guided practice that utilizes specific breathing techniques to revitalize the body and mind, promoting increased energy, alertness, and a sense of vitality.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn">
-									<img src="./static/images/play-btn.svg" alt="play-btn">
+								<div class="play-btn w-1/4">
+									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
-								<div class="text-2multi-line text-blalck gap-4">
-									<h1 class="font-medium text-2xl lg:text-4xl">Ambient sleep </h1>
-									<p class="lg:text-2xl">Music with soft and binaural pads</p>
+								<div class="text-2multi-line text-blalck gap-4 w-full">
+									<h1 class="font-medium text-2xl lg:text-4xl py-3">Energizing Breath</h1>
+									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
 								</div>
-								<div class="time_baseline text-white items-baseline" hidden>
-									<p>15:01</p>
+								<div class="time_baseline text-white items-baseline w-full">
+									<div id="time-left" class="text-end"></div>
 								</div>
 							</div>
 						</div>
@@ -366,17 +361,17 @@
 							<img src="./static/images/phones/left-concentration-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
-							<p class="catty_text mb-6">Concentration is the ability to focus one's attention and mental effort on a particular task, thought, or activity while ignoring distractions..</p>
+							<p class="catty_text mb-6">Progressive Muscle Relaxation is a systematic practice that leads individuals through a series of muscle groups, helping them release tension and achieve a profound state of physical relaxation and calmness.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn">
-									<img src="./static/images/play-btn.svg" alt="play-btn">
+								<div class="play-btn w-1/4">
+									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
-								<div class="text-2multi-line text-blalck gap-4">
-									<h1 class="font-medium text-2xl lg:text-4xl">Stressed out</h1>
-									<p class="lg:text-2xl">Music with soft and Lo-Fi</p>
+								<div class="text-2multi-line text-blalck gap-4 w-full">
+									<h1 class="font-medium text-2xl lg:text-4xl py-3">Progressive Muscle Relaxation</h1>
+									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
 								</div>
-								<div class="time_baseline text-white items-baseline" hidden>
-									<p>15:01</p>
+								<div class="time_baseline text-white items-baseline w-full">
+									<div id="time-left" class="text-end"></div>
 								</div>
 							</div>
 						</div>
@@ -387,6 +382,9 @@
 				</div>
 			</div>
 		</div>
+		<audio id="audio-player">
+			<source src="" type="audio/mp3" id="audio-source">
+		</audio>
 	</section>
 
 	<section class="articles pb-12">
@@ -510,4 +508,43 @@
 		</div>
 	</section>
 </div>
+
+<script>
+    $(document).ready(function () {
+        var audio = $("#audio-player")[0];
+        var audioSource = $("#audio-source");
+        var timeLeftDisplay = $("#time-left");
+		var currentPlayingAudio = $("#audio-source").attr("src")
+		console.log(currentPlayingAudio);
+
+        $(".playPauseButton").click(function () {
+            var audioUrl = $(this).data("audio");
+			imgSrc = $(this);
+			
+			
+			
+			if (audio.paused) {
+                audioSource.attr("src", audioUrl);
+				$(".playPauseButton").attr("src", "./static/images/play.png")
+				audio.pause()
+                audio.load();
+                if(audio.play()){
+					imgSrc.attr("src", "./static/images/pause.png")
+				}
+
+                setInterval(updateTimeLeft, 1000); // Update time every second
+            } else {
+                audio.pause()
+				imgSrc.attr("src", "./static/images/play.png")
+            }
+        });
+
+        function updateTimeLeft() {
+            var timeLeft = audio.duration - audio.currentTime;
+            var minutes = Math.floor(timeLeft / 60);
+            var seconds = Math.floor(timeLeft % 60);
+            timeLeftDisplay.text("Time Left: " + minutes + ":" + (seconds < 10 ? "0" : "") + seconds);
+        }
+    });
+</script>
 <?php require_once('footer.php') ?>
