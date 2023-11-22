@@ -44,7 +44,7 @@
 			</div>
 			<div class="group">
 				<div class="flex justify-start gap-2">
-					<input type="checkbox" name="agree" id="agree" class="js-agree text-2xl" required>
+					<input type="checkbox" name="agree" id="agree" class="js-agree text-2xl" onclick="updateBtn" required>
 					<label class="text-xl" for="agree">
 						You agree to our <a href="terms" class="font-bold text-2xl">Terms of service.</a>
 					</label>
@@ -53,13 +53,26 @@
 			</div>
 
 			<div class="mt-3">
-				<button class="w-full py-3 px-4 rounded-lg text-xl bg-[#E2F8F9] text-[#207384]" type="button" onclick="validateForm()">Submit</button>
+				<button class="w-full py-3 px-4 rounded-lg text-2xl bg-[#E2F8F9] text-[#207384]" id="submitButton" type="button" onclick="validateForm()">Submit</button>
 			</div>
 		</form>
 	</div>
 </div>
 
+
 <script>
+	$('#email, #message, #agree').on('input change', updateBtn);
+	function updateBtn() {
+		var email = $('#email').val()
+		var agree = $('#agree').val()
+		var message = $('#message').val()
+		if (email.length > 0 && message.length > 0) {
+			$('#submitButton').removeClass('bg-[#E2F8F9] text-[#207384]').addClass('bg-[#207384] text-white');
+		} else {
+			$('#submitButton').removeClass('bg-[#207384] text-white').addClass('bg-[#E2F8F9] text-[#207384]');
+		}
+	}
+
 	function validateForm() {
 		// Reset error messages to null/empty
 		document.querySelector('.error-email').textContent = '';
