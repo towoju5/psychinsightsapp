@@ -14,7 +14,8 @@
 	<title>Psychinsights App &#8212; Everyone deserves a sound mental health.</title>
 	<link rel="canonical" href="//psychinsights-1-k5009643.deta.app" />
 	<link rel="stylesheet" href="static/css/styles.css">
-	<script src="//cdn.tailwindcss.com"></script>
+	<script src="static/js/tailwind.js"></script>
+	<!-- <script src="//cdn.tailwindcss.com"></script> -->
 	<link href="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowsbite.min.css?v=<?= md5(date('d-m-y H:i'))?>">
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css?v=<?= md5(date('d-m-y H:i'))?>" />
 	<link href='//fonts.googleapis.com/css?family=Jost?v=<?= md5(date('d-m-y H:i'))?>' rel='stylesheet'>
@@ -28,7 +29,7 @@
 		<nav class="bg-white lg:hidden">
 			<div class="md:mx-12 flex flex-wrap items-center justify-between mx-auto p-4">
 				<div class="group flex gap-10">
-					<a class="navbar__link navbar__logo" href="index.php">
+					<a class="navbar__link navbar__logo" href="/">
 						<img class="navbar__image" src="static/images/logo.png" alt="psychinsights logo">
 						<span class="navbar__text">PsychInsights</span>
 					</a>
@@ -68,7 +69,7 @@
 		<nav class="bg-white hidden lg:block">
 			<div class="md:mx-12 flex flex-wrap items-center justify-between mx-auto p-4">
 				<div class="group flex gap-10">
-					<a class="navbar__link navbar__logo" href="index.php">
+					<a class="navbar__link navbar__logo" href="/">
 						<img class="navbar__image" src="static/images/logo.png" alt="psychinsights logo">
 						<span class="navbar__text">PsychInsights</span>
 					</a>

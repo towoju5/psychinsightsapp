@@ -21,6 +21,10 @@ html {
 	overflow-x: hidden;
 }
 
+html.disable-scroll {
+	overflow: hidden;
+}
+
 body {
 	/* font-family: "Inter", sans-serif; */
 	font-family: 'Lato', sans-serif;

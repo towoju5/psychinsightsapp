@@ -1,7 +1,8 @@
 <?php require_once 'header.php' ?>
 
-
-<section class="js-flash flash">
+<!-- //  add some margin to the top -->
+<div class="mt-[10rem]"></div>
+<!-- <section class="js-flash flash">
 	<div class="contact-flash">
 		<span class="contact-flash-check"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
 				<path fill="#207384" d="M16 2a14 14 0 1 0 14 14A14 14 0 0 0 16 2Zm-2 19.59l-5-5L10.59 15L14 18.41L21.41 11l1.596 1.586Z" />
@@ -15,31 +16,31 @@
 			</svg>
 		</span>
 	</div>
-</section>
+</section> -->
 
-<div class="mg-white shadow-xl px-8 py-12 rounded-xl mx-8 md:mx-32 lg:mx-64 lg:px-[10rem] my-8 md:my-12">
+<div class="bg-white shadow-xl px-8 py-12 rounded-xl mx-8 md:mx-32 lg:mx-64 lg:px-[10rem] my-8 md:my-12">
 	<div class="mb-10 md:mb-[6rem] text-center">
 		<h3 class="text-4xl md:text-[4rem] text-[#0F2851] py-3">Contact Us</h3>
 		<p class="contact__text text-[#2E2F32]">Any questions or remarks? Just write us a message!</p>
 	</div>
-	<div class="grid md:grid-cols-2 items-center">
+	<div class="grid md:grid-cols-2 items-center gap-20 md:py-[5rem] md:px-[3rem]">
 
 		<!-- <div class="form__left"> -->
-		<div class="">
-			<img src="static/images/bx-mail-send.svg" alt="contact us icon" class="mx-auto">
+		<div class="bg">
+			<img src="static/images/bx-mail-send.svg" alt="contact us icon" class="mx-auto bg-[#E2F8F9] rounded-[100%] p-[3rem] w-[70%]">
 		</div>
 
-		<form class="space-y-6" action="#" id="myForm">
+		<form action="./static/function.php" method="POST" class="space-y-6" id="myForm">
 			<div class="form-group">
 				<label class="text-xl lg:text-2xl" for="email">Email</label>
-				<input class="w-full py-3 px-3 rounded-xl border-2 border-[#207384] text-2xl" type="email" name="email" id="email" placeholder="madisonjoe@gmail.com" required>
+				<input class="w-full py-4 px-3 rounded-xl border-2 border-[#207384] text-2xl" type="email" name="email" id="email" placeholder="madisonjoe@gmail.com" required>
 				<span class="error-email"></span>
 			</div>
 			<div class="form-group">
 				<label class="text-xl lg:text-2xl" for="message">Message</label>
 				<textarea class="w-full rounded-xl p-3 border-2 border-[#207384] text-2xl" minlength="100" name="message" id="message" cols="24" rows="10" required></textarea>
 				<span class="error-message"></span>
-				<p id="textCount" class="text-gray-600 text-xl">0 characters</p>
+				<!-- <p id="textCount" class="text-gray-600 text-xl">0 characters</p> -->
 			</div>
 			<div class="group">
 				<div class="flex justify-start gap-2">
@@ -52,7 +53,7 @@
 			</div>
 
 			<div class="mt-3">
-				<button class="w-full py-3 px-4 text-white rounded-lg text-xl bg-[#207384]" type="button" onclick="validateForm()">Submit</button>
+				<button class="w-full py-3 px-4 rounded-lg text-xl bg-[#E2F8F9] text-[#207384]" type="button" onclick="validateForm()">Submit</button>
 			</div>
 		</form>
 	</div>
@@ -83,21 +84,14 @@
 			document.querySelector('.error-message').textContent = 'Message must be at least 100 characters';
 			return;
 		}
-
-		// Validate Checkbox
 		const agreeCheckbox = document.getElementById('agree');
-
 		if (!agreeCheckbox.checked) {
 			document.querySelector('.error-agree').textContent = 'You must agree to the Terms of Service';
 			return;
 		}
 
-		// If all validations pass, you can submit the form
 		alert('Form submitted successfully!');
-		// Reset the form
 		resetForm();
-		// Uncomment the line below to submit the form programmatically
-		// document.getElementById('myForm').submit();
 	}
 
 	// Function to reset the form
@@ -111,5 +105,15 @@
 		const textCount = document.getElementById('textCount');
 		textCount.textContent = this.value.length + ' characters';
 	});
+
+	// Function to check if all fields are filled and terms are accepted
+	function checkFormValidity() {
+		var email = $('#email').val();
+		var message = $('#message').val();
+		var agree = $('#agree').is(':checked');
+
+		return email !== '' && message !== '' && agree;
+	}
+
 </script>
 <?php require_once 'footer.php' ?>
