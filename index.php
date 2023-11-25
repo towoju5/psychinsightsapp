@@ -100,14 +100,14 @@
 						<img src="./static/images/index/location.svg" alt="Location">
 						<div class="group">
 							<p class="ball__title-text">Simply Start, No Strings Attached</p>
-							<p class="reviews__text text-left">Get started with a stress-free 7-day trial of our premium mental health resources without any need for credit card details—because we believe in easy access to peace of mind.</p>
+							<p class="reviews__text text-left">Begin Your 7-Day Trial of our Premium Mental Health Resources. No credit card required we’re committed to providing hassle-free access to improved psychological wellbeing.</p>
 						</div>
 					</li>
 					<li class="flex items-start gap-10">
 						<img src="./static/images/index/settings.svg" alt="Location">
 						<div class="group">
 							<p class="ball__title-text">Tailored Tools for Your Tranquility</p>
-							<p class="reviews__text font-light text-left">Our personalized assessments guide you to discover mental health resources that cater specifically to your needs from the moment you join.</p>
+							<p class="reviews__text text-left">By completing our evidence-based questionnaires, you will be provided with personalized mental health resources in accordance with your unique psychological profile.</p>
 						</div>
 					</li>
 					<li class="flex items-start gap-10">
@@ -179,25 +179,17 @@
 						<div class="text-center mx-auto">
 							<h3 class="humaans__heading-3">Take a moment for yourself</h3>
 							<img src="static/images/humaan-stoic.png" alt="this is a humaan stoic file" class="humaans__image mx-auto">
-							<p class="humaans__text">Define your goals clearly &dash; be it reducing stress&comma;
-								improving
-								sleep&comma; or boosting happiness&period;</p>
+							<p class="humaans__text">Define your goals clearly - be it reducing stress, improving sleep, or boosting your productivity.</p>
 						</div>
 						<div class="hidden lg:block text-center mx-auto">
 							<h3 class="humaans__heading-3">Take a break&comma; <br> refresh your mind&period;</h3>
 							<img src="static/images/humaan-yoga.png" alt="yoga posture" class="humaans__image mx-auto">
-							<p class="humaans__text">Learn&comma; measure&comma; set daily goals and optimise your
-								mental well
-								being&period;</p>
+							<p class="humaans__text">Push ‘pause’ on your chaotic life to focus on revitalizing your health, clearing your mind, and striving for continuous self-improvement</p>
 						</div>
 						<div class="grid-2 text-center mx-auto">
 							<h3 class="humaans__heading-3">Remain calm and maintain control&period;</h3>
 							<img src="static/images/humaan-meditation.png" alt="meditation posture" class="humaans__image mx-auto">
-							<p class="humaans__text">Learn ways to embrace the present&comma; seek inner peace&comma;
-								and
-								release what
-								no longer
-								serves you&period;</p>
+							<p class="humaans__text">Learn to embrace the present moment, cultivate inner peace, and release what no longer serves you</p>
 						</div>
 					</div>
 				</div>
@@ -235,11 +227,11 @@
 						<div class="w-1/5 hidden md:block">
 							<img src="./static/images/phones/mock up dashboard.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
-							<p class="catty_text mb-6">Emotions Soothing Heavy Emotions is a guided practice designed to help individuals find calm and inner peace by addressing and soothing overwhelming or intense emotions.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
+							<p class="catty_text mb-6 md:px-12">Emotions Soothing Heavy Emotions is a guided practice designed to help individuals find calm and inner peace by addressing and soothing overwhelming or intense emotions.</p>
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="play-btn w-1/4">
-									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Depression)  Believe in Yourself.mp3">
+									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Depression)  Believe in Yourself.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
@@ -264,7 +256,7 @@
 							<p class="catty_text mb-6">Mindfulness Meditation is a guided practice that encourages individuals to cultivate present-moment awareness, reduce stress, and enhance their overall well-being through focused attention and mindful breathing.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="play-btn w-1/4">
-									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Anxiety)  Mindfulness Meditation.mp3">
+									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Anxiety)  Mindfulness Meditation.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Mindfulness Meditation</h1>
@@ -289,7 +281,7 @@
 							<p class="catty_text mb-6">Powerful Stress Reduction is a guided practice that empowers individuals with effective techniques to significantly reduce stress, fostering relaxation, mental clarity, and emotional balance.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="play-btn w-1/4">
-									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Stress) Powerful Stress Reduction.mp3">
+									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Stress) Powerful Stress Reduction.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Powerful Stress Reduction</h1>
@@ -314,7 +306,7 @@
 							<p class="catty_text mb-6">Improve Your Concentration is a guided practice designed to enhance focus and attention by providing techniques and exercises that support individuals in sharpening their concentration skills and mental clarity.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="play-btn w-1/4">
-									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
+									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Improving Your Concentration</h1>
@@ -339,7 +331,7 @@
 							<p class="catty_text mb-6">Energizing Breath is a guided practice that utilizes specific breathing techniques to revitalize the body and mind, promoting increased energy, alertness, and a sense of vitality.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="play-btn w-1/4">
-									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
+									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Energizing Breath</h1>
@@ -364,7 +356,7 @@
 							<p class="catty_text mb-6">Progressive Muscle Relaxation is a systematic practice that leads individuals through a series of muscle groups, helping them release tension and achieve a profound state of physical relaxation and calmness.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="play-btn w-1/4">
-									<img src="./static/images/play.png" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
+									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Progressive Muscle Relaxation</h1>
@@ -389,80 +381,60 @@
 
 	<section class="articles pb-12">
 		<div class="articles__inner">
-			<div class="articles__row">
-				<h3 class="articles__heading">Articles of the Day</h3>
-			</div>
+
+			<div class="text-center text-zinc-800 text-5xl font-bold font-['Lato'] py-6">Latest articles</div>
+
 			<div class="articles__row articles__row-content">
-				<div class="gap-4">
-					<!-- First Blog Card -->
-					<div class="md:flex md:justify-between w-full">
-						<div class="bg-white rounded-lg p-4 shadow-md w-full md:1/2 lg:w-8/12">
-							<div class="articles__div-col articles__div-col--1" style="background-image: url('./static/images/blog/blog-001.png');">
-								<small class="articles__category">Meditation</small>
-								<a href="blog.php" class="articles__link">
-									<p class="">Simple meditation strategries for beginners</p>
-									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-								</a>
-							</div>
+				<div class="gap-10 grid md:grid-cols-2 lg:grid-cols-3 lg:gap-16 py-10">
+						<div class="articles__div-col rounded-lg articles__div-col--1" style="background-image: url('./static/images/blog/blog-01.png');">
+							<small class="articles__category">Meditation</small>
+							<a href="blog.php" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+							</a>
 						</div>
 
-						<!-- Second Blog Card -->
-						<div class="bg-white rounded-lg p-4 shadow-md w-full md:1/2 lg:w-4/12">
-							<div class="articles__div-col articles__div-col--1" style="background-image: url('./static/images/blog/blog-002.png');">
-								<small class="articles__category">Depression</small>
-								<a href="blog.php" class="articles__link">
-									<p class="">Simple meditation strategries for beginners</p>
-									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-								</a>
-							</div>
+						<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-02.png');">
+							<small class="articles__category">Depression</small>
+							<a href="blog.php" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+							</a>
 						</div>
-					</div>
-					<div class="md:flex md:justify-between w-full">
-						<!-- Third Blog Card -->
-						<div class="bg-white rounded-lg p-4 shadow-md w-full md:1/2 lg:w-4/12">
-							<div class="articles__div-col articles__div-col--1" style="background-image: url('./static/images/blog/blog-003.png');">
-								<small class="articles__category">Depression</small>
-								<a href="blog.php" class="articles__link">
-									<p class="">Simple meditation strategries for beginners</p>
-									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-								</a>
-							</div>
+						
+						<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-03.png');">
+							<small class="articles__category">Depression</small>
+							<a href="blog.php" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+							</a>
 						</div>
 
-						<!-- Forth Blog Card -->
-						<div class="bg-white rounded-lg p-4 shadow-md w-full md:1/2 lg:w-8/12">
-							<div class="articles__div-col articles__div-col--1" style="background-image: url('./static/images/blog/blog-004.png');">
-								<small class="articles__category">Focus</small>
-								<a href="blog.php" class="articles__link">
-									<p class="">Simple meditation strategries for beginners</p>
-									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-								</a>
-							</div>
+						<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-04.png');">
+							<small class="articles__category">Focus</small>
+							<a href="blog.php" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+							</a>
+						</div>
+						
+						<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-05.png');">
+							<small class="articles__category">Stress</small>
+							<a href="blog.php" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+							</a>
+						</div>
+						
+						<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-06.png');">
+							<small class="articles__category">Focus</small>
+							<a href="blog.php" class="articles__link">
+								<p class="">Simple meditation strategries for beginners</p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+							</a>
 						</div>
 					</div>
-					<div class="md:flex md:justify-between w-full">
-						<!-- Fifth Blog Card -->
-						<div class="bg-white rounded-lg p-4 shadow-md w-full md:1/2 lg:w-8/12">
-							<div class="articles__div-col articles__div-col--1" style="background-image: url('./static/images/blog/blog-005.png');">
-								<small class="articles__category">Stress</small>
-								<a href="blog.php" class="articles__link">
-									<p class="">Simple meditation strategries for beginners</p>
-									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-								</a>
-							</div>
-						</div>
-
-						<!-- Sixth Blog Card -->
-						<div class="bg-white rounded-lg p-4 shadow-md w-full md:1/2 lg:w-4/12">
-							<div class="articles__div-col articles__div-col--1" style="background-image: url('./static/images/blog/blog-006.png');">
-								<small class="articles__category">Focus</small>
-								<a href="blog.php" class="articles__link">
-									<p class="">Simple meditation strategries for beginners</p>
-									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-								</a>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 
 			</div>
@@ -521,11 +493,9 @@
             var audioUrl = $(this).data("audio");
 			imgSrc = $(this);
 			
-			
-			
 			if (audio.paused) {
                 audioSource.attr("src", audioUrl);
-				$(".playPauseButton").attr("src", "./static/images/play.png")
+				$(".playPauseButton").attr("src", "./static/images/play.svg")
 				audio.pause()
                 audio.load();
                 if(audio.play()){
@@ -535,7 +505,7 @@
                 setInterval(updateTimeLeft, 1000); // Update time every second
             } else {
                 audio.pause()
-				imgSrc.attr("src", "./static/images/play.png")
+				imgSrc.attr("src", "./static/images/play.svg")
             }
         });
 

@@ -999,7 +999,7 @@ li:hover {
 }
 
 .home__small {
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: 500;
 	line-height: 17px;
 	letter-spacing: 0.04em;
@@ -1440,7 +1440,8 @@ li:hover {
 }
 
 .articles__div-col {
-	height: 23rem;
+	width: 458px;
+	height: 322px;
 	padding: 1rem;
 	border-radius: 6px;
 	background-size: cover;
@@ -2323,7 +2324,7 @@ nav {
 
 	.catty_text {
 		font-family: Lato;
-		font-size: 16px;
+		font-size: 14px;
 		font-weight: 400;
 		line-height: 19px;
 		letter-spacing: 0em;
