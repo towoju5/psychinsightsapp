@@ -1,4 +1,4 @@
-<?php require_once('header.php') ?>
+<?php $pageTitle = "Help center"; require_once('header.php') ?>
 
 <section class="faqs">
     <div class="faqs__inner">
@@ -468,5 +468,6 @@
         const svg = $(this).find('.faqs__svg svg');
         svg.toggleClass('rotate-180');
     });
+    $(".help_center").text("Help center")
 </script>
 <?php require_once('footer.php') ?>

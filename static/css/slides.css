@@ -1,0 +1,44 @@
+/* carousel slides for testimonial section */
+
+.__carousel-container {
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .__carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .__partner {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+  }
+  
+  .__partner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    /* Desktop: Display 5 slides */
+    .__partner {
+      flex: 0 0 20%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    /* Tablet: Display 3 slides */
+    .__partner {
+      flex: 0 0 33.33%;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    /* Mobile: Display 1 slide */
+    .__partner {
+      flex: 0 0 100%;
+    }
+  }
+  

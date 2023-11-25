@@ -24,12 +24,28 @@ $testimonials = [
 ];
 
 
+if (!function_exists("uri_segment")) {
+	function uri_segment()
+	{
+		$currentUri = $_SERVER['REQUEST_URI'];
+		// Use parse_url to get the path from the URI
+		$path = parse_url($currentUri, PHP_URL_PATH);
+		// Use explode to get an array of segments
+		$segments = explode('/', trim($path, '/'));
+		// Get the last segment (current page)
+		$currentSegment = end($segments);
+		// Output the current page segment
+		return $currentSegment;
+	}
+}
+
+
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
-	if(isset($_POST["subscribe"])) {
+	if (isset($_POST["subscribe"])) {
 		// user is subscribing to newsletter
 	}
 
-	if(isset($_POST["message"])) {
+	if (isset($_POST["message"])) {
 		// user is sending message from contact form
 	}
 }

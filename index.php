@@ -1,4 +1,4 @@
-<?php require_once('header.php') ?>
+<?php $pageTitle = "Home page"; require_once('header.php') ?>
 <?php require_once('static/function.php') ?>
 
 <div class="slides">
@@ -236,6 +236,10 @@
 								<div class="text-2multi-line text-blalck gap-4 w-full">
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
 									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
+
+									<audio id="audio-player">
+										<source src="" type="audio/mp3" id="audio-source">
+									</audio>
 								</div>
 								<div class="time_baseline text-white items-baseline w-full">
 									<div id="time-left" class="text-end"></div>
@@ -374,9 +378,6 @@
 				</div>
 			</div>
 		</div>
-		<audio id="audio-player">
-			<source src="" type="audio/mp3" id="audio-source">
-		</audio>
 	</section>
 
 	<section class="articles pb-12">
@@ -386,58 +387,57 @@
 
 			<div class="articles__row articles__row-content">
 				<div class="gap-10 grid md:grid-cols-2 lg:grid-cols-3 lg:gap-16 py-10">
-						<div class="articles__div-col rounded-lg articles__div-col--1" style="background-image: url('./static/images/blog/blog-01.png');">
-							<small class="articles__category">Meditation</small>
-							<a href="blog.php" class="articles__link">
-								<p class="">Simple meditation strategries for beginners</p>
-								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-							</a>
-						</div>
-
-						<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-02.png');">
-							<small class="articles__category">Depression</small>
-							<a href="blog.php" class="articles__link">
-								<p class="">Simple meditation strategries for beginners</p>
-								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-							</a>
-						</div>
-						
-						<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-03.png');">
-							<small class="articles__category">Depression</small>
-							<a href="blog.php" class="articles__link">
-								<p class="">Simple meditation strategries for beginners</p>
-								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-							</a>
-						</div>
-
-						<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-04.png');">
-							<small class="articles__category">Focus</small>
-							<a href="blog.php" class="articles__link">
-								<p class="">Simple meditation strategries for beginners</p>
-								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-							</a>
-						</div>
-						
-						<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-05.png');">
-							<small class="articles__category">Stress</small>
-							<a href="blog.php" class="articles__link">
-								<p class="">Simple meditation strategries for beginners</p>
-								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-							</a>
-						</div>
-						
-						<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-06.png');">
-							<small class="articles__category">Focus</small>
-							<a href="blog.php" class="articles__link">
-								<p class="">Simple meditation strategries for beginners</p>
-								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-							</a>
-						</div>
+					<div class="articles__div-col rounded-lg articles__div-col--1" style="background-image: url('./static/images/blog/blog-01.png');">
+						<small class="articles__category">Meditation</small>
+						<a href="blog.php" class="articles__link">
+							<p class="">Simple meditation strategries for beginners</p>
+							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+						</a>
 					</div>
-					
+
+					<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-02.png');">
+						<small class="articles__category">Depression</small>
+						<a href="blog.php" class="articles__link">
+							<p class="">Simple meditation strategries for beginners</p>
+							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+						</a>
+					</div>
+
+					<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-03.png');">
+						<small class="articles__category">Depression</small>
+						<a href="blog.php" class="articles__link">
+							<p class="">Simple meditation strategries for beginners</p>
+							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+						</a>
+					</div>
+
+					<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-04.png');">
+						<small class="articles__category">Focus</small>
+						<a href="blog.php" class="articles__link">
+							<p class="">Simple meditation strategries for beginners</p>
+							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+						</a>
+					</div>
+
+					<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-05.png');">
+						<small class="articles__category">Stress</small>
+						<a href="blog.php" class="articles__link">
+							<p class="">Simple meditation strategries for beginners</p>
+							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+						</a>
+					</div>
+
+					<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-06.png');">
+						<small class="articles__category">Focus</small>
+						<a href="blog.php" class="articles__link">
+							<p class="">Simple meditation strategries for beginners</p>
+							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+						</a>
+					</div>
 				</div>
 
 			</div>
+
 		</div>
 	</section>
 
@@ -482,39 +482,39 @@
 </div>
 
 <script>
-    $(document).ready(function () {
-        var audio = $("#audio-player")[0];
-        var audioSource = $("#audio-source");
-        var timeLeftDisplay = $("#time-left");
+	$(document).ready(function() {
+		var audio = $("#audio-player")[0];
+		var audioSource = $("#audio-source");
+		var timeLeftDisplay = $("#time-left");
 		var currentPlayingAudio = $("#audio-source").attr("src")
 		console.log(currentPlayingAudio);
 
-        $(".playPauseButton").click(function () {
-            var audioUrl = $(this).data("audio");
+		$(".playPauseButton").click(function() {
+			var audioUrl = $(this).data("audio");
 			imgSrc = $(this);
-			
+
 			if (audio.paused) {
-                audioSource.attr("src", audioUrl);
+				audioSource.attr("src", audioUrl);
 				$(".playPauseButton").attr("src", "./static/images/play.svg")
 				audio.pause()
-                audio.load();
-                if(audio.play()){
+				audio.load();
+				if (audio.play()) {
 					imgSrc.attr("src", "./static/images/pause.png")
 				}
 
-                setInterval(updateTimeLeft, 1000); // Update time every second
-            } else {
-                audio.pause()
+				setInterval(updateTimeLeft, 1000); // Update time every second
+			} else {
+				audio.pause()
 				imgSrc.attr("src", "./static/images/play.svg")
-            }
-        });
+			}
+		});
 
-        function updateTimeLeft() {
-            var timeLeft = audio.duration - audio.currentTime;
-            var minutes = Math.floor(timeLeft / 60);
-            var seconds = Math.floor(timeLeft % 60);
-            timeLeftDisplay.text("Time Left: " + minutes + ":" + (seconds < 10 ? "0" : "") + seconds);
-        }
-    });
+		function updateTimeLeft() {
+			var timeLeft = audio.duration - audio.currentTime;
+			var minutes = Math.floor(timeLeft / 60);
+			var seconds = Math.floor(timeLeft % 60);
+			timeLeftDisplay.text("Time Left: " + minutes + ":" + (seconds < 10 ? "0" : "") + seconds);
+		}
+	});
 </script>
 <?php require_once('footer.php') ?>

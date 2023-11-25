@@ -1,9 +1,7 @@
-<?php require_once 'header.php'?>
-
-
+<?php $pageTitle = "Blog page"; require_once('header.php') ?>
 	
     <section>
-      <div class="blog__inner">
+      <div class="blog__inner py-10 lg:py-20">
         <div class="post">
           <div class="post__row">
             <div class="post__heading">

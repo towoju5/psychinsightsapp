@@ -193,3 +193,19 @@ homeLeft.animProps = {
 
 homeLeft.animate(homeLeft.keyframes, homeLeft.animProps);
 
+
+var carouselInterval
+function startCarousel() {
+  carouselInterval = setInterval(() => {
+    const carousel = document.getElementById('partnersCarousel');
+    const firstPartner = carousel.firstElementChild;
+    carousel.appendChild(firstPartner);
+  }, 500); // Adjust the interval as needed (milliseconds)
+}
+
+function stopCarousel() {
+  clearInterval(carouselInterval);
+}
+
+// Start the carousel by default
+startCarousel();

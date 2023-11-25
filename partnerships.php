@@ -1,4 +1,4 @@
-<?php require_once 'header.php'?>
+<?php $pageTitle = "Partnership"; require_once('header.php') ?>
 
 
   <section class="partner">

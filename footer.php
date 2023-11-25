@@ -266,7 +266,7 @@
 			startAt: 1,
 			perView: 5,
 			gap: 10,
-			autoplay: 800,
+			autoplay: 1,
 			hoverpause: true,
 			breakpoints: {
 				1280: {

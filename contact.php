@@ -1,4 +1,4 @@
-<?php require_once 'header.php' ?>
+<?php $pageTitle = "Contact us"; require_once('header.php') ?>
 
 <!-- //  add some margin to the top -->
 <div class="mt-[10rem]"></div>
@@ -127,6 +127,6 @@
 
 		return email !== '' && message !== '' && agree;
 	}
-
+    $(".help_center").text("Help center")
 </script>
 <?php require_once 'footer.php' ?>
