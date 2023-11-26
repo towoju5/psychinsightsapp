@@ -19,8 +19,8 @@
 	<!-- <script src="//cdn.tailwindcss.com"></script> -->
 	<link href="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowsbite.min.css?v=<?= md5(date('d-m-y H:i'))?>">
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css?v=<?= md5(date('d-m-y H:i'))?>" />
-	<link href='//fonts.googleapis.com/css?family=Jost?v=<?= md5(date('d-m-y H:i'))?>' rel='stylesheet'>
-	<script src="//code.jquery.com/jquery-3.7.1.min.js?v=<?= md5(date('d-m-y H:i'))?>"></script>
+	<link href="https://fonts.cdnfonts.com/css/jost" rel="stylesheet">
+	<script src="./static/js/jquery-3.7.1.min.js"></script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css?v=<?= md5(date('d-m-y H:i'))?>" rel="stylesheet" />
 	<script src="//cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
 </head>

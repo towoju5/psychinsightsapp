@@ -1,321 +1,536 @@
-<?php require_once 'header.php'?>
+<?php require_once 'header.php' ?>
 
-  <section class="terms">
-    <div class="terms__inner">
-      <div class="terms__row">
-        <h3 class="terms__head">Privacy Policy</h3>
-      </div>
-      <div class="terms__row">
-        <div class="" style="margin-bottom: 1.5rem;">
-          <span class="terms__lists-text"><strong>Last Updated: [Date]</strong></span>
-          <span class="terms__lists-text">
-            Pyschinsights, Inc. and its affiliates, which include Pyschinsights Meditation Limited and Pyschinsights
-            Health Inc. (“Pyschinsights,” “us,” "we," or “our”) is committed to protecting and respecting your privacy
-            in connection with your use of our website, www.Pyschinsights.com (the “Website(s)”), applications (“Apps”)
-            and other products, services and features thereof (the Website, the Apps and such other products, services
-            and features are collectively referred to herein as the “Product” or “Products”, which may be updated from
-            time-to-time at the sole discretion of Headspace). This privacy policy (“Privacy Policy”) and any other
-            documents referred to herein set forth the basis on which any personal data we collect from you, or that you
-            provide to us, in connection with the Products will be processed by us. Please read the following carefully
-            to understand our practices regarding your personal data and how we will collect, use and disclose your
-            personal data.
-          </span>
-        </div>
-        <ol class="terms__lists">
-          <li class="terms__lists-item">
-            <span class="terms__lists-text"><strong>DATA WE MAY COLLECT</strong></span>
-            <span class="terms__lists-text">We may collect and process the following data about you:</span>
-            <ul>
-              <li>
-                Personal data including, for example, your name, e-mail address, password, and in certain instances,
-                telephone number, data about your usage of the Products, data you provide in connection with your usage
-                of
-                the Products, and data collected by tracking technologies as further described in section 4 below that
-                may
-                identify you as an individual or allow online contact with you as an individual.
-              </li>
-              <li>
-                For individuals who participate in a Pyschinsights Family plan, we may collect additional personal data,
-                for example, home address in order to verify family member status.
-              </li>
-              <li>
-                If, as a primary account holder of a Pyschinsights Family plan, you choose to invite additional family
-                members to become subsidiary account holders, we will ask you for their name and email address. We will
-                use this data to invite him or her to join the Products. We store this data for the sole purpose of
-                sending invitations and confirming family member status. If your subsidiary account holder(s) would like
-                us to delete their data, they can do so by contacting the primary account holder of their family plan to
-                be removed.
-              </li>
-              <li>
-                Pyschinsights does not collect or process credit or debit card (“Payment Card”) data. Apple and Google
-                collect Payment Card data with respect to in-app purchases made through the Apps, and our payment
-                processor collects Payment Card data with respect to purchases made through the Websites. Such payment
-                processors generally provide us with some limited data related to you, such as a unique, anonymous token
-                that enables you to make additional purchases using the data they’ve stored, and your card’s type,
-                expiration date, billing address, and the last four digits of your card number.
-              </li>
-              <li>For individuals using the Products in connection with a Community client account as described in
-                section
-                6, business data such as your company name, and company email address to the extent that you or your
-                Community provides such data.
-              </li>
-              <li>Facebook profile information, such as name, email address, and Facebook ID, if you choose to log in to
-                the Products through Facebook.
-              </li>
-              <li>Device information such as operating system version, device type, and system performance data.</li>
-              <li>Data collected via tracking technologies, as fully described in section 5.</li>
-              <li>If you choose to engage with the “My Progress” feature, we will collect and store your responses to
-                both
-                the Perceived Stress Scale questionnaire and free-form text box.
-              </li>
-              <li>If you choose to invite a “Buddy” to use the Products using our Buddy system, we will ask you for
-                their
-                name and email address. We will use this data to invite him or her to join the Products. We store this
-                data for the sole purpose of sending invitations and tracking the success of our Buddy program. If your
-                Buddy would like us to delete his or her data, they can do so by opting-out as described in each
-                invitation or by contacting us at help@Pyschinsights.com.
-              </li>
-              <li>If you choose to have your account verified to confirm your status as a student, we may allow a third
-                party platform to access the specific personal data you provide in order to perform the verification.
-                All
-                the information you need to fill in the open text fields during account registration is mandatory. Any
-                failure to complete that information or any response Headspace considers abnormal may result in
-                Headspace
-                refusing (or being unable) to process your request. You agree that the personal data you provide about
-                yourself or subsidiary account holders or “Buddies” to Headspace will be current, accurate, complete and
-                unequivocal.
-              </li>
-              <li>If you chose to have your account verified to confirm your status as a US-based healthcare provider,
-                we
-                may collect your National Provider Identifier (“NPI”) in connection with your email address in order to
-                perform the verification.
-              </li>
-            </ul>
-          </li>
-          <li class="terms__lists-item">
-            <span class="terms__lists-text"><strong>USES MADE OF THE DATA</strong></span>
-            <span class="terms__lists-text">We use information held about you in the following ways:</span>
-            <ul>
-              <li>To provide you with the Products.</li>
-              <li>To answer your questions or requests for information or handle your complaints.</li>
-              <li>To ensure that content provided by the Products is presented in the most effective manner for you and
-                for your computer or other device.</li>
-              <li>To provide you with promotional communications, such as email, to the extent that you have provided
-                consent and/or consistent with notice and any opt-out rights to receive such communications under
-                applicable law.
-              </li>
-              <li>To carry out our obligations arising from any agreements entered into between you and us.</li>
-              <li>To allow you to participate in interactive features of the Products, when you choose to do so.</li>
-              <li>To notify you about updates or changes to Product features and content.</li>
-              <li>To understand your broad, non-specific geographic location to help us identify groups of users by
-                general geographic market (such as zip code, state or country).
-              </li>
-              <li>To account for applicable sales taxes based on zip codes provided to our payment processors for
-                purchases made through the Website.
-              </li>
-              <li>To inform Partners about your registration and use of the Products as described under Corporate and
-                Other Community Sharing in section 6 above.
-              </li>
-              <li>To serve our advertisements to you through third party platforms, such as Facebook or Google, on other
-                sites and apps or across your devices, to the extent that you have provided consent and/or consistent
-                with
-                notice and any opt-out rights for such uses under applicable law.
-              </li>
-              <li>To provide you with the SMS Service to the extent that you have provided consent for such practices
-                under applicable law. We may also ask you to complete surveys that we use for research purposes,
-                although
-                you do not have to respond to them.
-              </li>
-              <li>To manage your payments and orders.</li>
-              <li>If you choose to engage with the “My Progress” feature, you will be able to review your historical
-                responses to the Perceived Stress Scale questionnaire (as logged on a monthly basis) so to monitor your
-                responses over time in connection with your Product engagement.
-              </li>
-              <li>If you are an existing customer, we will only contact you by electronic means (e-mail or in-Product
-                communication) with information about products and services similar to those which were the subject of a
-                previous sale to you, except if you do not consent to, or opt-out to such communications.
-              </li>
-              <li>If you choose to become a primary account holder of a Headspace Family plan, we may cross reference
-                the
-                address you’ve provided with that of any subsidiary account holder seeking to join your Headspace Family
-                plan in order to verify the validity of the subsidiary account holder.
-              </li>
-              <li>If you choose to become a subsidiary account holder of a Headspace Family plan, we may cross reference
-                the address you’ve provided with that of any primary account holder administering your Headspace Family
-                plan in order to verify the validity of your subsidiary account
-              </li>
-            </ul>
-          </li>
-          <li class="terms__lists-item">
-            <span class="terms__lists-text"><strong>CONFIDENTIALITY AND SECURITY</strong></span>
-            <span class="terms__lists-text">
-              The security of your personal data is important to us. We follow generally accepted standards to protect
-              the
-              personal data submitted to us, both during transmission and once it is received. If you have any questions
-              about the security of your personal data, you can contact us at help@headspace.com. Except as described
-              under the “Disclosure of Your Data” section below, we do not provide your personal data to any third party
-              without your specific consent, as defined by applicable law. Headspace maintains technical, administrative
-              and physical safeguards to help protect the security of your personal information against unauthorized
-              access, destruction, loss, alteration, misuse or disclosure. Your personal information is accessible to
-              only
-              a limited number of personnel who need access to the information to perform their duties. Please note,
-              however, that no method of transmission over the Internet or method of electronic storage is 100% secure.
-            </span>
-          </li>
-          <li class="terms__lists-item">
-            <span class="terms__lists-text"><strong>NEWSLETTERS OR OTHER ELECTRONIC COMMUNICATIONS</strong></span>
-            <span class="terms__lists-text">
-              If you sign up to receive promotional materials from us via email and/or push notifications we will use
-              the
-              data you give us to provide the communications you have requested. If you inform us that you wish to
-              cancel
-              email promotional materials by selecting “unsubscribe” at the bottom of such communication or by emailing
-              us
-              at help@Pyschinsights.com, we will remove you from our mailing list. If you no longer wish to receive push
-              notifications, you may turn them off at the device level. If you provide your phone number to us directly
-              or
-              through a third-party for the specific purpose of receiving an SMS message with a link to our Apps, you
-              will
-              receive such SMS message (the “SMS Service”). Standard text message rates will apply. We will endeavor to
-              comply with these requests as soon as reasonably practicable. Please be advised that you may not be able
-              to
-              opt-out of receiving certain service or transactional email messages from us that are required to provide
-              you with our Products.
-            </span>
-          </li>
-          <li class="terms__lists-item">
-            <span class="terms__lists-text"><strong>TRACKING TECHNOLOGIES</strong></span>
-            <span class="terms__lists-text">
-              Pyschinsights and our analytics partners use technologies such as cookies, beacons, tags, and scripts to
-              enable a service to recognize your device so you don't have to provide the same data several times during
-              one task, to recognize that you may have already given a username and password so you don't need to do it
-              for every web page requested, and to measure how people are using the Products.
-              <br>
-              We use local storage, such as HTML5, to store content data and preferences. Third parties with whom we
-              partner to provide certain features on the Products also use HTML5 to collect and store data. Various
-              browsers may offer their own management tools for removing HTML5.
-              <br>
-              We partner with third parties, such as Facebook and Google, to manage our advertising of the Products on
-              other sites or platforms as well as across your other devices based on your past visits to our Website.
-              Our
-              third party partners may use technologies such as cookies to gather data about your activities within the
-              Products to deliver such advertising to you, such as retargeting ads. We do not respond to do-not-track
-              signals. For more data about interest-based ads, including how to opt-out of having your web-browsing data
-              used for behavioral advertising purposes, please visit www.aboutads.info/choices. Please note that this
-              does
-              not opt you out of being served ads. You may continue to receive generic ads on these third party
-              platforms.
-              You may also opt out of receiving ads across devices by adjusting your ad preference in your Google
-              account.
-              <br>
-              We use third party trackers to let us know when users have visited the Products by “clicking-through”
-              our sponsored advertising or content hosted on third party platforms. The Products use Google Analytics
-              code
-              to gather statistical data. Google Analytics sets cookies to help us accurately estimate the number of
-              visitors to the Products and the volumes of usage of the Products. This is done to ensure that the
-              Products
-              are available when you want them and are fast. For more data on how Google Analytics processes this data,
-              visit www.google.com/analytics.
-              <br>
-              We will acquire consent from you in order to use such trackers or provide you with the opportunity to
-              opt-out of such trackers, to the extent required by applicable law. For more information on the types of
-              cookies used by Headspace and your ability to restrict the behavior of cookies or disable them in your
-              browser’s settings, please refer to the Pyschinsights Cookie Policy.
-              <br><br>
-              <span><strong>MOBILE ANALYTICS</strong></span><br>
-              <span>
-                We use mobile analytics software to allow us to better understand the functionality of our mobile
-                software
-                on your phone. This software may record data such as how often you engage with the Products, the events
-                that
-                occur within the Products, aggregated usage and performance data, and where the Applications were
-                downloaded
-                from. We may link the data we store within the analytics software to any personal data you submit within
-                the
-                mobile application.
-              </span><br><br>
-              <span><strong>LOG FILES</strong></span><br>
-              <span>
-                As true of most websites, we gather certain data and automatically and store it in log files. This data
-                may include Internet Protocol (IP) addresses, browser type, internet service provider (ISP),
-                referring/exit pages, operating system, date/time stamp, and/or clickstream data.
-                If you receive the HTML-formatted version of our email newsletter, your opening of the newsletter is
-                notified to us and saved. Your clicks on links in the newsletter are also saved. These and the open
-                statistics are used in aggregate form to give us an indication of the popularity of the content and to
-                help us make decisions about future content and formatting.
-              </span>
-            </span>
-          </li>
-          <li class="terms__lists-item">
-            <span class="terms__lists-text"><strong>WHERE WE STORE YOUR PERSONAL DATA</strong></span>
-            <span class="terms__lists-text">All data you provide to us through the Products is stored on our secure
-              servers located in the US. Any payment transactions will be encrypted using SSL technology; all payment
-              data
-              is stored with our payment processor and is never stored on Pyschinsights’s servers. Where we have given
-              you
-              (or where you have chosen) a password which enables you to access certain parts of the Products, you are
-              responsible for keeping this password confidential. We ask you not to share a password with anyone, and
-              suggest that your change your password frequently.
-              Unfortunately, the transmission of data via the Internet is not completely secure. Although we will do our
-              best to protect your personal data, we cannot guarantee the security of your data transmitted to the
-              Products; any transmission is at your own risk. Once we have received your data, we will use strict
-              procedures and security features to try to prevent unauthorized access.
-            </span>
-          </li>
-          <li class="terms__lists-item">
-            <span class="terms__lists-text"><strong>CORPORATE AND OTHER COMMUNITY SHARING</strong></span>
-            <span class="terms__lists-text">
-              Pyschinsights is also offered through partnerships with organizations. Sometimes corporations,
-              governments,
-              hospitals, universities and other organizations and groups (“Partner(s)”) wish to make Headspace available
-              to their members, employees and their families, patients, customers, residents or others. For example,
-              employers may offer their employees and their families access to Pyschinsights and brands that promote
-              wellness may wish to and do offer Pyschinsights through their loyalty programs. When an entity provides
-              access to Headspace to others, we call those “Communities.” If you have registered to use the Products
-              through a code, credential, or other means of registration furnished by a Partner (a “Community
-              Subscription”), the Partner may have access to your name, email address, the date you registered to use
-              the
-              Products, and the date on which you last used the Products. The Partner may also have access to your
-              Community's aggregated and anonymized general usage data (including aggregated and anonymized usage data
-              with respect to your Community’s optional engagement with the My Progress feature).
-            </span>
-          </li>
-          <li class="terms__lists-item">
-            <span class="terms__lists-text"><strong>SINGLE SIGN-ON</strong></span>
-            <span class="terms__lists-text">
-              You may be able to log-in to our Products using sign-in services such as Facebook Connect or an Open ID
-              provider. These services will authenticate your identity, provide you the option to share certain personal
-              data (such as your name and email address) with us, and to pre-populate our sign-up form. Services like
-              Facebook Connect give you to the option to post data about your activities on our Products or to your
-              profile page to share with others within your network.
-            </span>
-          </li>
-          <li class="terms__lists-item">
-            <span class="terms__lists-text"><strong>YOUR DATA RIGHTS</strong></span>
-            <span class="terms__lists-text">
-              As you may know, a European Union law called the General Data Protection Regulation (“GDPR”) gives certain
-              rights to applicable individuals in relation to their personal data. Accordingly, we have implemented
-              transparency and access controls to help such users, including residents of the EU, Switzerland, and the
-              United Kingdom exercise those rights. As required under applicable law, the rights afforded to you are: A
-              right of access: you have the right to obtain (i) confirmation as to whether personal data concerning you
-              are processed or not and, if processed, to obtain (ii) access to such data and a copy thereof. We provide
-              an
-              easy-to-view snapshot of such data via the “My Data” tab in the Products.
-            </span>
-          </li>
-          <li class="terms__lists-item">
-            <span class="terms__lists-text"><strong>LEGAL BASES OF PERSONAL DATA PROCESSING</strong></span>
-            <span class="terms__lists-text">
-              In accordance with GDPR, Headspace provides the following information regarding its Article 6 legal bases
-              for personal data processing: The performance of the contract (the Pyschinsights Terms & Conditions)
-              between
-              you and Headspace for the data processing relating to your use of Pyschinsights’s Products (including your
-              orders and payments);
-            </span>
-          </li>
-        </ol>
-      </div>
+<section class="terms">
+  <div class="terms__inner">
+    <div class="terms__row">
+      <h3 class="terms__head">Privacy Policy</h3>
     </div>
-  </section>
-  
+    <div class="terms__row">
+      <div class="items-center flex flex-col">
+        <div class="text-black text-2xl w-full max-md:max-w-full">
+          The Psych Insights (a company incorporated with ASIC under the Corporations
+          Act) (hereinafter referred to as “Psych Insights”, “we”, “us”, “our”) is an
+          Australian-based company dedicated to providing top-quality mental health
+          services. Our privacy policy describes how we collect, store, use and
+          disclose your Personal Data and protect your privacy when you use our
+          website, our platform and our services (hereinafter referred to as the
+          “Services”), as well as describes our roles as a “Data Controller” of such
+          data. By visiting, interacting with us, and/or accessing or using any of our
+          Services, you agree that Psych Insights can use such data in accordance with
+          our privacy policy. If our practices and policies change, we will update
+          this Privacy Policy.
+          <br />
+          Psych Insights has aligned its approach to data protection with the highest
+          applicable standards. As such, Psych Insights applies the guidelines and
+          protocols stipulated by the Privacy and Data Protection Act 2014 of
+          Australia (hereinafter referred to as the “PDP”) in relation to Personal
+          Data collected or processed or dealt with in any manner by Psych Insights.
+          Personal Data is defined in data protection laws applicable to the Personal
+          Data you provide but typically includes any information about a living
+          individual from which they can be identified (“Personal Data”).
+          <br />
+          Under the PDP, Psych Insights is entitled to process Personal Data if you
+          have given your consent for the processing of such data. The processing is
+          necessary to perform a contract with you or perform a legal obligation, and
+          there is a legitimate interest in the collection of Personal Data. As such,
+          you will be asked to provide consent for your data to be used accordingly.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          SPECIFIC INSTRUCTION
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          Please read this Privacy Policy carefully and make sure that you fully
+          understand and agree to it. If you do not agree to this Privacy Policy,
+          please discontinue and avoid using our services.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          SCOPE OF THIS PRIVACY POLICY
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          This Privacy Policy applies when you interact with Psych Insights anywhere
+          in the world. Without limitation, it applies when you access or use Psych
+          Insights’ Services, either directly or through our agents, mobile
+          applications, or websites; interact with Psych Insights on social media;
+          contact Psych Insights’ support team; or apply to become an agent of Psych
+          Insights.
+          <br />
+          This Privacy Policy does not apply to the policies and practices of
+          companies that are not related to Psych Insights. We are not responsible for
+          other company’s privacy policies and practices. A third party who is used to
+          provide our services will adhere to this policy if necessary.
+          <br />
+          We do not endorse other company’s policies and practices when we provide a
+          link to a website. We do not knowingly attempt to solicit or receive
+          information from children or minors per applicable local laws
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          PRIVACY POLICY SPECIFICS
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          Specifically, this Privacy Policy describes our practices regarding:
+          <br />
+          • Data Collection
+          <br />
+          • Data Uses
+          <br />
+          • Data Retention
+          <br />
+          • Data Sharing
+          <br />
+          • Cookies and Tracking Technologies
+          <br />
+          • Communications
+          <br />
+          • Data Subject Rights
+        </div>
+        <div class="text-black text-2xl font-bold mt-5 max-md:max-w-full">
+          WHY WE COLLECT AND PROCESS PERSONAL INFORMATION
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          By way of operations and use, we collect and process personal information so
+          we can interact with you. We collect and process personal and other
+          information so we can operate our business and provide our Services, to
+          interact with our consumers, employees and agents and to answer inquiries.
+          We collect and process some information because we are required to do so by
+          law. You are not required to provide personal information to us, but if you
+          do not, we may not be able to provide you with our services, answer your
+          inquiries, or process your applications.
+          <br />
+          We also process Personal Data for the purpose of evaluating your company as
+          a prospective company to be onboarded to our services. The required Personal
+          Data is collected from prospective companies and evaluated to ensure only
+          companies that meet the necessary standards are onboarded, with the view of
+          ensuring our services are conducted in accordance with good industry
+          practices and applicable laws and regulations.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5 max-md:max-w-full">
+          WHAT ARE THE LEGAL BASES FOR PROCESSING THE PERSONAL DATA YOU PROVIDE
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          The processing is legally based on the following provisions:
+          <br />
+          • The processing is necessary for the fulfillment of legal requirements and
+          obligations;
+          <br />
+          • The processing is necessary for pursuing our legitimate interests; consent
+          was given for a specific purpose.
+          <br />
+          We will only use the Personal Data you provide for the purposes for which we
+          collected it, unless we reasonably consider that we need to use it for
+          another reason being compatible with the purpose for which they were
+          initially collected or for which we have a legitimate interest. If we need
+          to use the Personal Data you provide for an unrelated purpose, we will
+          notify you and we will explain the legal basis which allows us to do so.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          PERSONAL INFORMATION WE MAY COLLECT
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          The exact Personal Information which we may collect from you will differ
+          depending on if you are visiting a Psych Insights website/social media
+          account, or if you are onboarded or in the process of being onboarded for
+          the use of our Services. Some of the Personal Data which we may collect
+          through your interaction with us, depending on the mode of interaction, may
+          include your/the:
+          <br />
+          • First and last name;
+          <br />
+          • Country and city of residence;
+          <br />
+          • Location data;
+          <br />
+          • Job title;
+          <br />
+          • Nationality of legal representatives and senior management members;
+          <br />
+          • Phone number;
+          <br />
+          • ID number;
+          <br />
+          • Date of birth;
+          <br />
+          • Date of birth and nationality of individuals owning or controlling
+          directly and indirectly more than 10% in the company;
+          <br />
+          • Any online identifier; and
+          <br />
+          • Any factors that may be used to identify you.
+          <br />
+          This is not an exhaustive list. Depending on how you interact with us, we
+          may collect additional information, as required.
+          <br />
+          In case Personal Data that you provide to us or we collect is considered
+          special categories of Personal Data or judicial data under applicable data
+          protection laws, we only process them to the extent permitted by applicable
+          law. Special categories of Personal Data may include Personal Data from
+          which we can determine or infer an individual’s racial or ethnic origin,
+          political opinions, religious or, trade union membership, genetic data, data
+          concerning health, sexual life or sexual orientation. Judicial data may
+          include data relating to criminal convictions and offenses, including
+          information concerning the commission or alleged commission of a criminal
+          offense
+          <br />
+          Personal Data does not include data where any potential identifiers have
+          been irreversibly removed (anonymous data).
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          HOW WE COLLECT PERSONAL INFORMATION
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          Information you provide to us directly:
+          <br />
+          If you are onboarded to our Services, we collect Personal Data directly from
+          you during the onboarding process. The provision of the Personal Data you
+          provide is mandatory and necessary for the purpose of onboarding your
+          company to our services. If you do not provide the required Personal Data to
+          us, we will not be able to complete the onboarding process.
+          <br />
+          Through your interactions with us, we may collect Personal Data from your
+          use of our services, contacting our support team or any application to
+          become an agent. If you provide information about someone else, you
+          represent that you have permission to do so. You may request in writing to
+          not have your information displayed publicly in any manner.
+          <br />
+          Information we get from your use of our Services indirectly from other
+          sources:
+          <br />
+          This may include information gathered from public databases, joint marketing
+          partners, social media platforms (including from people with whom you are
+          friends or otherwise connected), and from other third parties. We may
+          collect information about the additional services that you use and how you
+          use them, as it applies to advertising and content specific promotions. The
+          information we collect includes, but is not limited to the following:
+          <br />
+          • Details of how you used our Service,
+          <br />
+          • Search queries,
+          <br />
+          • Telephone log information, or
+          <br />
+          • SMS routing
+          <br />
+          • Certain technical data about you (independently or through the help of
+          third parties), including the use of cookies and other tracking technologies
+          <br />
+          • To reiterate, this is a sampling of the information we may collect, and is
+          not an exhaustive list.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          OTHER INFORMATION WE MAY COLLECT
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          We may also collect other information that by itself doesn’t identify you.
+          Other information we collect may include:
+          <br />
+          • Browser and device information;
+          <br />
+          • Information collected through cookies, pixel tags and other technologies;
+          <br />
+          • Demographic information and other information provided by you that does
+          not reveal your specific identity; and
+          <br />
+          • Information that has been aggregated in a manner that it no longer reveals
+          your specific identity.
+          <br />
+          • We may merge personal information and other information. We will treat
+          this information as personal information if we are required to by law.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          HOW WE MAY COLLECT OTHER INFORMATION
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          We may collect other information in a variety of ways, including:
+          <br />
+          • Through your browser or device: most browsers collect certain information
+          automatically through your device, such as your Media Access Control (MAC)
+          address, computer type (Windows or Macintosh), screen resolution, operating
+          system name and version, device manufacturer and model, language, or
+          internet browser. We may use this information to ensure that the Services we
+          provide function properly.
+          <br />
+          • Through your IP address: An IP (Internet Protocol) address is a unique
+          identifier that electronic devices used to identify and communicate with
+          each other on the internet. We may identify your IP address and log it into
+          our server log files when you access our websites or mobile applications,
+          along with the time and page(s) you visit. When you visit our website, we
+          may view the IP address of the computer or device you use to connect to the
+          internet. Collecting IP addresses is standard practice and is done
+          automatically by many websites, applications and other services. We use IP
+          addresses for a variety of reasons, such as calculating usage levels,
+          diagnosing server problems and administering the services.
+          <br />
+          • From your physical location: we may collect the physical location of your
+          device by, for example, using satellite, cell phone tower or Wi-Fi signals.
+          We may use your device’s physical location to provide you with personalised
+          location-based services and content. We may also share your device’s
+          physical location, combined with information about advertisements you view
+          and other information we collect, with our marketing partners to enable them
+          to provide you with more personalized content and to study the effectiveness
+          of advertising campaigns. You may be able to allow or deny such uses and/or
+          sharing of your device’s location, but if you do, we and/or our marketing
+          partners may not be able to provide you with personalized services and
+          content.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5 max-md:max-w-full">
+          HOW WE USE PERSONAL AND OTHER INFORMATION
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          When you upload or otherwise submit content to our Services, you give Psych
+          Insights (and the partners and affiliates that we work with) a worldwide
+          license to use, host, store, reproduce, modify, create derivative works
+          (such as those resulting from translations, adaptations or other changes we
+          make so that your content works better with our Services), communicate,
+          publicly perform, publicly display and distribute such content. The rights
+          you grant in this license are for the limited purpose of operating,
+          promoting, and improving our Services. Nonetheless, Personal Data may also
+          be used, to the extent necessary, to comply with applicable laws or any
+          court order.
+          <br />
+          We may use personal and other information for our legitimate business
+          interests, to the extent permitted by applicable law, including but not
+          limited to:
+          <br />
+          • Complete your transactions, respond to your questions, and provide you
+          with customer service;
+          <br />
+          • Send you transactional and other administrative messages;
+          <br />
+          • Personalize your experience when you use our services;
+          <br />
+          • Invite you to participate in sweepstakes, contests and similar promotions,
+          and to administer these activities, which may have additional notices about
+          how we use and disclose your information;
+          <br />
+          • Operate and grow our business (e.g., conduct data analysis; audit our
+          activities; develop new products; enhance, improve and modify our services;
+          identify usage trends; determine the effectiveness of our promotional
+          campaigns);
+          <br />
+          • Monitor and prevent fraud, money laundering, abuse, and other actual and
+          potential prohibited or illegal activities;
+          <br />
+          • Meet legal, auditing, regulatory, insurance, security and processing
+          requirements;
+          <br />
+          • Report to credit bureaus;
+          <br />
+          • Respond to court orders and legal investigations;
+          <br />
+          • Deliver marketing communications to you about our services and other
+          companies’ services, including offers, coupons or incentives we believe may
+          be of interest to you. These marketing communications may come from us
+          directly, or through our affiliates or third parties, including our agents
+          who facilitate transactions on our behalf;
+          <br />
+          • Comply with applicable laws, which may include laws outside your country
+          of residence;
+          <br />
+          • Respond to requests from public and government authorities, which may
+          include authorities outside your country of residence;
+          <br />
+          • Cooperate with law enforcement, or for other legal reasons
+          <br />
+          • Enforce our terms and conditions; and
+          <br />
+          • Protect our rights, privacy, safety or property, and/or that of our
+          affiliates, you or others. We may also use information in other ways with
+          your consent or as required by applicable law.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5 max-md:max-w-full">
+          HOW WE SHARE AND DISCLOSE PERSONAL AND OTHER INFORMATION
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          We share and disclose information with:
+          <br />
+          • Our internal departments, in order to carry out the purposes outlined
+          above, Personal Data you provide shall be disclosed to our compliance team
+          and other internal functions on a need to know basis or where we have a
+          legitimate interest in doing so;
+          <br />
+          • Our subsidiaries and affiliated entities. Like most international
+          businesses, we have centralised certain aspects of our data processing in
+          order to allow us to better manage our business and share the Personal Data
+          you provide accordingly if required and needed in this context. We may also
+          share the Personal Data you provide with recipients in other Psych Insights
+          entities if this is necessary to the onboarding process. Please note that
+          the Psych Insights is responsible for the management of jointly-used
+          personal information;
+          <br />
+          • Our vendors that provide us with services related to information
+          technology, such as website hosting, data analysis, payment processing,
+          order fulfilment, information technology and related infrastructure
+          provision, customer service, and email delivery;
+          <br />
+          • Our vendors that provide us with services related to our marketing
+          communications and campaigns, consistent with your choices, including any
+          applicable choices we provide for you to opt into such sharing;
+          <br />
+          • Our vendors that assist us with sweepstakes, contests and other
+          promotions;
+          <br />
+          • Your social media connections, other website users and your social media
+          account providers;
+          <br />
+          • Other third parties in the event of a reorganisation, merger, sale, joint
+          venture, assignment, transfer or other disposition of our business, assets
+          or stock, or in any bankruptcy or similar proceedings; and
+          <br />
+          • Others as required by law. We reserve the right to disclose any Personal
+          Data you have provided if we are compelled to do so by a court of law or
+          requested to do so by a governmental entity or if we determine it is
+          necessary or desirable to comply with the law or to protect or defend our
+          rights or property in accordance with applicable laws. We also reserve the
+          right to retain to comply with any specific record retention laws that
+          apply.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5 max-md:max-w-full">
+          WE MAY USE THIRD PARTIES TO DELIVER ADVERTISING
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          We may rely on third parties to deliver advertisements about goods and
+          services that may be of interest to you. These companies may place or
+          recognise a unique cookie on your browser (including pixel tags). They may
+          also use these technologies, along with information they collect about your
+          online use, to recognise you across the devices you use, such as a mobile
+          phone and a laptop.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          OUR INFORMATION SECURITY
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          We are committed to using reasonable organisational, technical and
+          administrative measures to protect personal and other information.
+          <br />
+          We use reasonable organisational, technical and administrative measures to
+          protect personal and other information. Please know, however, that no data
+          transmission or storage system can be guaranteed to be 100% secure. If you
+          have reason to believe that your interaction with us is no longer secure,
+          please contact us immediately.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          AUTOMATED DECISION MAKING/PROFILING
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          We do not take decisions which have a significant impact on you based only
+          on using automated means. There is always human intervention into decisions
+          based on automated processing.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          YOUR MARKETING CHOICES
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          You can opt out from receiving marketing communications from us by:
+          <br />
+          Clicking on the “unsubscribe” link at the bottom of a Psych Insights
+          marketing email; or
+          <br />
+          Contacting us at: psychinsightsapp@gmail.com
+          <br />
+          We will respond to your request as soon as reasonably practicable. Please
+          note that if you opt-out of receiving marketing-related emails from us, we
+          may still send you transactional or administrative messages.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          ACCESSING YOUR PERSONAL INFORMATION
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          You can review, correct, update, suppress, restrict or delete personal
+          information that you have given to us, or receive an electronic copy of your
+          personal information to transmit it to another company (to the extent
+          provided to you by applicable law), by contacting us at:
+          psychinsightsapp@gmail.com
+          <br />
+          We will respond to your request as soon as reasonably practicable. For your
+          protection, we may need to verify your identity before implementing your
+          request.
+          <br />
+          Please note that we may need to keep certain information for recordkeeping
+          purposes or for regulatory compliance. There may also be residual
+          information that will remain within our databases and other records, which
+          will not be removed.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          HOW LONG WE KEEP INFORMATION
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          We keep information if necessary, for the purpose it was collected, or for a
+          longer retention period as required or permitted by law. Once information is
+          no longer needed for its initial purpose, unless required to retain it under
+          applicable law, it is deleted in accordance with our policies and
+          procedures.
+          <br />
+          Please contact us at psychinsightsapp@gmail.com, if you would like to
+          receive specific retention schedules related to the Personal Data you
+          provide.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5 max-md:max-w-full">
+          JURISDICTION AND CROSS-BORDER DATA TRANSFERS
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          Due to our global focus, working with us may involve an international
+          transfer of the Personal Data you provide to recipients located in countries
+          all the world, Psych Insights secures that such transfer is subject to
+          appropriate safeguards which ensure rights are protected in line with
+          applicable data protection law.
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          WHAT ARE THE RIGHTS OF DATA SUBJECTS
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          Applicable data protection laws may allow Data Subjects certain rights in
+          respect of their Personal Data that Psych Insights processes.
+          <br />
+          • Right to access: Data Subjects have the right to demand access to their
+          Personal Data processed by us and to request a copy of their Personal Data
+          being processed by us.
+          <br />
+          • Right to rectification: Data Subjects have the right to have incorrect or
+          incomplete Personal Data corrected.
+          <br />
+          • Right to erasure: where legally envisaged Data Subjects have the right to
+          have their Personal Data deleted under certain circumstances. In the
+          individual case, the right to deletion may be excluded.
+          <br />
+          • Right to restriction of the processing: under certain conditions, Data
+          Subjects have the right to demand a restriction of the processing of their
+          Personal Data.
+          <br />
+          • Right to data portability: under certain circumstances, Data Subjects have
+          the right to get the Personal Data that was provided to us by you free of
+          charge in a readable format.
+          <br />
+          • Right to object: where Data Subjects’ Personal Data is processed on the
+          legal basis of our legitimate interest, they can object to processing on
+          grounds relating to their particular situation.
+          <br />
+          • Right to lodge a complaint with the supervisory authority: Data Subjects
+          have the right to appeal to a competent supervisory authority against the
+          method of the processing of their Personal Data.
+          <br />
+          • Right to withdraw consent: Data Subjects have the right to revoke their
+          consent at any time, without affecting the lawfulness of processing based on
+          their consent before the withdrawal.
+          <br />
+          Data Subjects can exercise their rights by writing to us at
+          psychinsightsapp@gmail.com
+        </div>
+        <div class="text-black text-2xl font-bold mt-5">
+          CONTACT US
+        </div>
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">
+          If you have any questions about the Psych Insights privacy policy, the data
+          we hold on you, or you would like to exercise one of your data protection
+          rights, please do not hesitate to contact us.
+          <br />
+          Email us at: psychinsightsapp@gmail.com
+          <br />
+          You also have the right to lodge a complaint with a supervisory authority
+          competent for your country or region.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <?php require_once('footer.php') ?>
