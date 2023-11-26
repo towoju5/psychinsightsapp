@@ -22,13 +22,13 @@ tabButtons.forEach((button) => {
 		// Remove the "selected" class from all tab buttons and hide tab content
 		tabButtons.forEach((btn) => {
 			btn.setAttribute("aria-selected", "false");
-			btn.classList.remove("bg-[#DD6565]", "text-white");
+			btn.classList.remove("bg-[#1E6C7C]", "text-white");
 		});
 		tabContents.forEach((content) => {
 			content.classList.add("hidden");
 		});
 
-		button.classList.add("bg-[#DD6565]", "text-white");
+		button.classList.add("bg-[#1E6C7C]", "text-white");
 
 		// Add the "selected" class to the clicked tab button and show the corresponding tab content
 		button.setAttribute("aria-selected", "true");

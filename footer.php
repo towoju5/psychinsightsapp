@@ -42,16 +42,16 @@
 							<div class="footer__div footer__div--2">
 								<ul class="space-y-6">
 									<li>
-										<a href="/partnerships.php" class="footer_menu-test footer__link">Partnerships</a>
-									</li>
-									<li>
-										<a href="/accessibility.php" class="footer_menu-test footer__link">Accessibility</a>
+										<a href="/terms.php" class="footer_menu-test footer__link">Terms of Service</a>
 									</li>
 									<li>
 										<a href="/privacy-policy.php" class="footer_menu-test footer__link">Privacy Policy</a>
 									</li>
 									<li>
-										<a href="/terms.php" class="footer_menu-test footer__link">Terms of Service</a>
+										<a href="/accessibility.php" class="footer_menu-test footer__link">Accessibility</a>
+									</li>
+									<li>
+										<a href="/partnerships.php" class="footer_menu-test footer__link">Partnerships</a>
 									</li>
 								</ul>
 							</div>

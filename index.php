@@ -1,5 +1,5 @@
-<?php $pageTitle = "Home page"; require_once('header.php') ?>
-<?php require_once('static/function.php') ?>
+<?php $pageTitle = "Home page";
+require_once('header.php') ?>
 
 <div class="slides">
 	<section id="hero-section">
@@ -198,55 +198,56 @@
 	</section>
 
 	<section id="categories-section" class="categories lg:mb-32 ">
-		<div class="categories__inner">
-			<div class="mx-4 mb-4 py-3">
-				<ul class="flex flex-wrap justify-center gap-6 -mb-px text-sm font-medium text-center text-gray-500" id="tabs-example" role="tablist">
+		<div class="categories__inner pt-10 bg-white">
+			<div class="mx-4 mb-4 py-5">
+				<ul class="flex flex-wrap justify-center gap-6 -mb-px text-sm font-bold text-center text-gray-500" id="tabs-example" role="tablist">
 					<li class="mr-2" role="presentation">
-						<button class="bg-[#EFC49D] md:text-xl lg:text-3xl text-black rounded-xl px-10 py-1" id="profile-tab-Depression" type="button" role="tab" aria-controls="dashboard-Depression" aria-selected="false">Depression</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="profile-tab-Depression" type="button" role="tab" aria-controls="dashboard-Depression" aria-selected="false">Depression</button>
 					</li>
 					<li class="mr-2" role="presentation">
-						<button class="bg-[#EFC49D] md:text-xl lg:text-3xl text-black rounded-xl px-10 py-1" id="dashboard-tab-Anxiety" type="button" role="tab" aria-controls="dashboard-Anxiety" aria-selected="false">Anxiety</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="dashboard-tab-Anxiety" type="button" role="tab" aria-controls="dashboard-Anxiety" aria-selected="false">Anxiety</button>
 					</li>
 					<li class="mr-2" role="presentation">
-						<button class="bg-[#EFC49D] md:text-xl lg:text-3xl text-black rounded-xl px-10 py-1" id="settings-tab-Stress" type="button" role="tab" aria-controls="settings-Stress" aria-selected="false">Stress</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="settings-tab-Stress" type="button" role="tab" aria-controls="settings-Stress" aria-selected="false">Stress</button>
 					</li>
 					<li role="presentation">
-						<button class="bg-[#EFC49D] md:text-xl lg:text-3xl text-black rounded-xl px-10 py-1" id="contacts-tab-Sleep" type="button" role="tab" aria-controls="contacts-Sleep" aria-selected="false">Sleep</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="contacts-tab-Sleep" type="button" role="tab" aria-controls="contacts-Sleep" aria-selected="false">Sleep</button>
 					</li>
 					<li class="mr-2" role="presentation">
-						<button class="bg-[#EFC49D] md:text-xl lg:text-3xl text-black rounded-xl px-10 py-1" id="settings-tab-Motivation" type="button" role="tab" aria-controls="settings-Motivation" aria-selected="false">Motivation</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="settings-tab-Motivation" type="button" role="tab" aria-controls="settings-Motivation" aria-selected="false">Motivation</button>
 					</li>
 					<li role="presentation">
-						<button class="bg-[#EFC49D] md:text-xl lg:text-3xl text-black rounded-xl px-10 py-1" id="contacts-tab-Concentration" type="button" role="tab" aria-controls="contacts-Concentration" aria-selected="false">Concentration</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="contacts-tab-Concentration" type="button" role="tab" aria-controls="contacts-Concentration" aria-selected="false">Concentration</button>
 					</li>
 				</ul>
 			</div>
 			<div id="tabContentExample">
 				<div class="rounded-lg bg-gray-50 lg:gap-10" id="dashboard-Depression" role="tabpanel" aria-labelledby="profile-tab-Depression">
 					<div class="flex w-full items-center gap-10 mx-4">
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block" data-te-animation-init data-te-animation-start="onShow" data-te-animation-reset="true" data-te-animation="[fly-in-right_0.5s]">
 							<img src="./static/images/phones/mock up dashboard.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6 md:px-12">Emotions Soothing Heavy Emotions is a guided practice designed to help individuals find calm and inner peace by addressing and soothing overwhelming or intense emotions.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn w-1/4">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-4">
+								<div class="play-btn">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Depression)  Believe in Yourself.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
-									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
+									<div class="lg:text-2xl flex gap-2 items-center">
+										<span class="font-light">00:00</span>
+										<input type="range" id="seek-slider" max="335"  min="0" value="0">
+										<span class="font-light">06:52</span>
+									</div>
 
 									<audio id="audio-player">
 										<source src="" type="audio/mp3" id="audio-source">
 									</audio>
 								</div>
-								<div class="time_baseline text-white items-baseline w-full">
-									<div id="time-left" class="text-end"></div>
-								</div>
 							</div>
 						</div>
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block animate-out slide-out-to-top slide-out-to-left">
 							<img src="./static/images/phones/mockup journey.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
@@ -259,15 +260,16 @@
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow" style="background-image: url('./static/images/video-card-bg.png');">
 							<p class="catty_text mb-6">Mindfulness Meditation is a guided practice that encourages individuals to cultivate present-moment awareness, reduce stress, and enhance their overall well-being through focused attention and mindful breathing.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn w-1/4">
+								<div class="play-btn">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Anxiety)  Mindfulness Meditation.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<h1 class="font-medium text-2xl lg:text-4xl py-3">Mindfulness Meditation</h1>
-									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
-								</div>
-								<div class="time_baseline text-white items-baseline w-full">
-									<div id="time-left" class="text-end"></div>
+									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
+									<div class="lg:text-2xl flex gap-2 items-center">
+										<span class="font-light">00:00</span>
+										<input type="range" id="seek-slider" max="412"  min="0" value="0">
+										<span class="font-light">06:52</span>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -284,15 +286,16 @@
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
 							<p class="catty_text mb-6">Powerful Stress Reduction is a guided practice that empowers individuals with effective techniques to significantly reduce stress, fostering relaxation, mental clarity, and emotional balance.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn w-1/4">
+								<div class="play-btn">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Stress) Powerful Stress Reduction.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<h1 class="font-medium text-2xl lg:text-4xl py-3">Powerful Stress Reduction</h1>
-									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
-								</div>
-								<div class="time_baseline text-white items-baseline w-full">
-									<div id="time-left" class="text-end"></div>
+									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
+									<div class="lg:text-2xl flex gap-2 items-center">
+										<span class="font-light">00:00</span>
+										<input type="range" id="seek-slider" max="335"  min="0" value="0">
+										<span class="font-light">06:52</span>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -309,15 +312,16 @@
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
 							<p class="catty_text mb-6">Improve Your Concentration is a guided practice designed to enhance focus and attention by providing techniques and exercises that support individuals in sharpening their concentration skills and mental clarity.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn w-1/4">
+								<div class="play-btn">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<h1 class="font-medium text-2xl lg:text-4xl py-3">Improving Your Concentration</h1>
-									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
-								</div>
-								<div class="time_baseline text-white items-baseline w-full">
-									<div id="time-left" class="text-end"></div>
+									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
+									<div class="lg:text-2xl flex gap-2 items-center">
+										<span class="font-light">00:00</span>
+										<input type="range" id="seek-slider" max="335"  min="0" value="0">
+										<span class="font-light">06:52</span>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -331,18 +335,19 @@
 						<div class="w-1/5 hidden md:block">
 							<img src="./static/images/phones/iPhone 15 Pro Portrait Mockup.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#f4f5fb] shadow border border-gray-200">
 							<p class="catty_text mb-6">Energizing Breath is a guided practice that utilizes specific breathing techniques to revitalize the body and mind, promoting increased energy, alertness, and a sense of vitality.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn w-1/4">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
+								<div class="play-btn">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<h1 class="font-medium text-2xl lg:text-4xl py-3">Energizing Breath</h1>
-									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
-								</div>
-								<div class="time_baseline text-white items-baseline w-full">
-									<div id="time-left" class="text-end"></div>
+									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
+									<div class="lg:text-2xl flex gap-2 items-center">
+										<span class="font-light">00:00</span>
+										<input type="range" id="seek-slider" max="335"  min="0" value="0">
+										<span class="font-light">06:52</span>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -359,15 +364,16 @@
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
 							<p class="catty_text mb-6">Progressive Muscle Relaxation is a systematic practice that leads individuals through a series of muscle groups, helping them release tension and achieve a profound state of physical relaxation and calmness.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn w-1/4">
+								<div class="play-btn">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<h1 class="font-medium text-2xl lg:text-4xl py-3">Progressive Muscle Relaxation</h1>
-									<!-- <p class="lg:text-2xl">Music with soft and Lo-Fi</p> -->
-								</div>
-								<div class="time_baseline text-white items-baseline w-full">
-									<div id="time-left" class="text-end"></div>
+									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
+									<div class="lg:text-2xl flex gap-2 items-center">
+										<span class="font-light">00:00</span>
+										<input type="range" id="seek-slider" max="335"  min="0" value="0">
+										<span class="font-light">06:52</span>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -390,7 +396,7 @@
 					<div class="articles__div-col rounded-lg articles__div-col--1" style="background-image: url('./static/images/blog/blog-01.png');">
 						<small class="articles__category">Meditation</small>
 						<a href="blog.php" class="articles__link">
-							<p class="">Simple meditation strategries for beginners</p>
+							<p class="">Simple meditation strategies for beginners</p>
 							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
 						</a>
 					</div>
@@ -499,7 +505,7 @@
 				audio.pause()
 				audio.load();
 				if (audio.play()) {
-					imgSrc.attr("src", "./static/images/pause.png")
+					imgSrc.attr("src", "./static/images/pause.svg")
 				}
 
 				setInterval(updateTimeLeft, 1000); // Update time every second
@@ -516,5 +522,41 @@
 			timeLeftDisplay.text("Time Left: " + minutes + ":" + (seconds < 10 ? "0" : "") + seconds);
 		}
 	});
+</script>
+
+<script>
+    $(document).ready(function () {
+        var audio = $("#audio-player")[0];
+        var audioSource = $("#audio-source");
+
+        $("#range-control").rangeslider({
+            polyfill: false,
+            onSlideEnd: function (position, value) {
+                audio.currentTime = audio.duration * value / 100;
+            }
+        });
+
+        $(audio).on('timeupdate', function () {
+            var percent = (audio.currentTime / audio.duration) * 100;
+            $("#range-control").val(percent).change();
+            $("#status").text(Math.round(percent * 100) / 100 + "%");
+        });
+
+        $("#btn-play").click(function () {
+            audio.play();
+        });
+
+        $("#btn-stop").click(function () {
+            audio.pause();
+        });
+
+        // Example of changing the audio source dynamically
+        $("#playPauseButton").click(function () {
+            var audioUrl = $(this).data("audio");
+            audioSource.attr("src", audioUrl);
+            audio.load(); // Reload the audio element to apply the changes
+            audio.play();
+        });
+    });
 </script>
 <?php require_once('footer.php') ?>

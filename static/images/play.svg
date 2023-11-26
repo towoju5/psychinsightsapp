@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120px" height="120px" viewBox="0 0 137 144" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="68" height="68" viewBox="0 0 137 144" fill="none">
   <circle cx="46" cy="63" r="34" fill="#207384" />
   <g filter="url(#filter0_d_799_2198)">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M39 48L61.1948 62.7965L39 77.5931V48Z" fill="white" />
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M39 48L61.1948 62.7965L39 77.5931V48Z" stroke="white"
-      stroke-width="2.64224" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- <path fill-rule="evenodd" clip-rule="evenodd" d="M39 48L61.1948 62.7965L39 77.5931V48Z" stroke="white" stroke-width="2.64224" stroke-linecap="round" stroke-linejoin="round" /> -->
   </g>
 </svg>

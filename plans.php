@@ -19,10 +19,9 @@
                             </g>
                         </svg>
                     </span>
-                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem]">Personalized Psychological
+                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem] font-extrabold">Personalized Psychological
                         Resources</h3>
-                    <p class="plans__sub-text text-center lg:text-left">Get access to exclusive evidence-based mental
-                        health assessments to obtain tailored resources and insights specific to you.</p>
+                    <p class="plans__sub-text text-center lg:text-left">Access our exclusive evidence-based mental health assessments to discover personalized insights and resources crafted to meet your unique needs.</p>
                 </div>
                 <div class="plans__col">
                     <span class="plans__svg mx-auto lg:mx-0">
@@ -34,12 +33,9 @@
                             </g>
                         </svg>
                     </span>
-                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem]">Insight Into Your
+                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem] font-extrabold">Insight Into Your
                         Psychological Well-being</h3>
-                    <p class="plans__sub-text text-center lg:text-left">Enjoy an ever-growing library with unlimited
-                        access to your personalized
-                        resources
-                        and strategies, updated every week to ensure relevance and innovation.</p>
+                    <p class="plans__sub-text text-center lg:text-left">Uncover the nuances of your psychological profile, gaining insight into your personal development over time in areas like anxiety, stress, depression, motivation, focus, and sleep. This feedback sheds light on your journey, offering key principles to guide your path to better well-being.</p>
                 </div>
                 <div class="plans__col">
                     <span class="plans__svg mx-auto lg:mx-0">
@@ -55,12 +51,9 @@
                             </g>
                         </svg>
                     </span>
-                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem]">Weekly Resource Refresh
+                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem] font-extrabold">Weekly Resource Refresh
                     </h3>
-                    <p class="plans__sub-text text-center lg:text-left">Enjoy an ever-growing library with unlimited
-                        access to your personalized
-                        resources
-                        and strategies, updated every week to ensure relevance and innovation.</p>
+                    <p class="plans__sub-text text-center lg:text-left">Enjoy an ever-growing library with unlimited access to your personalized resources and strategies. Each week brings fresh, customized content, guaranteeing continuous relevance and cutting-edge innovation for your journey.</p>
                 </div>
                 <div class="plans__col">
                     <span class="plans__svg mx-auto lg:mx-0">
@@ -69,12 +62,9 @@
                                 d="m163.33 107l-48-32a6 6 0 0 0-9.33 5v64a6 6 0 0 0 9.33 5l48-32a6 6 0 0 0 0-10ZM118 132.79V91.21L149.18 112ZM216 42H40a14 14 0 0 0-14 14v112a14 14 0 0 0 14 14h176a14 14 0 0 0 14-14V56a14 14 0 0 0-14-14Zm2 126a2 2 0 0 1-2 2H40a2 2 0 0 1-2-2V56a2 2 0 0 1 2-2h176a2 2 0 0 1 2 2Zm12 40a6 6 0 0 1-6 6H32a6 6 0 0 1 0-12h192a6 6 0 0 1 6 6Z" />
                         </svg>
                     </span>
-                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem]">Exclusive Video Content
+                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem] font-extrabold">Exclusive Video Content
                     </h3>
-                    <p class="plans__sub-text text-center lg:text-left">Gain privileged access to expert video tips
-                        designed to elevate your
-                        psychological
-                        well-being.</p>
+                    <p class="plans__sub-text text-center lg:text-left">Unlock expert video tips, meticulously designed to nurture and enhance your psychological health. Experience the privilege of professional guidance at your fingertips.</p>
                 </div>
                 <div class="plans__col">
                     <span class="plans__svg mx-auto lg:mx-0">
@@ -87,11 +77,9 @@
                             </g>
                         </svg>
                     </span>
-                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem]">Goal Setting & Achievement
+                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem] font-extrabold">Goal Setting & Achievement
                         Tracker</h3>
-                    <p class="plans__sub-text text-center lg:text-left">Set psychological health goals and monitor your
-                        progress with our
-                        intuitive tools.
+                    <p class="plans__sub-text text-center lg:text-left">Unlock expert video tips, meticulously designed to nurture and enhance your psychological health. Experience the privilege of professional guidance at your fingertips.
                     </p>
                 </div>
                 <div class="plans__col">
@@ -101,11 +89,8 @@
                                 d="M4 13h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zm0 8h6c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1zm10 0h6c.55 0 1-.45 1-1v-8c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1v8c0 .55.45 1 1 1zM13 4v4c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1h-6c-.55 0-1 .45-1 1z" />
                         </svg>
                     </span>
-                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem]">Mood Mastery Dashboard</h3>
-                    <p class="plans__sub-text text-center lg:text-left">Track and understand your emotions in real-time
-                        with our insightful mood
-                        tracker
-                        dashboard.
+                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem] font-extrabold">Mood Mastery Dashboard</h3>
+                    <p class="plans__sub-text text-center lg:text-left">Discover the power of understanding your emotions as they happen. Our real-time mood tracker dashboard offers deep insights into your emotional landscape.
                     </p>
                 </div>
                 <div class="plans__col">
@@ -117,11 +102,8 @@
                                 d="M28 6a2 2 0 0 0-2-2h-4V2h-2v2h-8V2h-2v2H6a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h4v-2H6V6h4v2h2V6h8v2h2V6h4v6h2Z" />
                         </svg>
                     </span>
-                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem]">Personalized Reminders</h3>
-                    <p class="plans__sub-text text-center lg:text-left">Gentle nudges and motivational messages tailored
-                        to inspire and encourage
-                        you on your
-                        journey.
+                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem] font-extrabold">Personalized Reminders</h3>
+                    <p class="plans__sub-text text-center lg:text-left">Receive customized reminders and motivational messages. Each nudge is a step towards inspiration and encouragement on your personal well-being journey.
                     </p>
                 </div>
                 <div class="plans__col">
@@ -133,11 +115,8 @@
                             <path fill="none" d="M0 0h36v36H0z" />
                         </svg>
                     </span>
-                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem]">Curated Weekly Digest</h3>
-                    <p class="plans__sub-text text-center lg:text-left">Receive a personalized newsletter packed with
-                        insights, tips, and the
-                        latest in
-                        psychological health, every week.</p>
+                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem] font-extrabold">Insightful Newsletters</h3>
+                    <p class="plans__sub-text text-center lg:text-left">Delve into our regular newsletters, enriched with the latest health insights, practical tips, and cutting-edge psychological trends, all curated to enhance your understanding and personal growth.</p>
                 </div>
                 <div class="plans__col">
                     <span class="plans__svg mx-auto lg:mx-0">
@@ -146,11 +125,9 @@
                                 d="M21 8a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-1.062A8.001 8.001 0 0 1 12 23v-2a6 6 0 0 0 6-6V9A6 6 0 0 0 6 9v7H3a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h1.062a8.001 8.001 0 0 1 15.876 0H21ZM7.76 15.785l1.06-1.696A5.972 5.972 0 0 0 12 15a5.972 5.972 0 0 0 3.18-.911l1.06 1.696A7.963 7.963 0 0 1 12 17a7.962 7.962 0 0 1-4.24-1.215Z" />
                         </svg>
                     </span>
-                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem]">Priority Customer Support
+                    <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem] font-extrabold">Priority Customer Support
                     </h3>
-                    <p class="plans__sub-text text-center lg:text-left">Get your queries answered swiftly with our
-                        dedicated and fast customer
-                        support.</p>
+                    <p class="plans__sub-text text-center lg:text-left">Enjoy the convenience of priority customer support, where swift and dedicated attention ensures your queries are resolved promptly and efficiently, providing a seamless and hassle-free experience.</p>
                 </div>
             </div>
 
