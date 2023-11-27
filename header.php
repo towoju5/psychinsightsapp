@@ -11,7 +11,7 @@
 	<link rel="mask-icon" href="/static/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
-	<title>Psychinsights App &#8212; Everyone deserves a sound mental health.</title>
+	<title>Psychinsights App &#8212; Everyone deserves sound mental health.</title>
 	<link rel="stylesheet" href="static/css/slides.css">
 	<link rel="stylesheet" href="static/css/styles.css">
 	<script src="static/js/tailwind.js"></script>
@@ -22,7 +22,8 @@
 	<script src="./static/js/jquery-3.7.1.min.js"></script>
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 	<link href="//cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" rel="stylesheet" />
-	<script src="//cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+	<!-- <link rel="stylesheet" href="//www.cssscript.com/demo/html5-green-audio-player/dist/css/main.min.css">  -->
+	<!-- <script src="//www.cssscript.com/demo/html5-green-audio-player/dist/js/app.js"></script> -->
 
 </head>
 

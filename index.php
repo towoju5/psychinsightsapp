@@ -1,4 +1,4 @@
-<?php $pageTitle = "Home page";
+<?php $pageTitle = "Psychinsights App";
 require_once('header.php') ?>
 <div class="slides">
 
@@ -7,7 +7,7 @@ require_once('header.php') ?>
 		<main class="mx-8 md:mx-32 min-h-[90vh] lg:mx-48 lg:flex justify-between items-center gap-10 mt-4 bg-right">
 			<!-- // download buttons -->
 			<div class="w-full lg:w-1/2 justify-center md:order-2 py-16 md:py-6">
-				<div class="home__right anim-bounce animee__ group">
+				<div class="home__right anim-bounce animee__group">
 					<img src="./static/images/index/homescreen.png" alt="mockup for an iphone phone" class="home__image home__image--1 fly_in w-1/2">
 					<img src="./static/images/phones/group48095554.png" alt="mockup for an iphone phone" class="home__image home__image--2 fly_out w-1/2">
 				</div>
@@ -229,20 +229,17 @@ require_once('header.php') ?>
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6 md:px-12">Emotions Soothing Heavy Emotions is a guided practice designed to help individuals find calm and inner peace by addressing and soothing overwhelming or intense emotions.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-4">
-								<div class="play-btn">
-									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Depression)  Believe in Yourself.mp3">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] bg-white rounded-xl flex items-center gap-4 green-audio-player w-[92%]">
+								<div class="playPauseBtn play-pause-btn hidden">
+									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer" data-audio="">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
-									<div class="lg:text-2xl flex gap-2 items-center">
-										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="335" min="0" value="0">
-										<span class="font-light">06:52</span>
+									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-1">
+										<audio crossorigin>
+											<source src="./audio/(Depression)  Believe in Yourself.mp3" type="audio/mpeg">
+										</audio>
 									</div>
-									<audio id="audio-player">
-										<source src="" type="audio/mp3" id="audio-source">
-									</audio>
 								</div>
 							</div>
 						</div>
@@ -258,16 +255,16 @@ require_once('header.php') ?>
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Mindfulness Meditation is a guided practice that encourages individuals to cultivate present-moment awareness, reduce stress, and enhance their overall well-being through focused attention and mindful breathing.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
+								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Anxiety)  Mindfulness Meditation.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
-									<div class="lg:text-2xl flex gap-2 items-center">
-										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="412" min="0" value="0">
-										<span class="font-light">06:52</span>
+									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-2">
+										<audio crossorigin>
+											<source src="./audio/(Anxiety)  Mindfulness Meditation.mp3" type="audio/mpeg">
+										</audio>
 									</div>
 								</div>
 							</div>
@@ -284,16 +281,16 @@ require_once('header.php') ?>
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Powerful Stress Reduction is a guided practice that empowers individuals with effective techniques to significantly reduce stress, fostering relaxation, mental clarity, and emotional balance.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
+								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Stress) Powerful Stress Reduction.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
-									<div class="lg:text-2xl flex gap-2 items-center">
-										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="335" min="0" value="0">
-										<span class="font-light">06:52</span>
+									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-3">
+										<audio crossorigin>
+											<source src="./audio/(Stress) Powerful Stress Reduction.mp3" type="audio/mpeg">
+										</audio>
 									</div>
 								</div>
 							</div>
@@ -310,16 +307,16 @@ require_once('header.php') ?>
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Improve Your Concentration is a guided practice designed to enhance focus and attention by providing techniques and exercises that support individuals in sharpening their concentration skills and mental clarity.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
+								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
-									<div class="lg:text-2xl flex gap-2 items-center">
-										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="335" min="0" value="0">
-										<span class="font-light">06:52</span>
+									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-4">
+										<audio crossorigin>
+											<source src="./audio/(Focus_Concentraion) Improve Your Concentration.mp3" type="audio/mpeg">
+										</audio>
 									</div>
 								</div>
 							</div>
@@ -336,16 +333,16 @@ require_once('header.php') ?>
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Energizing Breath is a guided practice that utilizes specific breathing techniques to revitalize the body and mind, promoting increased energy, alertness, and a sense of vitality.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn">
-									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
+								<div class="playPauseBtn play-pause-btn hidden">
+									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
-									<div class="lg:text-2xl flex gap-2 items-center">
-										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="335" min="0" value="0">
-										<span class="font-light">06:52</span>
+									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-5">
+										<audio crossorigin>
+											<source src="./audio/(Motivation) Energising Breath.mp3" type="audio/mpeg">
+										</audio>
 									</div>
 								</div>
 							</div>
@@ -362,16 +359,16 @@ require_once('header.php') ?>
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Progressive Muscle Relaxation is a systematic practice that leads individuals through a series of muscle groups, helping them release tension and achieve a profound state of physical relaxation and calmness.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
-								<div class="play-btn">
-									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
+								<div class="playPauseBtn play-pause-btn hidden">
+									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
-									<div class="lg:text-2xl flex gap-2 items-center">
-										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="335" min="0" value="0">
-										<span class="font-light">06:52</span>
+									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-0">
+										<audio crossorigin>
+											<source src="./audio/(Focus_Concentraion) Improve Your Concentration.mp3" type="audio/mpeg">
+										</audio>
 									</div>
 								</div>
 							</div>
@@ -445,67 +442,20 @@ require_once('header.php') ?>
 		</div>
 	</section>
 </div>
-<script>
-	$(document).ready(function() {
-		var audio = $("#audio-player")[0];
-		var audioSource = $("#audio-source");
-		var timeLeftDisplay = $("#time-left");
-		var currentPlayingAudio = $("#audio-source").attr("src")
-		console.log(currentPlayingAudio);
-		$(".playPauseButton").click(function() {
-			var audioUrl = $(this).data("audio");
-			imgSrc = $(this);
-			if (audio.paused) {
-				audioSource.attr("src", audioUrl);
-				$(".playPauseButton").attr("src", "./static/images/play.svg")
-				audio.pause()
-				audio.load();
-				if (audio.play()) {
-					imgSrc.attr("src", "./static/images/pause.svg")
-				}
-				setInterval(updateTimeLeft, 1000); // Update time every second
-			} else {
-				audio.pause()
-				imgSrc.attr("src", "./static/images/play.svg")
-			}
-		});
 
-		function updateTimeLeft() {
-			var timeLeft = audio.duration - audio.currentTime;
-			var minutes = Math.floor(timeLeft / 60);
-			var seconds = Math.floor(timeLeft % 60);
-			timeLeftDisplay.text("Time Left: " + minutes + ":" + (seconds < 10 ? "0" : "") + seconds);
-		}
-	});
-</script>
 <script>
-	$(document).ready(function() {
-		var audio = $("#audio-player")[0];
-		var audioSource = $("#audio-source");
-		$("#range-control").rangeslider({
-			polyfill: false,
-			onSlideEnd: function(position, value) {
-				audio.currentTime = audio.duration * value / 100;
-			}
-		});
-		$(audio).on('timeupdate', function() {
-			var percent = (audio.currentTime / audio.duration) * 100;
-			$("#range-control").val(percent).change();
-			$("#status").text(Math.round(percent * 100) / 100 + "%");
-		});
-		$("#btn-play").click(function() {
-			audio.play();
-		});
-		$("#btn-stop").click(function() {
-			audio.pause();
-		});
-		// Example of changing the audio source dynamically
-		$("#playPauseButton").click(function() {
-			var audioUrl = $(this).data("audio");
-			audioSource.attr("src", audioUrl);
-			audio.load(); // Reload the audio element to apply the changes
-			audio.play();
-		});
+$(document).ready(function() {
+    // Add click event listener to elements with class "playPauseBtn"
+    $('.playPauseBtn').on('click', function() {
+        // Find the closest ancestor with class "play-pause-btn" and trigger a click
+        $(this).closest('.play-pause-btn').click();
+    });
+});
+
+	document.addEventListener("DOMContentLoaded", function() {
+		for (let index = 0; index < 6; index++) {
+			new GreenAudioPlayer(".audio_player-"+index);
+		}
 	});
 </script>
 <?php require_once('footer.php') ?>

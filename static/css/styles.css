@@ -35,6 +35,11 @@ body {
 	background: #E2F8F9;
 }
 
+.green-audio-player {
+	/* width: 100% !important; */
+	height: 100% !important;
+}
+
 a:hover,
 li:hover {
 	text-decoration: none;
@@ -1827,10 +1832,10 @@ nav {
 }
 
 .anim-bounce {
-	animation: bounce 2s infinite;
+	animation: ___bounce 2s infinite;
 }
 
-@keyframes bounce {
+@keyframes ___bounce {
 
 	0%,
 	100% {
