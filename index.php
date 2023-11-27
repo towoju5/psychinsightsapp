@@ -1,6 +1,8 @@
 <?php $pageTitle = "Home page";
 require_once('header.php') ?>
 <div class="slides">
+
+	<!-- hero section -->
 	<section id="hero-section">
 		<main class="mx-8 md:mx-32 min-h-[90vh] lg:mx-48 lg:flex justify-between items-center gap-10 mt-4 bg-right">
 			<!-- // download buttons -->
@@ -79,6 +81,8 @@ require_once('header.php') ?>
 			</div>
 		</main>
 	</section>
+
+	<!-- steps of use -->
 	<section id="ball-section" class="bg-white shadow-lg ">
 		<div class="grid md:grid-cols-2 px-[4rem] py-[3rem] gap-10 items-center lg:mx-48">
 			<div class="w-full px-3 py-2">
@@ -121,6 +125,8 @@ require_once('header.php') ?>
 			</div>
 		</div>
 	</section>
+
+	<!-- testimonial section -->
 	<section class="testimonial-section ">
 		<div class="stories">
 			<div class="stories__inner">
@@ -162,6 +168,8 @@ require_once('header.php') ?>
 			</div>
 		</div>
 	</section>
+
+	<!-- budha section -->
 	<section class="meditation ">
 		<div class="stories">
 			<div class="stories__inner">
@@ -187,6 +195,8 @@ require_once('header.php') ?>
 			</div>
 		</div>
 	</section>
+
+	<!-- mp3 audio section -->
 	<section id="categories-section" class="categories lg:mb-32 ">
 		<div class="categories__inner pt-10 bg-white">
 			<div class="mx-4 mb-4 py-5">
@@ -214,7 +224,7 @@ require_once('header.php') ?>
 			<div id="tabContentExample">
 				<div class="rounded-lg bg-gray-50 lg:gap-10" id="dashboard-Depression" role="tabpanel" aria-labelledby="profile-tab-Depression">
 					<div class="flex w-full items-center gap-10 mx-4">
-						<div class="w-1/5 hidden md:block" data-te-animation-init data-te-animation-start="onShow" data-te-animation-reset="true" data-te-animation="[fly-in-right_0.5s]">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/phones/mock up dashboard.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
@@ -236,19 +246,19 @@ require_once('header.php') ?>
 								</div>
 							</div>
 						</div>
-						<div class="w-1/5 hidden md:block animate-out slide-out-to-top slide-out-to-left">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
 							<img src="./static/images/phones/mockup journey.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
 				</div>
 				<div class="hidden p-4 rounded-lg bg-gray-50" id="dashboard-Anxiety" role="tabpanel" aria-labelledby="dashboard-tab-Anxiety">
 					<div class="flex w-full items-center gap-10">
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/phones/iPhone 15 Pro Portrait Mockup.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow" style="background-image: url('./static/images/video-card-bg.png');">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Mindfulness Meditation is a guided practice that encourages individuals to cultivate present-moment awareness, reduce stress, and enhance their overall well-being through focused attention and mindful breathing.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="play-btn">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Anxiety)  Mindfulness Meditation.mp3">
 								</div>
@@ -262,19 +272,19 @@ require_once('header.php') ?>
 								</div>
 							</div>
 						</div>
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
 							<img src="./static/images/phones/right-anxiety-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
 				</div>
 				<div class="hidden p-4 rounded-lg bg-gray-50" id="settings-Stress" role="tabpanel" aria-labelledby="settings-tab-Stress">
 					<div class="flex w-full items-center gap-10">
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/phones/left-stress-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Powerful Stress Reduction is a guided practice that empowers individuals with effective techniques to significantly reduce stress, fostering relaxation, mental clarity, and emotional balance.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="play-btn">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Stress) Powerful Stress Reduction.mp3">
 								</div>
@@ -288,19 +298,19 @@ require_once('header.php') ?>
 								</div>
 							</div>
 						</div>
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
 							<img src="./static/images/phones/right-stress-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
 				</div>
 				<div class="hidden p-4 rounded-lg bg-gray-50" id="contacts-Sleep" role="tabpanel" aria-labelledby="contacts-tab-Sleep">
 					<div class="flex w-full items-center gap-10">
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/phones/left-sleep-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Improve Your Concentration is a guided practice designed to enhance focus and attention by providing techniques and exercises that support individuals in sharpening their concentration skills and mental clarity.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="play-btn">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
@@ -314,17 +324,17 @@ require_once('header.php') ?>
 								</div>
 							</div>
 						</div>
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
 							<img src="./static/images/phones/right-sleep-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
 				</div>
 				<div class="hidden p-4 rounded-lg bg-gray-50" id="settings-Motivation" role="tabpanel" aria-labelledby="settings-tab-Motivation">
 					<div class="flex w-full items-center gap-10">
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/phones/iPhone 15 Pro Portrait Mockup.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#f4f5fb] shadow border border-gray-200">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Energizing Breath is a guided practice that utilizes specific breathing techniques to revitalize the body and mind, promoting increased energy, alertness, and a sense of vitality.</p>
 							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="play-btn">
@@ -340,19 +350,19 @@ require_once('header.php') ?>
 								</div>
 							</div>
 						</div>
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
 							<img src="./static/images/phones/right-anxiety-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
 				</div>
 				<div class="hidden p-4 rounded-lg bg-gray-50" id="contacts-Concentration" role="tabpanel" aria-labelledby="contacts-tab-Concentration">
 					<div class="flex w-full items-center gap-10">
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/phones/left-concentration-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-white shadow border border-gray-200">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Progressive Muscle Relaxation is a systematic practice that leads individuals through a series of muscle groups, helping them release tension and achieve a profound state of physical relaxation and calmness.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-[#A6C1ED] rounded-xl flex items-center gap-10 lg:gap-20">
+							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] lg:px-32 bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="play-btn">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
@@ -366,7 +376,7 @@ require_once('header.php') ?>
 								</div>
 							</div>
 						</div>
-						<div class="w-1/5 hidden md:block">
+						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
 							<img src="./static/images/phones/right-concentration-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
@@ -376,7 +386,6 @@ require_once('header.php') ?>
 	</section>
 
 	<!-- // latest articles -->
-
 	<section class="articles pb-12">
 		<div class="articles__inner">
 			<div class="text-center text-zinc-800 text-5xl font-bold font-['Lato'] py-6">Latest articles</div>

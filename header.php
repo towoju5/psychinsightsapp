@@ -16,12 +16,14 @@
 	<link rel="stylesheet" href="static/css/styles.css">
 	<script src="static/js/tailwind.js"></script>
 	<!-- <script src="//cdn.tailwindcss.com"></script> -->
-	<link href="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowsbite.min.css?v=<?= md5(date('d-m-y H:i'))?>">
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css?v=<?= md5(date('d-m-y H:i'))?>" />
+	<link href="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowsbite.min.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
 	<link href="//fonts.cdnfonts.com/css/jost" rel="stylesheet">
 	<script src="./static/js/jquery-3.7.1.min.js"></script>
-	<link href="//cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css?v=<?= md5(date('d-m-y H:i'))?>" rel="stylesheet" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link href="//cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" rel="stylesheet" />
 	<script src="//cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+
 </head>
 
 <body>
