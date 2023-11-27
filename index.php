@@ -1,10 +1,8 @@
 <?php $pageTitle = "Home page";
 require_once('header.php') ?>
-
 <div class="slides">
 	<section id="hero-section">
 		<main class="mx-8 md:mx-32 min-h-[90vh] lg:mx-48 lg:flex justify-between items-center gap-10 mt-4 bg-right">
-
 			<!-- // download buttons -->
 			<div class="w-full lg:w-1/2 justify-center md:order-2 py-16 md:py-6">
 				<div class="home__right anim-bounce animee__ group">
@@ -12,7 +10,6 @@ require_once('header.php') ?>
 					<img src="./static/images/phones/group48095554.png" alt="mockup for an iphone phone" class="home__image home__image--2 fly_out w-1/2">
 				</div>
 			</div>
-
 			<div class="lg:w-1/2 md:order-1 md:pb-6">
 				<div id="carouselExampleCrossfade" class="relative" data-te-carousel-init data-te-ride="carousel">
 					<!--Carousel items-->
@@ -71,7 +68,6 @@ require_once('header.php') ?>
 						</div>
 					</div>
 				</div>
-
 				<div class="gap-4 flex justify-center lg:justify-start">
 					<a href="#" class="home__link">
 						<img src="static/images/applestore.svg" alt="this is an apple store icon">
@@ -83,7 +79,6 @@ require_once('header.php') ?>
 			</div>
 		</main>
 	</section>
-
 	<section id="ball-section" class="bg-white shadow-lg ">
 		<div class="grid md:grid-cols-2 px-[4rem] py-[3rem] gap-10 items-center lg:mx-48">
 			<div class="w-full px-3 py-2">
@@ -126,8 +121,6 @@ require_once('header.php') ?>
 			</div>
 		</div>
 	</section>
-
-
 	<section class="testimonial-section ">
 		<div class="stories">
 			<div class="stories__inner">
@@ -151,7 +144,6 @@ require_once('header.php') ?>
 						</div>
 					</div>
 				</div>
-
 				<!-- scroll  arrow -->
 				<div class="stories__row stories__row-chevron">
 					<div class="button-group">
@@ -170,7 +162,6 @@ require_once('header.php') ?>
 			</div>
 		</div>
 	</section>
-
 	<section class="meditation ">
 		<div class="stories">
 			<div class="stories__inner">
@@ -196,7 +187,6 @@ require_once('header.php') ?>
 			</div>
 		</div>
 	</section>
-
 	<section id="categories-section" class="categories lg:mb-32 ">
 		<div class="categories__inner pt-10 bg-white">
 			<div class="mx-4 mb-4 py-5">
@@ -237,10 +227,9 @@ require_once('header.php') ?>
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
 									<div class="lg:text-2xl flex gap-2 items-center">
 										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="335"  min="0" value="0">
+										<input type="range" id="seek-slider" max="335" min="0" value="0">
 										<span class="font-light">06:52</span>
 									</div>
-
 									<audio id="audio-player">
 										<source src="" type="audio/mp3" id="audio-source">
 									</audio>
@@ -267,7 +256,7 @@ require_once('header.php') ?>
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
 									<div class="lg:text-2xl flex gap-2 items-center">
 										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="412"  min="0" value="0">
+										<input type="range" id="seek-slider" max="412" min="0" value="0">
 										<span class="font-light">06:52</span>
 									</div>
 								</div>
@@ -293,7 +282,7 @@ require_once('header.php') ?>
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
 									<div class="lg:text-2xl flex gap-2 items-center">
 										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="335"  min="0" value="0">
+										<input type="range" id="seek-slider" max="335" min="0" value="0">
 										<span class="font-light">06:52</span>
 									</div>
 								</div>
@@ -319,7 +308,7 @@ require_once('header.php') ?>
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
 									<div class="lg:text-2xl flex gap-2 items-center">
 										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="335"  min="0" value="0">
+										<input type="range" id="seek-slider" max="335" min="0" value="0">
 										<span class="font-light">06:52</span>
 									</div>
 								</div>
@@ -345,7 +334,7 @@ require_once('header.php') ?>
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
 									<div class="lg:text-2xl flex gap-2 items-center">
 										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="335"  min="0" value="0">
+										<input type="range" id="seek-slider" max="335" min="0" value="0">
 										<span class="font-light">06:52</span>
 									</div>
 								</div>
@@ -371,7 +360,7 @@ require_once('header.php') ?>
 									<h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1>
 									<div class="lg:text-2xl flex gap-2 items-center">
 										<span class="font-light">00:00</span>
-										<input type="range" id="seek-slider" max="335"  min="0" value="0">
+										<input type="range" id="seek-slider" max="335" min="0" value="0">
 										<span class="font-light">06:52</span>
 									</div>
 								</div>
@@ -386,64 +375,23 @@ require_once('header.php') ?>
 		</div>
 	</section>
 
+	<!-- // latest articles -->
 	<section class="articles pb-12">
 		<div class="articles__inner">
-
 			<div class="text-center text-zinc-800 text-5xl font-bold font-['Lato'] py-6">Latest articles</div>
-
 			<div class="articles__row articles__row-content">
 				<div class="gap-10 grid md:grid-cols-2 lg:grid-cols-3 lg:gap-16 py-10">
-					<div class="articles__div-col rounded-lg articles__div-col--1" style="background-image: url('./static/images/blog/blog-01.png');">
-						<small class="articles__category">Meditation</small>
-						<a href="blog.php" class="articles__link">
-							<p class="">Simple meditation strategies for beginners</p>
-							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-						</a>
-					</div>
-
-					<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-02.png');">
-						<small class="articles__category">Depression</small>
-						<a href="blog.php" class="articles__link">
-							<p class="">Simple meditation strategries for beginners</p>
-							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-						</a>
-					</div>
-
-					<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-03.png');">
-						<small class="articles__category">Depression</small>
-						<a href="blog.php" class="articles__link">
-							<p class="">Simple meditation strategries for beginners</p>
-							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-						</a>
-					</div>
-
-					<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-04.png');">
-						<small class="articles__category">Focus</small>
-						<a href="blog.php" class="articles__link">
-							<p class="">Simple meditation strategries for beginners</p>
-							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-						</a>
-					</div>
-
-					<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-05.png');">
-						<small class="articles__category">Stress</small>
-						<a href="blog.php" class="articles__link">
-							<p class="">Simple meditation strategries for beginners</p>
-							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-						</a>
-					</div>
-
-					<div class="articles__div-col articles__div-col--1 rounded-lg" style="background-image: url('./static/images/blog/blog-06.png');">
-						<small class="articles__category">Focus</small>
-						<a href="blog.php" class="articles__link">
-							<p class="">Simple meditation strategries for beginners</p>
-							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-						</a>
-					</div>
+					<?php foreach ($blogs as $key => $blog) : ?>
+						<div class="articles__div-col rounded-lg articles__div-col--1" style="background-image: url('<?= image_url($blog['image']) ?>'); width:100%;">
+							<small class="articles__category"><?= $blog['category'] ?></small>
+							<a href="blog.php?slug=<?= $key ?>" class="articles__link gap-4">
+								<p class=""><?= $blog['title'] ?></p>
+								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+							</a>
+						</div>
+					<?php endforeach ?>
 				</div>
-
 			</div>
-
 		</div>
 	</section>
 
@@ -486,7 +434,6 @@ require_once('header.php') ?>
 		</div>
 	</section>
 </div>
-
 <script>
 	$(document).ready(function() {
 		var audio = $("#audio-player")[0];
@@ -494,11 +441,9 @@ require_once('header.php') ?>
 		var timeLeftDisplay = $("#time-left");
 		var currentPlayingAudio = $("#audio-source").attr("src")
 		console.log(currentPlayingAudio);
-
 		$(".playPauseButton").click(function() {
 			var audioUrl = $(this).data("audio");
 			imgSrc = $(this);
-
 			if (audio.paused) {
 				audioSource.attr("src", audioUrl);
 				$(".playPauseButton").attr("src", "./static/images/play.svg")
@@ -507,7 +452,6 @@ require_once('header.php') ?>
 				if (audio.play()) {
 					imgSrc.attr("src", "./static/images/pause.svg")
 				}
-
 				setInterval(updateTimeLeft, 1000); // Update time every second
 			} else {
 				audio.pause()
@@ -523,40 +467,34 @@ require_once('header.php') ?>
 		}
 	});
 </script>
-
 <script>
-    $(document).ready(function () {
-        var audio = $("#audio-player")[0];
-        var audioSource = $("#audio-source");
-
-        $("#range-control").rangeslider({
-            polyfill: false,
-            onSlideEnd: function (position, value) {
-                audio.currentTime = audio.duration * value / 100;
-            }
-        });
-
-        $(audio).on('timeupdate', function () {
-            var percent = (audio.currentTime / audio.duration) * 100;
-            $("#range-control").val(percent).change();
-            $("#status").text(Math.round(percent * 100) / 100 + "%");
-        });
-
-        $("#btn-play").click(function () {
-            audio.play();
-        });
-
-        $("#btn-stop").click(function () {
-            audio.pause();
-        });
-
-        // Example of changing the audio source dynamically
-        $("#playPauseButton").click(function () {
-            var audioUrl = $(this).data("audio");
-            audioSource.attr("src", audioUrl);
-            audio.load(); // Reload the audio element to apply the changes
-            audio.play();
-        });
-    });
+	$(document).ready(function() {
+		var audio = $("#audio-player")[0];
+		var audioSource = $("#audio-source");
+		$("#range-control").rangeslider({
+			polyfill: false,
+			onSlideEnd: function(position, value) {
+				audio.currentTime = audio.duration * value / 100;
+			}
+		});
+		$(audio).on('timeupdate', function() {
+			var percent = (audio.currentTime / audio.duration) * 100;
+			$("#range-control").val(percent).change();
+			$("#status").text(Math.round(percent * 100) / 100 + "%");
+		});
+		$("#btn-play").click(function() {
+			audio.play();
+		});
+		$("#btn-stop").click(function() {
+			audio.pause();
+		});
+		// Example of changing the audio source dynamically
+		$("#playPauseButton").click(function() {
+			var audioUrl = $(this).data("audio");
+			audioSource.attr("src", audioUrl);
+			audio.load(); // Reload the audio element to apply the changes
+			audio.play();
+		});
+	});
 </script>
 <?php require_once('footer.php') ?>

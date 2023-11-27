@@ -12,16 +12,15 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 	<title>Psychinsights App &#8212; Everyone deserves a sound mental health.</title>
-	<link rel="canonical" href="//psychinsights-1-k5009643.deta.app" />
 	<link rel="stylesheet" href="static/css/slides.css">
 	<link rel="stylesheet" href="static/css/styles.css">
 	<script src="static/js/tailwind.js"></script>
 	<!-- <script src="//cdn.tailwindcss.com"></script> -->
 	<link href="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowsbite.min.css?v=<?= md5(date('d-m-y H:i'))?>">
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css?v=<?= md5(date('d-m-y H:i'))?>" />
-	<link href="https://fonts.cdnfonts.com/css/jost" rel="stylesheet">
+	<link href="//fonts.cdnfonts.com/css/jost" rel="stylesheet">
 	<script src="./static/js/jquery-3.7.1.min.js"></script>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css?v=<?= md5(date('d-m-y H:i'))?>" rel="stylesheet" />
+	<link href="//cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css?v=<?= md5(date('d-m-y H:i'))?>" rel="stylesheet" />
 	<script src="//cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
 </head>
 
