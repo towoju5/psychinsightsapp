@@ -234,7 +234,6 @@ require_once('header.php') ?>
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer" data-audio="">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
 									<div class="lg:text-2xl flex gap-2 items-center audio_player-1">
 										<audio crossorigin>
 											<source src="./audio/(Depression)  Believe in Yourself.mp3" type="audio/mpeg">
@@ -260,7 +259,6 @@ require_once('header.php') ?>
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Anxiety)  Mindfulness Meditation.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
 									<div class="lg:text-2xl flex gap-2 items-center audio_player-2">
 										<audio crossorigin>
 											<source src="./audio/(Anxiety)  Mindfulness Meditation.mp3" type="audio/mpeg">
@@ -286,7 +284,6 @@ require_once('header.php') ?>
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Stress) Powerful Stress Reduction.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
 									<div class="lg:text-2xl flex gap-2 items-center audio_player-3">
 										<audio crossorigin>
 											<source src="./audio/(Stress) Powerful Stress Reduction.mp3" type="audio/mpeg">
@@ -312,7 +309,6 @@ require_once('header.php') ?>
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
 									<div class="lg:text-2xl flex gap-2 items-center audio_player-4">
 										<audio crossorigin>
 											<source src="./audio/(Focus_Concentraion) Improve Your Concentration.mp3" type="audio/mpeg">
@@ -338,7 +334,6 @@ require_once('header.php') ?>
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
 									<div class="lg:text-2xl flex gap-2 items-center audio_player-5">
 										<audio crossorigin>
 											<source src="./audio/(Motivation) Energising Breath.mp3" type="audio/mpeg">
@@ -364,7 +359,6 @@ require_once('header.php') ?>
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<!-- <h1 class="font-medium text-2xl lg:text-4xl py-3">Soothing Heavy</h1> -->
 									<div class="lg:text-2xl flex gap-2 items-center audio_player-0">
 										<audio crossorigin>
 											<source src="./audio/(Focus_Concentraion) Improve Your Concentration.mp3" type="audio/mpeg">

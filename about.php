@@ -3,7 +3,7 @@
 <section id="about__hero-section">
 	<div class="center-container">
 		<div class="center-content">
-			<h1 class="text-white text-[24px]">About us</h1>
+			<h1 class="text-white text-[24px]">About Us</h1>
 			<h1 class="text-white font-bold text-[72px]">Who We Are</h1>
 		</div>
 	</div>
