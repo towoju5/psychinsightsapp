@@ -55,19 +55,6 @@ require_once('header.php') ?>
 									confidence&period;</small>
 							</div>
 						</div>
-						<!--Third item-->
-						<div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-							<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
-								<h1 class="home__heading home__heading-empower">Get useful insight and optimise your
-									mental health </h1>
-								<small class="home__small home__small-empower">Uncover deep insights to guide your
-									life&apos;s
-									journey&period;
-									We provide
-									strategries and perspectives to help you take charge & thrive with
-									confidence&period;</small>
-							</div>
-						</div>
 					</div>
 				</div>
 				<div class="gap-4 flex justify-center lg:justify-start">
