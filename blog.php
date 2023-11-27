@@ -1,7 +1,21 @@
 <?php $pageTitle = "Blog page";
 require_once('header.php');
-$slug = $_REQUEST['slug'] ?? '';
-$blog = $blogs[$slug];
+$slug = "";
+$blog = null;
+
+if (isset($_REQUEST['slug'])) {
+    $slug = $_REQUEST['slug'] ?? '';
+
+    // Check if the blog with the specified slug exists
+    if (isset($blogs[$slug])) {
+        $blog = $blogs[$slug];
+    }
+}
+// Check if $slug is null or $blog is empty
+if ($slug === "" || $blog === null) {
+    // Assign a default blog when there is no valid slug or blog
+    $blog = $blogs['no-slug'];
+}
 ?>
 <section class="mt-10">
 	<div class="blog__inner py-10 lg:py-20">
@@ -57,6 +71,8 @@ $blog = $blogs[$slug];
 		</div>
 	</div>
 </section>
+
+<!-- latest articles -->
 <section class="articles pb-12">
 	<div class="articles__inner">
 
@@ -64,7 +80,7 @@ $blog = $blogs[$slug];
 
 		<div class="articles__row articles__row-content">
 			<div class="gap-10 grid md:grid-cols-2 lg:grid-cols-3 lg:gap-16 py-10">
-				<?php foreach ($blogs as $key => $blog) : ?>
+				<?php foreach ($blogs as $key => $blog) :  if($key != 'no-slug'): ?>
 					<div class="articles__div-col rounded-lg articles__div-col--1" style="background-image: url('<?= image_url($blog['image']) ?>'); width:100%;">
 						<small class="articles__category"><?= $blog['category'] ?></small>
 						<a href="blog.php?slug=<?= $key ?>" class="articles__link gap-4">
@@ -72,7 +88,7 @@ $blog = $blogs[$slug];
 							<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
 						</a>
 					</div>
-				<?php endforeach ?>
+				<?php endif; endforeach ?>
 			</div>
 
 		</div>

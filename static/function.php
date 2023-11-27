@@ -1418,14 +1418,14 @@ $blogs = [
 	  </div>"
 	],
 
-	// "xxunraveling" => [
-	// 	"title" 	=> "Unraveling Self-Sabotage: How To Stop Screwing Yourself Over",
-	// 	"date" 		=> "19th Jan. 2021",
-	// 	"read" 		=> "5min read",
-	// 	"image" 	=> "blog-01.png",
-	// 	"category" 	=>  "Depression",
-	// 	"message" 	=>  ""
-	// ],
+	"no-slug" => [
+		"title" 	=> "404 not found",
+		"date" 		=> "1st Jan. 1999",
+		"read" 		=> "0min read",
+		"image" 	=> "404-error.png",
+		"category" 	=>  "404 -error",
+		"message" 	=>  "<p class='font-light text-6xl text-center'>Invalid blog post. 404 not found.</p>"
+	],
 ];
 
 

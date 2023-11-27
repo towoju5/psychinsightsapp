@@ -376,20 +376,22 @@ require_once('header.php') ?>
 	</section>
 
 	<!-- // latest articles -->
+
 	<section class="articles pb-12">
 		<div class="articles__inner">
 			<div class="text-center text-zinc-800 text-5xl font-bold font-['Lato'] py-6">Latest articles</div>
 			<div class="articles__row articles__row-content">
 				<div class="gap-10 grid md:grid-cols-2 lg:grid-cols-3 lg:gap-16 py-10">
-					<?php foreach ($blogs as $key => $blog) : ?>
-						<div class="articles__div-col rounded-lg articles__div-col--1" style="background-image: url('<?= image_url($blog['image']) ?>'); width:100%;">
-							<small class="articles__category"><?= $blog['category'] ?></small>
-							<a href="blog.php?slug=<?= $key ?>" class="articles__link gap-4">
-								<p class=""><?= $blog['title'] ?></p>
-								<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
-							</a>
-						</div>
-					<?php endforeach ?>
+					<?php foreach ($blogs as $key => $blog) :  if ($key != 'no-slug') : ?>
+							<div class="articles__div-col rounded-lg articles__div-col--1" style="background-image: url('<?= image_url($blog['image']) ?>'); width:100%;">
+								<small class="articles__category"><?= $blog['category'] ?></small>
+								<a href="blog.php?slug=<?= $key ?>" class="articles__link gap-4">
+									<p class=""><?= $blog['title'] ?></p>
+									<img src="static/images/chevron-right.svg" alt="chevron pointing right" class="articles__chevron">
+								</a>
+							</div>
+					<?php endif;
+					endforeach ?>
 				</div>
 			</div>
 		</div>
