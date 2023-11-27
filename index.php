@@ -202,22 +202,22 @@ require_once('header.php') ?>
 			<div class="mx-4 mb-4 py-5">
 				<ul class="flex flex-wrap justify-center gap-6 -mb-px text-sm font-bold text-center text-gray-500" id="tabs-example" role="tablist">
 					<li class="mr-2" role="presentation">
-						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="profile-tab-Depression" type="button" role="tab" aria-controls="dashboard-Depression" aria-selected="false">Depression</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3 hover:bg-[#1E6C7C] hover:text-white" id="profile-tab-Depression" type="button" role="tab" aria-controls="dashboard-Depression" aria-selected="false">Depression</button>
 					</li>
 					<li class="mr-2" role="presentation">
-						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="dashboard-tab-Anxiety" type="button" role="tab" aria-controls="dashboard-Anxiety" aria-selected="false">Anxiety</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3 hover:bg-[#1E6C7C] hover:text-white" id="dashboard-tab-Anxiety" type="button" role="tab" aria-controls="dashboard-Anxiety" aria-selected="false">Anxiety</button>
 					</li>
 					<li class="mr-2" role="presentation">
-						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="settings-tab-Stress" type="button" role="tab" aria-controls="settings-Stress" aria-selected="false">Stress</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3 hover:bg-[#1E6C7C] hover:text-white" id="settings-tab-Stress" type="button" role="tab" aria-controls="settings-Stress" aria-selected="false">Stress</button>
 					</li>
 					<li role="presentation">
-						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="contacts-tab-Sleep" type="button" role="tab" aria-controls="contacts-Sleep" aria-selected="false">Sleep</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3 hover:bg-[#1E6C7C] hover:text-white" id="contacts-tab-Sleep" type="button" role="tab" aria-controls="contacts-Sleep" aria-selected="false">Sleep</button>
 					</li>
 					<li class="mr-2" role="presentation">
-						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="settings-tab-Motivation" type="button" role="tab" aria-controls="settings-Motivation" aria-selected="false">Motivation</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3 hover:bg-[#1E6C7C] hover:text-white" id="settings-tab-Motivation" type="button" role="tab" aria-controls="settings-Motivation" aria-selected="false">Motivation</button>
 					</li>
 					<li role="presentation">
-						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3" id="contacts-tab-Concentration" type="button" role="tab" aria-controls="contacts-Concentration" aria-selected="false">Concentration</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3 hover:bg-[#1E6C7C] hover:text-white" id="contacts-tab-Concentration" type="button" role="tab" aria-controls="contacts-Concentration" aria-selected="false">Concentration</button>
 					</li>
 				</ul>
 			</div>
