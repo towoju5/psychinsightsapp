@@ -21,7 +21,12 @@
 	<link href="//fonts.cdnfonts.com/css/jost" rel="stylesheet">
 	<script src="./static/js/jquery-3.7.1.min.js"></script>
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-	<link href="//cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+	<link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'>
+	<link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css'>
 	<!-- <link rel="stylesheet" href="//www.cssscript.com/demo/html5-green-audio-player/dist/css/main.min.css">  -->
 	<!-- <script src="//www.cssscript.com/demo/html5-green-audio-player/dist/js/app.js"></script> -->
 

@@ -120,23 +120,33 @@ require_once('header.php') ?>
 				<div class="stories__row">
 					<h2 class="stories__heading">Stories you'd love to read</h2>
 				</div>
-				<div class="carousel py-3 glide">
-					<div data-glide-el="track" class="glide__track js-stories stories__row stories__row-reviews" id="js-stories">
-						<div class="glide__slides" style="overflow: unset!important;">
-							<?php foreach ($testimonials as $k => $t) : ?>
-								<div class="reviews js-reviews glide__slide">
-									<div class="reviews__svg-container">
-										<img src="./static/images/quote-icon.svg" alt="quote" class="mx-auto w-[63px]">
-									</div>
-									<p class="reviews__text"><?= substr($t['message'], 0, 200) . '...' ?>.
-										<br> <span data-te-toggle="modal" data-te-target="#exampleModalLg" data-te-ripple-init data-te-ripple-color="light" class="openTestimonialModal text-blue-500 hover:cursor-pointer" data-message="<?= $t['message'] ?>">...See more</span>
-									</p>
-									<p class="reviews__author"><strong><?= $t['name'] ?></strong></p>
+				<div class="carousel py-3">
+					<div class="js-stories stories__row stories__row-reviews" id="gallery">
+						<?php foreach ($testimonials as $k => $t) : ?>
+							<div class="reviews js-reviews">
+								<div class="reviews__svg-container">
+									<svg class="reviews__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+										<path fill="#207384" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Z" />
+									</svg>
 								</div>
-							<?php endforeach ?>
-						</div>
+								<p class="reviews__text">With psychinsights, we have finally accomplished things that have
+									been waiting forever to get done.</p>
+								<p class="reviews__author"><strong>Grayson Morgan</strong></p>
+							</div>
+							<div class="reviews js-reviews">
+								<div class="reviews__svg-container">
+									<svg class="reviews__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+										<path fill="#207384" d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Z" />
+									</svg>
+								</div>
+								<p class="reviews__text">With psychinsights, we have finally accomplished things that have
+									been waiting forever to get done.</p>
+								<p class="reviews__author"><strong>Grayson Morgan</strong></p>
+							</div>
+						<?php endforeach ?>
 					</div>
 				</div>
+
 				<!-- scroll  arrow -->
 				<div class="stories__row stories__row-chevron">
 					<div class="button-group">
@@ -212,16 +222,16 @@ require_once('header.php') ?>
 				<div class="rounded-lg bg-gray-50 lg:gap-10" id="dashboard-Depression" role="tabpanel" aria-labelledby="profile-tab-Depression">
 					<div class="flex w-full items-center gap-10 mx-4">
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
-							<img src="./static/images/phones/mock up dashboard.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/001.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6 md:px-12">Emotions Soothing Heavy Emotions is a guided practice designed to help individuals find calm and inner peace by addressing and soothing overwhelming or intense emotions.</p>
-							<div class="mx-[3rem] py-4 px-10 md:px-[3rem] bg-white rounded-xl flex items-center gap-4 green-audio-player w-[92%]">
+							<div class="py-4 px-4 bg-white rounded-xl items-center gap-4">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer" data-audio="">
 								</div>
-								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<div class="lg:text-2xl flex gap-2 items-center audio_player-1">
+								<div class="text-2xl multi-line text-blalck gap-4">
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-1" data-title="Soothing Heavy">
 										<audio crossorigin>
 											<source src="./audio/(Depression)  Believe in Yourself.mp3" type="audio/mpeg">
 										</audio>
@@ -230,14 +240,14 @@ require_once('header.php') ?>
 							</div>
 						</div>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
-							<img src="./static/images/phones/mockup journey.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/002.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
 				</div>
 				<div class="hidden p-4 rounded-lg bg-gray-50" id="dashboard-Anxiety" role="tabpanel" aria-labelledby="dashboard-tab-Anxiety">
 					<div class="flex w-full items-center gap-10">
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
-							<img src="./static/images/phones/iPhone 15 Pro Portrait Mockup.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/003.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Mindfulness Meditation is a guided practice that encourages individuals to cultivate present-moment awareness, reduce stress, and enhance their overall well-being through focused attention and mindful breathing.</p>
@@ -246,7 +256,7 @@ require_once('header.php') ?>
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Anxiety)  Mindfulness Meditation.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<div class="lg:text-2xl flex gap-2 items-center audio_player-2">
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-2" data-title="Mindfulness Meditation">
 										<audio crossorigin>
 											<source src="./audio/(Anxiety)  Mindfulness Meditation.mp3" type="audio/mpeg">
 										</audio>
@@ -255,14 +265,14 @@ require_once('header.php') ?>
 							</div>
 						</div>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
-							<img src="./static/images/phones/right-anxiety-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/004.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
 				</div>
 				<div class="hidden p-4 rounded-lg bg-gray-50" id="settings-Stress" role="tabpanel" aria-labelledby="settings-tab-Stress">
 					<div class="flex w-full items-center gap-10">
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
-							<img src="./static/images/phones/left-stress-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/005.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Powerful Stress Reduction is a guided practice that empowers individuals with effective techniques to significantly reduce stress, fostering relaxation, mental clarity, and emotional balance.</p>
@@ -271,7 +281,7 @@ require_once('header.php') ?>
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Stress) Powerful Stress Reduction.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<div class="lg:text-2xl flex gap-2 items-center audio_player-3">
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-3" data-title="Powerful Stress Reduction">
 										<audio crossorigin>
 											<source src="./audio/(Stress) Powerful Stress Reduction.mp3" type="audio/mpeg">
 										</audio>
@@ -280,14 +290,14 @@ require_once('header.php') ?>
 							</div>
 						</div>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
-							<img src="./static/images/phones/right-stress-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/006.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
 				</div>
 				<div class="hidden p-4 rounded-lg bg-gray-50" id="contacts-Sleep" role="tabpanel" aria-labelledby="contacts-tab-Sleep">
 					<div class="flex w-full items-center gap-10">
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
-							<img src="./static/images/phones/left-sleep-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/007.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Improve Your Concentration is a guided practice designed to enhance focus and attention by providing techniques and exercises that support individuals in sharpening their concentration skills and mental clarity.</p>
@@ -296,7 +306,7 @@ require_once('header.php') ?>
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<div class="lg:text-2xl flex gap-2 items-center audio_player-4">
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-4" data-title="Improving Your Concentration">
 										<audio crossorigin>
 											<source src="./audio/(Focus_Concentraion) Improve Your Concentration.mp3" type="audio/mpeg">
 										</audio>
@@ -305,14 +315,14 @@ require_once('header.php') ?>
 							</div>
 						</div>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
-							<img src="./static/images/phones/right-sleep-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/008.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
 				</div>
 				<div class="hidden p-4 rounded-lg bg-gray-50" id="settings-Motivation" role="tabpanel" aria-labelledby="settings-tab-Motivation">
 					<div class="flex w-full items-center gap-10">
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
-							<img src="./static/images/phones/iPhone 15 Pro Portrait Mockup.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/009.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Energizing Breath is a guided practice that utilizes specific breathing techniques to revitalize the body and mind, promoting increased energy, alertness, and a sense of vitality.</p>
@@ -321,7 +331,7 @@ require_once('header.php') ?>
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<div class="lg:text-2xl flex gap-2 items-center audio_player-5">
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-5" data-title="Energizing Breath">
 										<audio crossorigin>
 											<source src="./audio/(Motivation) Energising Breath.mp3" type="audio/mpeg">
 										</audio>
@@ -330,14 +340,14 @@ require_once('header.php') ?>
 							</div>
 						</div>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
-							<img src="./static/images/phones/right-anxiety-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/010.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
 				</div>
 				<div class="hidden p-4 rounded-lg bg-gray-50" id="contacts-Concentration" role="tabpanel" aria-labelledby="contacts-tab-Concentration">
 					<div class="flex w-full items-center gap-10">
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
-							<img src="./static/images/phones/left-concentration-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/011.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-8 bg-[#e2f9f9] shadow-md">
 							<p class="catty_text mb-6">Progressive Muscle Relaxation is a systematic practice that leads individuals through a series of muscle groups, helping them release tension and achieve a profound state of physical relaxation and calmness.</p>
@@ -346,7 +356,7 @@ require_once('header.php') ?>
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<div class="lg:text-2xl flex gap-2 items-center audio_player-0">
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-0" data-title="Progressive Muscle Relaxation">
 										<audio crossorigin>
 											<source src="./audio/(Focus_Concentraion) Improve Your Concentration.mp3" type="audio/mpeg">
 										</audio>
@@ -355,7 +365,7 @@ require_once('header.php') ?>
 							</div>
 						</div>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInRight">
-							<img src="./static/images/phones/right-concentration-phone-0.9x.png" alt="sleep_001s" class="mx-auto">
+							<img src="./static/images/index/mp3-mockups/012.png" alt="sleep_001s" class="mx-auto">
 						</div>
 					</div>
 				</div>
@@ -424,18 +434,60 @@ require_once('header.php') ?>
 	</section>
 </div>
 
+
 <script>
-$(document).ready(function() {
-    // Add click event listener to elements with class "playPauseBtn"
-    $('.playPauseBtn').on('click', function() {
-        // Find the closest ancestor with class "play-pause-btn" and trigger a click
-        $(this).closest('.play-pause-btn').click();
-    });
-});
+	// $(document).ready(function() {
+	//     // Add click event listener to elements with class "playPauseBtn"
+	//     $('.playPauseBtn').on('click', function() {
+	//         // Find the closest ancestor with class "play-pause-btn" and trigger a click
+	//         $(this).closest('.play-pause-btn').click();
+	//     });
+	// });
+	$('#gallery').slick({
+		slidesToShow: 5,
+		// slidesToScroll: 1,
+		autoplay: false,
+		autoplaySpeed: 0,
+		speed: 500,
+		pauseOnHover: true,
+		cssEase: 'linear',
+		responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 5,
+					slidesToScroll: 3,
+					infinite: true,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 800,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 2
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
 
 	document.addEventListener("DOMContentLoaded", function() {
 		for (let index = 0; index < 6; index++) {
-			new GreenAudioPlayer(".audio_player-"+index);
+			var title, obj;
+			obj = ".audio_player-" + index;
+			new GreenAudioPlayer(obj);
+			title = $(obj).data('title');
+			var mpTitleElement = $(obj).parent().find('.mp__title');
+			mpTitleElement.text(title);
+
+			// alert(title)
 		}
 	});
 </script>

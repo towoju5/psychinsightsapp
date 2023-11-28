@@ -261,33 +261,33 @@
 
 <script>
 	$(document).ready(function() {
-		const config = {
-			type: 'carousel',
-			startAt: 1,
-			perView: 5,
-			gap: 10,
-			autoplay: 1,
-			hoverpause: true,
-			breakpoints: {
-				1280: {
-					perView: 5,
-				},
-				1024: {
-					perView: 2,
-				},
-				768: {
-					perView: 1,
-				}
-			}
-		}
-		var glide = new Glide('.glide', config).mount()
-		$('.js-button-left').click(function() {
-			glide.go('<')
-		})
-		$('.js-button-right').click(function() {
-			glide.go('>')
-		})
-		$('.same-height').matchHeight();
+		// const config = {
+		// 	type: 'carousel',
+		// 	startAt: 1,
+		// 	perView: 5,
+		// 	gap: 10,
+		// 	autoplay: 1,
+		// 	hoverpause: true,
+		// 	breakpoints: {
+		// 		1280: {
+		// 			perView: 5,
+		// 		},
+		// 		1024: {
+		// 			perView: 2,
+		// 		},
+		// 		768: {
+		// 			perView: 1,
+		// 		}
+		// 	}
+		// }
+		// var glide = new Glide('.glide', config).mount()
+		// $('.js-button-left').click(function() {
+		// 	glide.go('<')
+		// })
+		// $('.js-button-right').click(function() {
+		// 	glide.go('>')
+		// })
+		// $('.same-height').matchHeight();
 		$('.login-now').click(function() {
 			$("#modal").toggle()
 		})
@@ -313,19 +313,28 @@
 			// alert("Modal closed successfully")
 		});
 	})
+	$('#gallery').slick({
+		slidesToShow: 5,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 0,
+		speed: 500,
+		pauseOnHover: true,
+		cssEase: 'linear'
+	});
 </script>
 
 <script src="./static/js/audio-player.js"></script>
-<script src="./npm/-glidejs/glide.js"></script>
-<script src="./static/js/plans.js"></script>
+<!-- <script src="./npm/-glidejs/glide.js"></script> -->
+<!-- <script src="./static/js/plans.js"></script> -->
 <script src="./static/js/scripts.js"></script>
 <script src="./ajax/libs/animejs/3.2.1/anime.min.js"></script>
 <script src="./static/js/index.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/glide.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 <script src="./static/js/jquery.matchHeight.js" type="text/javascript"></script>
 <script src="//kit.fontawesome.com/fc49c28ef9.js" crossorigin="anonymous"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 </body>
 
 </html>
