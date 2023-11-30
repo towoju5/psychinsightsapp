@@ -261,7 +261,6 @@
 
 <script>
 	$(document).ready(function() {
-		
 		// $('.same-height').matchHeight();
 		$('.login-now').click(function() {
 			$("#modal").toggle()

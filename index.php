@@ -5,69 +5,69 @@ require_once('header.php') ?>
 	<!-- hero section -->
 	<section id="hero-section" class="h-full">
 		<div class="min-h-screen">
-		<main class="mx-8 md:mx-32 min-h-[90vh] lg:mx-48 lg:flex justify-between items-center gap-10 mt-4 bg-right">
-			<!-- // download buttons -->
-			<div class="w-full lg:max-w-[50%] justify-center md:order-2 pt-10 md:py-6">
-				<div class="home__right anim-bounce animee__group">
-					<img src="./static/images/index/homescreen.png" alt="mockup for an iPhone phone" class="home__image home__image--1 fly_in w-[35%] md:w-1/2">
-					<img src="./static/images/phones/group48095554.png" alt="mockup for an iPhone phone" class="home__image home__image--2 fly_out w-[35%] md:w-1/2">
+			<main class="mx-8 md:mx-32 min-h-[90vh] lg:mx-48 lg:flex justify-between items-center gap-10 mt-4 bg-right">
+				<!-- // download buttons -->
+				<div class="w-full lg:max-w-[50%] justify-center md:order-2 pt-10 md:py-6">
+					<div class="home__right anim-bounce animee__group">
+						<img src="./static/images/index/homescreen.png" alt="mockup for an iPhone phone" class="home__image home__image--1 fly_in md:w-1/2">
+						<img src="./static/images/phones/group48095554.png" alt="mockup for an iPhone phone" class="home__image home__image--2 fly_out md:w-1/2">
+					</div>
 				</div>
-			</div>
-			<div class="lg:w-1/2 md:order-1 md:pb-6">
-				<div id="carouselExampleCrossfade" class="relative" data-te-carousel-init data-te-ride="carousel">
-					<!--Carousel items-->
-					<div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-						<!--First item-->
-						<div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item data-te-carousel-active>
-							<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
-								<h1 class="home__heading home__heading-good">Good Mental Health&colon;<br>A Right&comma;
-									Not a Privilege</h1>
-								<p><small class="home__small">Every individual deserves mental clarity and peace&period;
-										Explore our
-										extensive
-										resources&comma;
-										ensuring accessible&comma; quality mental health solutions for
-										all&period;</small></p>
+				<div class="lg:w-1/2 md:order-1 md:pb-6">
+					<div id="carouselExampleCrossfade" class="relative" data-te-carousel-init data-te-ride="carousel">
+						<!--Carousel items-->
+						<div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+							<!--First item-->
+							<div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item data-te-carousel-active>
+								<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
+									<h1 class="home__heading home__heading-good">Good Mental Health&colon;<br>A Right&comma;
+										Not a Privilege</h1>
+									<p><small class="home__small">Every individual deserves mental clarity and peace&period;
+											Explore our
+											extensive
+											resources&comma;
+											ensuring accessible&comma; quality mental health solutions for
+											all&period;</small></p>
+								</div>
 							</div>
-						</div>
-						<!--Second item-->
-						<div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-							<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
-								<h1 class="home__heading home__heading-elevate">Elevate And Optimize Your Mental
-									Well&dash;Being </h1>
-								<small class="home__small">Embrace a comprehensive approach&period; Personalized mental
-									wellness
-									strategries
-									designed
-									for everyone&period; Elevate your mindset&comma; and find balance in daily
-									life&period;</small>
+							<!--Second item-->
+							<div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
+								<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
+									<h1 class="home__heading home__heading-elevate">Elevate And Optimize Your Mental
+										Well&dash;Being </h1>
+									<small class="home__small">Embrace a comprehensive approach&period; Personalized mental
+										wellness
+										strategries
+										designed
+										for everyone&period; Elevate your mindset&comma; and find balance in daily
+										life&period;</small>
+								</div>
 							</div>
-						</div>
-						<!--Third item-->
-						<div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-							<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
-								<h1 class="home__heading home__heading-empower">Empower Your Journey With Our Insightful
-									Guidance </h1>
-								<small class="home__small home__small-empower">Uncover deep insights to guide your
-									life&apos;s
-									journey&period;
-									We provide
-									strategries and perspectives to help you take charge & thrive with
-									confidence&period;</small>
+							<!--Third item-->
+							<div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
+								<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
+									<h1 class="home__heading home__heading-empower">Empower Your Journey With Our Insightful
+										Guidance </h1>
+									<small class="home__small home__small-empower">Uncover deep insights to guide your
+										life&apos;s
+										journey&period;
+										We provide
+										strategries and perspectives to help you take charge & thrive with
+										confidence&period;</small>
+								</div>
 							</div>
 						</div>
 					</div>
+					<div class="gap-4 flex justify-center lg:justify-start">
+						<a href="#" class="home__link">
+							<img src="static/images/applestore.svg" alt="this is an apple store icon">
+						</a>
+						<a href="#" class="home__link">
+							<img src="static/images/playstore.svg" alt="this is a google playstore icon">
+						</a>
+					</div>
 				</div>
-				<div class="gap-4 flex justify-center lg:justify-start">
-					<a href="#" class="home__link">
-						<img src="static/images/applestore.svg" alt="this is an apple store icon">
-					</a>
-					<a href="#" class="home__link">
-						<img src="static/images/playstore.svg" alt="this is a google playstore icon">
-					</a>
-				</div>
-			</div>
-		</main>
+			</main>
 		</div>
 	</section>
 
@@ -427,6 +427,12 @@ require_once('header.php') ?>
 
 
 <script>
+	var screenHeight = window.innerHeight;
+	if (screenHeight > 700) {
+		$('.home__image').addClass('w-1/2');
+	} else {
+		$('.home__image').addClass('w-[35%]');
+	}
 	$("#slicky").slick({
 		slidesToShow: 4,
 		slidesToScroll: 1,
@@ -460,14 +466,14 @@ require_once('header.php') ?>
 			}
 		]
 	})
-    // Handling Prev and Next buttons
-    $('.slick-prev').click(function(){
-      $('.slider').slick('slickPrev');
-    });
+	// Handling Prev and Next buttons
+	$('.slick-prev').click(function() {
+		$('.slider').slick('slickPrev');
+	});
 
-    $('.slick-next').click(function(){
-      $('.slider').slick('slickNext');
-    });
+	$('.slick-next').click(function() {
+		$('.slider').slick('slickNext');
+	});
 	document.addEventListener("DOMContentLoaded", function() {
 		for (let index = 0; index < 6; index++) {
 			var title, obj;
@@ -476,8 +482,6 @@ require_once('header.php') ?>
 			title = $(obj).data('title');
 			var mpTitleElement = $(obj).parent().find('.mp__title');
 			mpTitleElement.text(title);
-
-			// alert(title)
 		}
 	});
 	$('.psy_li-nav').click(function() {
