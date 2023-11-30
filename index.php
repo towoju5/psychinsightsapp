@@ -122,7 +122,7 @@ require_once('header.php') ?>
 			<div class="carousel">
 				<div class="js-stories stories__row stories__row-reviews" id="slicky">
 					<?php foreach ($testimonials as $k => $t) : ?>
-						<div class="reviews js-reviews glide__slide h-[330px] w-[397px]">
+						<div class="reviews js-reviews glide__slide h-[330px] w-[350px]">
 							<div class="reviews__svg-container">
 								<img src="./static/images/quote-icon.svg" alt="quote" class="mx-auto w-[63px]">
 							</div>
