@@ -267,14 +267,14 @@
 			$("#modal").toggle()
 		})
 		document.querySelector('#profile-tab-Depression').click();
-		document.addEventListener('contextmenu', event => event.preventDefault());
-		$("html").on("contextmenu", function(e) {
-			return false;
-		});
-		// Disable cut, copy and paste on web page
-		$('html').bind('cut copy paste', function(e) {
-			e.preventDefault();
-		});
+		// document.addEventListener('contextmenu', event => event.preventDefault());
+		// $("html").on("contextmenu", function(e) {
+		// 	return false;
+		// });
+		// // Disable cut, copy and paste on web page
+		// $('html').bind('cut copy paste', function(e) {
+		// 	e.preventDefault();
+		// });
 
 		$(".openTestimonialModal").click(function() {
 			$('html').toggleClass('disable-scroll');

@@ -1,15 +1,16 @@
 <?php $pageTitle = "Psychinsights App";
 require_once('header.php') ?>
-<div class="slides">
+<div>
 
 	<!-- hero section -->
-	<section id="hero-section">
+	<section id="hero-section" class="h-full">
+		<div class="min-h-screen">
 		<main class="mx-8 md:mx-32 min-h-[90vh] lg:mx-48 lg:flex justify-between items-center gap-10 mt-4 bg-right">
 			<!-- // download buttons -->
-			<div class="w-full lg:w-1/2 justify-center md:order-2 py-16 md:py-6">
+			<div class="w-full lg:max-w-[50%] justify-center md:order-2 pt-10 md:py-6">
 				<div class="home__right anim-bounce animee__group">
-					<img src="./static/images/index/homescreen.png" alt="mockup for an iphone phone" class="home__image home__image--1 fly_in w-1/2">
-					<img src="./static/images/phones/group48095554.png" alt="mockup for an iphone phone" class="home__image home__image--2 fly_out w-1/2">
+					<img src="./static/images/index/homescreen.png" alt="mockup for an iPhone phone" class="home__image home__image--1 fly_in w-[35%] md:w-1/2">
+					<img src="./static/images/phones/group48095554.png" alt="mockup for an iPhone phone" class="home__image home__image--2 fly_out w-[35%] md:w-1/2">
 				</div>
 			</div>
 			<div class="lg:w-1/2 md:order-1 md:pb-6">
@@ -67,6 +68,7 @@ require_once('header.php') ?>
 				</div>
 			</div>
 		</main>
+		</div>
 	</section>
 
 	<!-- steps of use -->
@@ -122,7 +124,7 @@ require_once('header.php') ?>
 			<div class="carousel">
 				<div class="js-stories stories__row stories__row-reviews" id="slicky">
 					<?php foreach ($testimonials as $k => $t) : ?>
-						<div class="reviews js-reviews glide__slide h-[330px] w-[350px]">
+						<div class="reviews js-reviews glide__slide min-h-[330px] min-w-[350px]">
 							<div class="reviews__svg-container">
 								<img src="./static/images/quote-icon.svg" alt="quote" class="mx-auto w-[63px]">
 							</div>
@@ -137,7 +139,7 @@ require_once('header.php') ?>
 
 
 			<!-- scroll  arrow -->
-			<div class="stories__row stories__row-chevron">
+			<div class="stories__row stories__row-chevron md:hidden">
 				<div class="button-group">
 					<button class="button button--left js-button-left" onclick="$('#slicky').slick('slickPrev');">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
