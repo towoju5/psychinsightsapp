@@ -1,5 +1,4 @@
-document
-  .querySelector(".js-contact-submit")
+document.querySelector(".js-contact-submit")
   .addEventListener("click", function () {
     const flashContainer = document.querySelector(".js-flash");
     const emailAddress = document.querySelector(".js-email");

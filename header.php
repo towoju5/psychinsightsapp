@@ -12,6 +12,7 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 	<title>Psychinsights App &#8212; Everyone deserves sound mental health.</title>
+	<link rel="stylesheet" href="static/css/slick.css">
 	<link rel="stylesheet" href="static/css/slides.css">
 	<link rel="stylesheet" href="static/css/styles.css">
 	<script src="static/js/tailwind.js"></script>
@@ -21,14 +22,10 @@
 	<link href="//fonts.cdnfonts.com/css/jost" rel="stylesheet">
 	<script src="./static/js/jquery-3.7.1.min.js"></script>
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
-	<link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'>
-	<link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css'>
-	<!-- <link rel="stylesheet" href="//www.cssscript.com/demo/html5-green-audio-player/dist/css/main.min.css">  -->
-	<!-- <script src="//www.cssscript.com/demo/html5-green-audio-player/dist/js/app.js"></script> -->
+	<!-- <link rel='stylesheet' href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"> -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
 </head>
 

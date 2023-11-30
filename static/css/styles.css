@@ -1162,7 +1162,21 @@ li:hover {
 
 .reviews {
 	gap: 3.25rem;
-	min-width: 36rem;
+	/* min-width: 36rem; */
+	max-width: 36rem;
+	display: flex;
+	padding: 3rem 2.62rem 3.85rem;
+	border-radius: 1.42rem;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #ffffff;
+	border: 0.1rem solid #207384;
+	box-shadow: 2px 1.25px 12px 0.32px rgba(17, 34, 17, 0.25);
+}
+
+.__reviews {
+	gap: 3.25rem;
+	max-width: 100%;
 	display: flex;
 	padding: 3rem 2.62rem 3.85rem;
 	border-radius: 1.42rem;

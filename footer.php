@@ -243,9 +243,9 @@
 	<div data-te-modal-dialog-ref class="pointer-events-none relative w-auto translate-y-[-50px] opacity-0 transition-all duration-300 ease-in-out min-[576px]:mx-auto min-[576px]:mt-7 min-[576px]:max-w-[500px] min-[992px]:max-w-[800px]">
 		<div class="pointer-events-auto relative flex w-full flex-col rounded-3xl border-none bg-white bg-clip-padding text-current shadow-lg outline-none">
 			<!--Modal body-->
-			<div class="reviews js-reviews glide__slide">
+			<div class="__reviews js-reviews glide__slide">
 				<!--Close button-->
-				<button type="button" class="box-content flex justify-end rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none" data-te-modal-dismiss aria-label="Close">
+				<button type="button" class="box-content flex justify-end rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none flex float-right" data-te-modal-dismiss aria-label="Close">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-10 w-10">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
 					</svg>
@@ -261,32 +261,7 @@
 
 <script>
 	$(document).ready(function() {
-		// const config = {
-		// 	type: 'carousel',
-		// 	startAt: 1,
-		// 	perView: 5,
-		// 	gap: 10,
-		// 	autoplay: 1,
-		// 	hoverpause: true,
-		// 	breakpoints: {
-		// 		1280: {
-		// 			perView: 5,
-		// 		},
-		// 		1024: {
-		// 			perView: 2,
-		// 		},
-		// 		768: {
-		// 			perView: 1,
-		// 		}
-		// 	}
-		// }
-		// var glide = new Glide('.glide', config).mount()
-		// $('.js-button-left').click(function() {
-		// 	glide.go('<')
-		// })
-		// $('.js-button-right').click(function() {
-		// 	glide.go('>')
-		// })
+		
 		// $('.same-height').matchHeight();
 		$('.login-now').click(function() {
 			$("#modal").toggle()
@@ -313,15 +288,145 @@
 			// alert("Modal closed successfully")
 		});
 	})
-	$('#gallery').slick({
-		slidesToShow: 5,
-		slidesToScroll: 1,
-		autoplay: true,
-		autoplaySpeed: 0,
-		speed: 500,
-		pauseOnHover: true,
-		cssEase: 'linear'
-	});
+	
+$(".slider__container").each(function (i) {
+  var $this = $(this);
+  var $slides = $(".slider__items", this);
+  var currentSlide = 1;
+  var activeSlidesLength = 0;
+  var slidePositions = {};
+  var totalSlides = 0;
+  var trackStart = 0;
+  var lastSlideWidth = 0;
+  var interval = null;
+  var sliderSpeed = 3000; //ms for slide to scroll
+  var tweenNext = "";
+  var tweenPrev = "";
+  var backClicked = false;
+  var autoAdvance = true;
+  $slides.on("init", function (e, slick) {
+    var $track = $(".slick-track", $this);
+    function setSizeVars() {
+      activeSlidesLength = 0;
+      trackStart = $(".slick-slide", $this).first().outerWidth();
+      slidePositions[1] = trackStart;
+      $(".slick-slide:not(.slick-cloned)", $this).each(function (i) {
+        var width = $(this).outerWidth();
+        activeSlidesLength += width;
+        slidePositions[i + 2] = trackStart + activeSlidesLength;
+        lastSlideWidth = width;
+        totalSlides = i + 2;
+      });
+    }
+    setSizeVars();
+    $(window).on("resize", function () {
+      setSizeVars();
+    });
+    $track.css({
+      transform: "translate(-" + slidePositions[currentSlide] + "px,0,0)",
+    });
+    function goToNextSlide(transitionTime, transitionEasing) {
+      if (currentSlide == totalSlides - 1) {
+        // Go to first cloned slide if reached end
+        var nextSlide = currentSlide + 1;
+        tweenNext = TweenLite.to($track, 0, {
+          x: -(slidePositions[1] - lastSlideWidth),
+          ease: Power0.easeNone,
+          onComplete: function () {
+            currentSlide = nextSlide;
+            goToNextSlide(transitionTime, transitionEasing);
+          },
+        });
+      } else {
+        var nextSlide = currentSlide == totalSlides ? 1 : currentSlide + 1;
+        tweenNext = TweenLite.to($track, transitionTime, {
+          x: -slidePositions[nextSlide],
+          ease: transitionEasing,
+          onComplete: function () {
+            currentSlide = nextSlide;
+            if (autoAdvance) {
+              goToNextSlide(sliderSpeed / 1000, Power0.easeNone);
+            }
+          },
+        });
+      }
+    }
+    function goToPrevSlide(transitionTime, transitionEasing) {
+      backClicked = true;
+      if (currentSlide == totalSlides) {
+        //Go to last Slide
+        var prevSlide = currentSlide - 1;
+        tweenPrev = TweenLite.to($track, 0, {
+          x: -slidePositions[prevSlide],
+          ease: Power0.easeNone,
+          onComplete: function () {
+            currentSlide = prevSlide;
+            goToPrevSlide(transitionTime, transitionEasing);
+          },
+        });
+      } else if (currentSlide == 1) {
+        //Go to cloned slide instead of last slide
+        var prevSlide = totalSlides;
+        tweenPrev = TweenLite.to($track, transitionTime, {
+          x: -(slidePositions[1] - lastSlideWidth),
+          ease: transitionEasing,
+          onComplete: function () {
+            currentSlide = prevSlide;
+          },
+        });
+      } else {
+        var prevSlide = currentSlide - 1;
+        tweenPrev = TweenLite.to($track, transitionTime, {
+          x: -slidePositions[prevSlide],
+          ease: transitionEasing,
+          onComplete: function () {
+            currentSlide = prevSlide;
+          },
+        });
+      }
+    }
+    setTimeout(function () {
+      goToNextSlide(sliderSpeed / 1000, Power0.easeNone);
+    }, 1000);
+    $this.hover(
+      function () {
+        tweenNext.pause();
+      },
+      function () {
+        if (backClicked) {
+          goToNextSlide(sliderSpeed / 1000, Power0.easeNone);
+        } else {
+          tweenNext.play();
+        }
+        autoAdvance = true;
+        backClicked = false;
+      }
+    );
+    $(".slider-prev", $this).on("click", function () {
+      if (backClicked) {
+        goToPrevSlide(0.2, Power1.easeInOut);
+      } else {
+        tweenNext.reverse().timeScale(6);
+      }
+      backClicked = true;
+      autoAdvance = false;
+    });
+    $(".slider-next", $this).on("click", function () {
+      goToNextSlide(0.2, Power1.easeInOut);
+      autoAdvance = false;
+    });
+  });
+  $slides.slick({
+    infinite: true,
+    variableWidth: true,
+    arrows: false,
+    accessibility: false,
+    draggable: false,
+    swipe: false,
+    touchMove: false,
+  });
+});
+
 </script>
 
 <script src="./static/js/audio-player.js"></script>
@@ -334,7 +439,6 @@
 <script src="//cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 <script src="./static/js/jquery.matchHeight.js" type="text/javascript"></script>
 <script src="//kit.fontawesome.com/fc49c28ef9.js" crossorigin="anonymous"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 </body>
 
 </html>

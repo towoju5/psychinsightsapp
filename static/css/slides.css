@@ -2,30 +2,30 @@
 @-webkit-keyframes spin {
     0% {
         -webkit-transform: rotate(0);
-        transform: rotate(0)
+        transform: rotate(0);
     }
 
     to {
         -webkit-transform: rotate(1turn);
-        transform: rotate(1turn)
+        transform: rotate(1turn);
     }
 }
 
 @keyframes spin {
     0% {
         -webkit-transform: rotate(0);
-        transform: rotate(0)
+        transform: rotate(0);
     }
 
     to {
         -webkit-transform: rotate(1turn);
-        transform: rotate(1turn)
+        transform: rotate(1turn);
     }
 }
 
 .green-audio-player {
-    -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .07);
-    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, .07);
+    -webkit-box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.07);
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.07);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -42,17 +42,17 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #fff
+    background-color: #fff;
 }
 
 .green-audio-player img,
 .green-audio-player svg {
-    display: block
+    display: block;
 }
 
 .green-audio-player .play-pause-btn {
     display: none;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .green-audio-player .loading .loading__spinner {
@@ -61,24 +61,24 @@
     border: 2px solid #b0b0b0;
     border-right-color: transparent;
     border-radius: 50%;
-    -webkit-animation: spin .4s linear infinite;
-    animation: spin .4s linear infinite
+    -webkit-animation: spin 0.4s linear infinite;
+    animation: spin 0.4s linear infinite;
 }
 
 .green-audio-player .slider {
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
-    background-color: #7E8891;
+    background-color: #7e8891;
     cursor: pointer;
-    position: relative
+    position: relative;
 }
 
 .green-audio-player .slider .progress {
     background-color: #44bfa3;
     border-radius: inherit;
     position: absolute;
-    pointer-events: none
+    pointer-events: none;
 }
 
 .green-audio-player .slider .progress .pin {
@@ -88,8 +88,8 @@
     background-color: #207384;
     position: absolute;
     pointer-events: all;
-    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .32);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .32)
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.32);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.32);
 }
 
 .green-audio-player .controls {
@@ -117,19 +117,19 @@
     margin-left: 16px;
     margin-right: 16px;
     border-radius: 2px;
-    height: 2px
+    height: 2px;
 }
 
 .green-audio-player .controls .controls__slider .controls__progress {
     width: 0;
-    height: 100%
+    height: 100%;
 }
 
 .green-audio-player .controls .controls__slider .controls__progress .progress__pin {
     right: -8px;
-    top: -6px
+    top: -6px;
 }
 
 .green-audio-player .controls span {
-    cursor: default
+    cursor: default;
 }
