@@ -458,14 +458,6 @@ require_once('header.php') ?>
 			}
 		]
 	})
-	// $(document).ready(function() {
-	//     // Add click event listener to elements with class "playPauseBtn"
-	//     $('.playPauseBtn').on('click', function() {
-	//         // Find the closest ancestor with class "play-pause-btn" and trigger a click
-	//         $(this).closest('.play-pause-btn').click();
-	//     });
-	// });
-
     // Handling Prev and Next buttons
     $('.slick-prev').click(function(){
       $('.slider').slick('slickPrev');
@@ -488,8 +480,8 @@ require_once('header.php') ?>
 	});
 	$('.psy_li-nav').click(function() {
 		$('audio').each(function() {
+			$('.play-pause-btn__icon').attr('d', 'M48 34.5L26 49L26 20L48 34.5Z');
 			this.pause();
-			$(this).closest('.play-pause-btn').click();
 		});
 		return false
 	});
