@@ -266,14 +266,14 @@
 			$("#modal").toggle()
 		})
 		document.querySelector('#profile-tab-Depression').click();
-		// document.addEventListener('contextmenu', event => event.preventDefault());
-		// $("html").on("contextmenu", function(e) {
-		// 	return false;
-		// });
-		// // Disable cut, copy and paste on web page
-		// $('html').bind('cut copy paste', function(e) {
-		// 	e.preventDefault();
-		// });
+		document.addEventListener('contextmenu', event => event.preventDefault());
+		$("html").on("contextmenu", function(e) {
+			return false;
+		});
+		// Disable cut, copy and paste on web page
+		$('html').bind('cut copy paste', function(e) {
+			e.preventDefault();
+		});
 
 		$(".openTestimonialModal").click(function() {
 			$('html').toggleClass('disable-scroll');
@@ -430,7 +430,7 @@ $(".slider__container").each(function (i) {
 
 <script src="./static/js/audio-player.js"></script>
 <!-- <script src="./npm/-glidejs/glide.js"></script> -->
-<!-- <script src="./static/js/plans.js"></script> -->
+<script src="./static/js/plans.js"></script>
 <script src="./static/js/scripts.js"></script>
 <script src="./ajax/libs/animejs/3.2.1/anime.min.js"></script>
 <script src="./static/js/index.js"></script>
