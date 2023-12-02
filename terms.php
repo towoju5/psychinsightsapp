@@ -238,7 +238,9 @@
               court to which the application is made is authorized to consider the merits
               of the arbitrable controversy to the extent it deems necessary in making its
               ruling, but only to the extent permitted by applicable law. </span></li>
-          </ul><span class="">All
+          </ul>
+          
+          <span class="">All
             determinations of final relief, however, will be decided in arbitration.
             If for any reason the ACICA will not administer the arbitration, either party may apply to a court of competent jurisdiction with authority over the location where the arbitration
             will be conducted for appointment of a neutral arbitrator. Nothing in this Arbitration Agreement prevents the investigation by a government agency of any report, claim or charge otherwise covered by this Arbitration Agreement. This Arbitration Agreement also does not prevent federal administrative agencies from adjudicating claims and awarding remedies based on those claims, even if the claims would otherwise be covered by this Arbitration Agreement. Nothing in this Arbitration Agreement prevents or excuses a party from satisfying any conditions precedent and/or exhausting administrative remedies under applicable law before bringing a claim in arbitration.
@@ -254,22 +256,16 @@
             Rules, as defined above and incorporated herein by reference, any claim that all or
             part of this Class Action Waiver is unenforceable, unconscionable, void or voidable
             may be determined only by a court of competent jurisdiction and not by an
-            arbitrator. In any case in which:
+            arbitrator. 
             <br><br></span>
           <ul>
-            <li><span class="">the dispute is filed as a class, collective, or other representative action; and
-            </li>
-            <li>there is a final judicial determination that all or part of the Class Action
-              </span></li>
-          </ul><span class="">Waiver is unenforceable, the class, collective, or other representative
+            <li><span class="">In any case in which: the dispute is filed as a class, collective, or other representative action; and there is a final judicial determination that all or part of the Class Action Waiver is unenforceable, the class, collective, or other representative
             action to that extent must be litigated in a civil court of competent
             jurisdiction, but the portion of the Class Action Waiver that is enforceable
             shall be enforced in arbitration.
             <br><br>3. Mass Arbitration. To the extent permitted by applicable law, to increase efficiency
-            of resolution, in the event 25 or more arbitration demands of a similar nature are
-            <br><br>filed against the Company, presented by or with the assistance or involvement of
-            the same law firm or organization, the Parties agree that this will constitute a
-            <br><br>&quot;Mass Arbitration&quot; and the following terms and procedures shall apply:
+            of resolution, in the event 25 or more arbitration demands of a similar nature are filed against the Company, presented by or with the assistance or involvement of
+            the same law firm or organization, the Parties agree that this will constitute a &quot;Mass Arbitration&quot; and the following terms and procedures shall apply:
             <br><br></span>
           <ul>
             <li><span class="">The Parties shall cooperate to group the arbitration demands into
@@ -352,7 +348,7 @@
 
             <br><br>7. Right to Opt Out of Arbitration. You may opt out from this Arbitration Agreement
             within 30 days after you first access or use the Platform by sending written notice
-            of your decision to opt-out to admin@Psych Insights.com, using the subject line
+            of your decision to opt-out to <span class="font-bold">support@psychinsightsapp.com</span>, using the subject line
             &quot;Arbitration Opt-Out.&quot; Please state that you are opting out of this Arbitration
             Agreement and Class Action Waiver and provide your name and address. If you
             opt out of this Arbitration Agreement and Class Action Waiver within the 30-day
