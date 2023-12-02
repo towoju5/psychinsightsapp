@@ -16,7 +16,7 @@
 			<div class="grid lg:grid-cols-2 gap-20 items-center py-20 border-b md:border-b-0">
 				<div class=" py-18">
 					<div class="ceo__text-group">
-						<h3 class="text-center lg:text-left text-[26px] lg:text-[32px] font-extrabold">Optimize your Mental Health and Live a Better Life</h3>
+						<h3 class="text-center lg:text-left text-[26px] lg:text-[32px] font-extrabold">Optimize Your Mental Health and Live a Better Life</h3>
 						<div class="tick__border-top mx-auto"></div>
 						<small class="text-center lg:text-left text-[20px]">Personalized support for your wellbeing and self-improvement journey</small>
 					</div>
@@ -41,8 +41,8 @@
 						<div class="ceo__text-group mt-4 lg:mt-0">
 							<small class="ceo__small">
 							Sam Frerer stands at the crossroads of mental and physical well-being as both a fully qualified Psychologist and Personal Trainer. Currently, she serves with dedication as an Army Psychologist (Officer) in the Australian Defence Force, a role that requires a deep understanding of human psychology under the challenging environment of military service. <br>
-							Sam is dedicated to improving the lives of others, which became evident during her tenure as a Personal Trainer. Beyond the physical transformations, she found profound fulfillment in witnessing the mental shifts in her clients, such as improved self-confidence, amplified motivation, and a brighter outlook on life. Fascinated by the interplay between physical and psychological health, Sam embarked on an academic journey in Psychology, graduating with a Bachelor of Psychology (Honours) from the renowned Monash University.<br>
-							Sam's thirst for knowledge didn't stop there. She ventured into the demanding landscape of Defence as a Psychology Officer, where she refined her psychological skills, assumed leadership responsibilities, and obtained General Registration as a Psychologist. This multi-faceted role encompasses clinical intervention, suitability assessments, organizational psychology, cognitive testing, psychoeducation presentations, and much more, leading to a diverse range of expertise.<br>
+							Sam is dedicated to improving the lives of others, which became evident during her tenure as a Personal Trainer. Beyond the physical transformations, she found profound fulfillment in witnessing the mental shifts in her clients, such as improved self-confidence, amplified motivation, and a brighter outlook on life. Fascinated by the interplay between physical and psychological health, Sam embarked on an academic journey in Psychology, graduating with a Bachelor of Psychology (Honours) from the renowned Monash University.<br><br>
+							Sam's thirst for knowledge didn't stop there. She ventured into the demanding landscape of Defence as a Psychology Officer, where she refined her psychological skills, assumed leadership responsibilities, and obtained General Registration as a Psychologist. This multi-faceted role encompasses clinical intervention, suitability assessments, organizational psychology, cognitive testing, psychoeducation presentations, and much more, leading to a diverse range of expertise.<br><br>
 							Over the years, Sam has had the privilege of working with hundreds of clients, reflecting a wide tapestry of human experiences. She embraces a holistic approach to psychological treatment, focusing on various facets of ‘health’ to achieve balanced and all-encompassing wellness for her clients. Beyond her professional commitments, Sam is an ardent believer in the power of resilience, both of the body and the mind, and developed Psych Insights to empower as many individuals as possible on their personal journeys towards self-improvement.
 							</small>
 						</div>
@@ -74,9 +74,8 @@
 
 			</div>
 			<div class="ourstory__row ourstory__row--3 bg-left ">
+				<p class="text-4xl font-bold italic">In the pursuit of personal growth, the critical question we face is:  <span class="underline">How do we get there</span>?</p>
 				<p class="values__text">
-					
-				In the pursuit of personal growth, the critical question we face is:  How do we get there? 
 					<br>
 					Psych Insights was created as an answer to this question, providing individuals with the resources and strategies they need to enhance their wellbeing and lead a more fulfilling life. It all started with a simple yet profound realization: mental health is just as important as physical health. In a world that often prioritizes the visible, we recognized the need to create a space where the invisible struggles are not only acknowledged, but also met with targeted solutions and support.
 					<br>
