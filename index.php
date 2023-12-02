@@ -14,7 +14,7 @@ require_once('header.php') ?>
 					</div>
 				</div>
 				<div class="lg:w-1/2 md:order-1 md:pb-6">
-					<div id="carouselExampleCrossfade" class="relative" data-te-carousel-init data-te-ride="carousel" data-te-interval="15000">
+					<div id="carouselExampleCrossfade" class="relative" data-te-carousel-init data-te-ride="carousel" data-te-interval="15500">
 						<!--Carousel items-->
 						<div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
 							<!--First item-->
