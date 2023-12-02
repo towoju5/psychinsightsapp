@@ -27,20 +27,19 @@
           Terms of Use carefully as well as Psych Insights’ Privacy Policy which is incorporated as
           a separate link on this platform. If you do not agree to these Terms and Conditions, you
           may not access or use the Psych Insights’ platforms.
-          <br />These Terms of Use (Online Services) also apply to:
-          <br />a. the use of the Online Services via the web and mobile app;
-          <br />b. access to the Online Services from third party websites via links to podcasts and
+          <br><br>These Terms of Use (Online Services) also apply to:
+          <br><br>a. the use of the Online Services via the web and mobile app;
+          <br><br>b. access to the Online Services from third party websites via links to podcasts and
           books; or
-          <br />c. the content or material contained in or made available through use of the Online
-          <br />Services, accessed via links from the Online Services or that we provide to you via
-          the website or mobile app, including health information, publications, fact sheets,
-          <br />news and alerts (Information).
-          <br />In these Terms of Use:
-          <br />• use of the terms ‘Psych Insights’, ‘we’, ‘us’ and ‘our’ refers to Psych Insights ABN
+          <br><br>c. the content or material contained in or made available through use of the Online
+          <br><br>Services, accessed via links from the Online Services or that we provide to you via
+          the website or mobile app, including health information, publications, fact sheets, news and alerts (Information).
+          <br><br>In these Terms of Use:
+          <br><br>• use of the terms ‘Psych Insights’, ‘we’, ‘us’ and ‘our’ refers to Psych Insights ABN
           number; 57966507239
-          <br />• the terms ‘you’ and ‘your’ refer to the user or viewer of the Online Services and/or
+          <br><br>• the terms ‘you’ and ‘your’ refer to the user or viewer of the Online Services and/or
           the Information.
-          <br />The contents made available via the online services are jointly provided by the company
+          <br><br>The contents made available via the online services are jointly provided by the company
           and third-party content providers. Where the contents are provided by third-party
           providers, links will be shared to the actual post to give credit where due.
         </div>
@@ -49,17 +48,17 @@
           multimedia assets, are the exclusive property of ours or our licensed partners, shielded
           by international copyright laws and treaties. We retain all respective rights pertaining to
           these intellectual properties.
-          <br />You are permitted to print a single copy or download excerpts from our site for personal
+          <br><br>You are permitted to print a single copy or download excerpts from our site for personal
           reference. Additionally, you are allowed to highlight materials found on our site to others
           within your organization. However, it is imperative to note that any alterations to the
           digital or printed copies of the materials are strictly prohibited. Furthermore, usage of
           illustrations, photographs, videos, audio sequences, or graphics independently of the
           accompanying text is not allowed.
-          <br />It is mandatory to acknowledge our status, and that of any recognizable contributors, as
+          <br><br>It is mandatory to acknowledge our status, and that of any recognizable contributors, as
           the original creators of the content found on our website, at all times. Commercial
           utilization of any materials present on our website is forbidden unless explicit permission
           in the form of a license is obtained from us or our licensors.
-          <br />Failure to adhere to these terms will result in an immediate revocation of your rights to
+          <br><br>Failure to adhere to these terms will result in an immediate revocation of your rights to
           access our site. In such cases, you are required to either return or destroy any copies of
           the materials you have created, based on our discretion.
         </div>
@@ -69,7 +68,7 @@
           account. The details required are your first and last name, personal and accessible email
           and a secure password. You are encouraged to keep the details safe and not share with a
           third party in order to protect the integrity of your account.
-          <br />By registering on the platforms, you agree to receiving both broadcasts and personalized
+          <br><br>By registering on the platforms, you agree to receiving both broadcasts and personalized
           emails from the company which will be sent to your registered email.
         </div>
         <div class="text-black text-2xl font-bold uppercase mt-5">Onboarding Questions
@@ -80,11 +79,7 @@
           will guide us in understanding your precise mental state, enabling us to offer support
           tailored to your situation.</div>
         <div class="text-black text-2xl font-bold uppercase mt-5">Daily Pop-up Questions</div>
-        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">The daily pop-up questions will be made available to every user of Psych Insights
-          platforms. The daily pop-up questions will allow us to understand your mood, stress,
-          <br />energy levels and sleep patterns over the last day, which will be aggregated to determine
-          the best contents to be made available. The daily pop-up questions are open to every user
-          regardless of your subscription plan.
+        <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">The daily pop-up questions will be made available to every user of Psych Insights platforms. The daily pop-up questions will allow us to understand your mood, stress, energy levels and sleep patterns over the last day, which will be aggregated to determine the best contents to be made available. The daily pop-up questions are open to every user regardless of your subscription plan.
         </div>
         <div class="text-black text-2xl font-bold uppercase mt-5">DASS-21 Questionnaire (7-days)</div>
         <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full">The DASS-21 questionnaire is a valid psychological screening tool to assess stress,
@@ -106,36 +101,41 @@
         <div class="text-black text-2xl font-bold uppercase mt-5">Your Subscription</div>
         <div class="text-black text-2xl w-full mt-2.5 max-md:max-w-full"><span class="">
             Your options as a user following the trial period are the following:
-            <br />1. Subscribe to our premium package with access to the full range of resources
+            <br><br>1. Subscribe to our premium package with access to the full range of resources
             updated weekly
-            <br />2. Stick to the basic (free) version, which consists of a limited range of resources
+            <br><br>2. Stick to the basic (free) version, which consists of a limited range of resources
             which are updated fortnightly
-            <br />The pricing for the premium plan is pegged at $9.99 per month and $103.99 per year. We
+            
+            <br><br>The pricing for the premium plan is pegged at $9.99 per month and $103.99 per year. We
             offer these subscription options from which choices could be made; including billing that
             can occur monthly, or annual. Any type of subscription you choose will continue and
             automatically renew until you cancel the membership. By choosing a recurring
             Membership Service, you acknowledge that such paid services have a recurring payment
             and you accept responsibility for all recurring charges prior to cancellation.
-            <br />You can cancel the subscription to the service at any time for any reason. Your
+
+            <br><br>You can cancel the subscription to the service at any time for any reason. Your
             membership must be canceled before it renews in order to avoid the next billing cycle.
-            <br />For the further avoidance of any doubt, unless otherwise advised by PscyhInsight’s team,
+            
+            <br><br>For the further avoidance of any doubt, unless otherwise advised by PscyhInsight’s team,
             any content (podcasts, books, links, and other materials) accrued but unused within a
             billing cycle will not roll over or be eligible for use after that billing cycle concludes. For
             example, if you commence your membership on May 1, only use few sessions or resources
             for that monthly billing cycle, the remaining sessions or resources do not rollover into
             June such that you will have more sessions and contents available in June. All sessions
             expire within the applicable billing cycle.
-            <br />We reserve the right to change our subscription or adjust prices of our services. Any
+            
+            <br><br>We reserve the right to change our subscription or adjust prices of our services. Any
             changes to your membership services will only take effect following proper notice to you.
-            <br /></span><span class="font-bold">Third Party Content</span><span class="">
-            <br />The Platform may contain other content, products or services which are offered or
+            
+            <br><br></span><span class="font-bold">Third Party Content</span><span class="">
+            <br><br>The Platform may contain other content, products or services which are offered or
             provided by third parties (&quot;Third Party Content&quot;), links to Third Party Content (including
             but not limited to links to other websites) or advertisements which are related to Third
             Party Content. We have no responsibility for the creation of any such Third-Party Content,
             including (but not limited to) any related products, practices, terms or policies, and we
             will not be liable for any damage or loss caused by any Third-Party Content.
-            <br /></span><span class="font-bold">Links to the Site</span><span class="">
-            <br />Links to our Site are prohibited unless you obtain our prior written consent. If you arrive
+            <br><br></span><span class="font-bold">Links to the Site</span><span class="">
+            <br><br>Links to our Site are prohibited unless you obtain our prior written consent. If you arrive
             at the Site from a third-party link or as a result of any of the prohibited solicitations
             described in this paragraph below, please note that such link to or solicitation for the Site
             does not imply a relationship with, or endorsement of, the third-party website or its
@@ -143,19 +143,19 @@
             behalf that refer potential customers to us including, but not limited to: distributing
             flyers, coupons and other printed promotional materials, or electronic equivalents;
             verbal solicitation (e.g., in-person referrals); initiating telephone calls, and sending emails.
-            <br /></span><span class="font-bold">Membership</span><span class="">
-            <br />As a subscriber of Psych Insights, you will receive access to specific sections, features and
+            <br><br></span><span class="font-bold">Membership</span><span class="">
+            <br><br>As a subscriber of Psych Insights, you will receive access to specific sections, features and
             functions of the website that are not available to non-members. By agreeing to become a
             member, you opt in to receiving occasional special offers, marketing and journey-based
             communication emails. If you do not wish to receive these emails, you can unsubscribe
             following the instruction in the email. Membership to Psych Insights is non-transferable
             and therefore cannot be sold, exchanged or transferred in any way.
-            <br /></span><span class="font-bold">Arbitration
-            <br /></span><span class="">This Section of this Agreement Shall be Referred to as the &quot;Arbitration Agreement.&quot;
-            <br />1. By accepting the terms of this Arbitration Agreement, you and the Company
+            <br><br></span><span class="font-bold">Arbitration
+            <br><br></span><span class="">This Section of this Agreement Shall be Referred to as the &quot;Arbitration Agreement.&quot;
+            <br><br>1. By accepting the terms of this Arbitration Agreement, you and the Company
             (collectively, &quot;Parties&quot;) agree that any dispute, claim, or controversy (except those
-            <br />specifically exempted below) arising out of or relating to
-            <br /></span>
+            <br><br>specifically exempted below) arising out of or relating to
+            <br><br></span>
           <ul>
             <li><span class="">this Agreement and subsequent versions of this Agreement, or concerning
                 the existence, applicability, breach, termination, enforcement,
@@ -240,18 +240,9 @@
               ruling, but only to the extent permitted by applicable law. </span></li>
           </ul><span class="">All
             determinations of final relief, however, will be decided in arbitration.
-            If for any reason the ACICA will not administer the arbitration, either party may apply to
-            <br />a court of competent jurisdiction with authority over the location where the arbitration
-            will be conducted for appointment of a neutral arbitrator.
-            Nothing in this Arbitration Agreement prevents the investigation by a government
-            agency of any report, claim or charge otherwise covered by this Arbitration Agreement.
-            This Arbitration Agreement also does not prevent federal administrative agencies from
-            adjudicating claims and awarding remedies based on those claims, even if the claims
-            would otherwise be covered by this Arbitration Agreement. Nothing in this Arbitration
-            Agreement prevents or excuses a party from satisfying any conditions precedent and/or
-            exhausting administrative remedies under applicable law before bringing a claim in
-            arbitration.
-            <br />2. Class, Collective, and Other Representative Action Waivers (&quot;Class Action
+            If for any reason the ACICA will not administer the arbitration, either party may apply to a court of competent jurisdiction with authority over the location where the arbitration
+            will be conducted for appointment of a neutral arbitrator. Nothing in this Arbitration Agreement prevents the investigation by a government agency of any report, claim or charge otherwise covered by this Arbitration Agreement. This Arbitration Agreement also does not prevent federal administrative agencies from adjudicating claims and awarding remedies based on those claims, even if the claims would otherwise be covered by this Arbitration Agreement. Nothing in this Arbitration Agreement prevents or excuses a party from satisfying any conditions precedent and/or exhausting administrative remedies under applicable law before bringing a claim in arbitration.
+            <br><br>2. Class, Collective, and Other Representative Action Waivers (&quot;Class Action
             Waiver&quot;). You and the Company mutually agree that by entering into this
             Arbitration Agreement, both waive their right to have any dispute, claim, or
             controversy brought, heard or arbitrated as a class, collective, and/or other
@@ -264,7 +255,7 @@
             part of this Class Action Waiver is unenforceable, unconscionable, void or voidable
             may be determined only by a court of competent jurisdiction and not by an
             arbitrator. In any case in which:
-            <br /></span>
+            <br><br></span>
           <ul>
             <li><span class="">the dispute is filed as a class, collective, or other representative action; and
             </li>
@@ -274,12 +265,12 @@
             action to that extent must be litigated in a civil court of competent
             jurisdiction, but the portion of the Class Action Waiver that is enforceable
             shall be enforced in arbitration.
-            <br />3. Mass Arbitration. To the extent permitted by applicable law, to increase efficiency
+            <br><br>3. Mass Arbitration. To the extent permitted by applicable law, to increase efficiency
             of resolution, in the event 25 or more arbitration demands of a similar nature are
-            <br />filed against the Company, presented by or with the assistance or involvement of
+            <br><br>filed against the Company, presented by or with the assistance or involvement of
             the same law firm or organization, the Parties agree that this will constitute a
-            <br />&quot;Mass Arbitration&quot; and the following terms and procedures shall apply:
-            <br /></span>
+            <br><br>&quot;Mass Arbitration&quot; and the following terms and procedures shall apply:
+            <br><br></span>
           <ul>
             <li><span class="">The Parties shall cooperate to group the arbitration demands into
                 randomized batches of no more than 100 demands per batch. To the extent
@@ -304,10 +295,10 @@
             Disagreements over the applicability of this batch arbitration process will be settled in a
             single, consolidated arbitration proceeding that includes all affected parties and is
             resolved by a single arbitrator subject to the requirements of this section.
-            <br />Notwithstanding any provision in the Agreement to the contrary, batch arbitrations shall
+            <br><br>Notwithstanding any provision in the Agreement to the contrary, batch arbitrations shall
             take place in Canberra, Australia.
-            <br />4. Exceptions to Arbitration. Notwithstanding the foregoing, this Arbitration Agreement shall not require arbitration of the following claims:
-            <br /></span>
+            <br><br>4. Exceptions to Arbitration. Notwithstanding the foregoing, this Arbitration Agreement shall not require arbitration of the following claims:
+            <br><br></span>
           <ul>
             <li><span class="">individual claims brought in small claims court so long as the matter
                 remains in such court and advances only on an individual basis;
@@ -329,12 +320,12 @@
             exclusion is also applicable to any restrictions placed by an Act of the
             Australian Parliament.
 
-            <br />5. Optional Pre-Arbitration Dispute Resolution and Notification. Before initiating
+            <br><br>5. Optional Pre-Arbitration Dispute Resolution and Notification. Before initiating
             arbitration, you and the Company may first attempt to resolve any Disputes
             informally for 30 days, unless this time period is mutually extended by the Parties.
-            <br />The informal negotiations begin upon receipt of written notice from one party to
+            <br><br>The informal negotiations begin upon receipt of written notice from one party to
             the other (&quot;Notice of Dispute&quot;). The Notice of Dispute must:
-            <br /></span>
+            <br><br></span>
           <ul>
             <li><span class="">include the full name and contact information of the complaining party;
             </li>
@@ -351,7 +342,7 @@
             impeachment, in arbitration or other proceeding involving the parties,
             provided that evidence that is otherwise admissible or discoverable shall
             not be rendered inadmissible as a result of its use in the negotiation.
-            <br />6. Application to Third Parties. This Arbitration Agreement shall be binding upon,
+            <br><br>6. Application to Third Parties. This Arbitration Agreement shall be binding upon,
             and shall include any claims brought by or against any third parties, including but
             not limited to your spouses, heirs, third-party beneficiaries and assigns, where
             their underlying claim(s) arise out of or relate to your use of the Platform or
@@ -359,7 +350,7 @@
             Agreement brings claims against the Parties, those claims shall also be subject to
             this Arbitration Agreement.
 
-            <br />7. Right to Opt Out of Arbitration. You may opt out from this Arbitration Agreement
+            <br><br>7. Right to Opt Out of Arbitration. You may opt out from this Arbitration Agreement
             within 30 days after you first access or use the Platform by sending written notice
             of your decision to opt-out to admin@Psych Insights.com, using the subject line
             &quot;Arbitration Opt-Out.&quot; Please state that you are opting out of this Arbitration
@@ -372,14 +363,14 @@
             be bound by the terms of this Arbitration Agreement and Class Action Waiver. You
             have the right to consult with counsel of your choice concerning this Arbitration
             Agreement and Class Action Waiver.
-            <br />8. Survival. This Arbitration Agreement survives after the termination or expiration
+            <br><br>8. Survival. This Arbitration Agreement survives after the termination or expiration
             of the Parties' relationship.
-            <br />Your Account, Representations, Conduct and Commitments
+            <br><br>Your Account, Representations, Conduct and Commitments
             You hereby confirm that you are legally able to consent to receive Mental Health Services
             through digital contents as provided by Psych Insights, or have the consent of a parent or
             guardian, and are legally able to enter into a contract.
-            <br /></span><span class="font-bold">Minor Consent
-            <br /></span><span class="">Where consent from a parent or guardian is required to receive the Services offered by
+            <br><br></span><span class="font-bold">Minor Consent
+            <br><br></span><span class="">Where consent from a parent or guardian is required to receive the Services offered by
             Psych Insights, you hereby confirm that as the consenting parent or guardian, you have
             the sole right to consent to Services for the minor seeking therapy and are not legally
             mandated to confer with or get consent from any other legal guardian before consenting.
@@ -387,7 +378,7 @@
             Policy regarding the collection, process, and use of personal information on behalf of the
             minor. You also agree that consent to the Services remains valid until membership is
             canceled.
-            <br />You hereby confirm and agree that all the information that you provided in or through
+            <br><br>You hereby confirm and agree that all the information that you provided in or through
             the Platform, and the information that you will provide in or through the Platform in the
             future, is accurate, true, current and complete. Furthermore, you agree that during the
             term of this Agreement you will make sure to maintain and update this information so it
@@ -396,7 +387,7 @@
             confidentiality of your password and any other security information related to your
             account (collectively &quot;Account Access&quot;). We advise you to change your password
             frequently and to take extra care in safeguarding your password.
-            <br />You agree to notify us immediately of any unauthorized use of your Account Access or
+            <br><br>You agree to notify us immediately of any unauthorized use of your Account Access or
             any other concern for breach of your account security.
             You agree, confirm and acknowledge that we will not be liable for any loss or damage that
             incurred as a result of someone else using your account, either with or without your
@@ -411,36 +402,36 @@
             You agree and confirm that your use of the Platform, including the Services, are for your
             own personal use only and that you are not using the Platform or the Services for or behalf
             of any other person or organization.
-            <br />You agree and commit not to interfere with or disrupt, or attempt to interfere with or
+            <br><br>You agree and commit not to interfere with or disrupt, or attempt to interfere with or
             disrupt, any of our systems, services, servers, networks or infrastructure, or any of the
             Platform's systems, services, servers, networks or infrastructure, including without
             limitation obtaining unauthorized access to the aforementioned.
-            <br />You agree and commit not to make any use of the Platform for the posting, sending or
+            <br><br>You agree and commit not to make any use of the Platform for the posting, sending or
             delivering of either of the following:
-            <br />a) unsolicited email and/or advertisement or promotion of goods and services;
-            <br />b) malicious software or code;
-            <br />c) unlawful, harassing, privacy invading, abusive, threatening, vulgar, obscene, racist
+            <br><br>a) unsolicited email and/or advertisement or promotion of goods and services;
+            <br><br>b) malicious software or code;
+            <br><br>c) unlawful, harassing, privacy invading, abusive, threatening, vulgar, obscene, racist
             or potentially harmful content;
-            <br />d) any content that infringes a third party right including intellectual property rights;
-            <br />e) any content that may cause damage to a third party;
-            <br />f) any content which may constitute, cause or encourage a criminal action or violate
+            <br><br>d) any content that infringes a third party right including intellectual property rights;
+            <br><br>e) any content that may cause damage to a third party;
+            <br><br>f) any content which may constitute, cause or encourage a criminal action or violate
             any applicable law.
-            <br />You agree and commit not to violate any applicable local, state, national or international
+            <br><br>You agree and commit not to violate any applicable local, state, national or international
             law, statute, ordinance, rule, regulation or ethical code in relation to your use of the
             Platform and your relationship with us.
-            <br />If you receive any file, link, media or content from us, whether through the Platform or
+            <br><br>If you receive any file, link, media or content from us, whether through the Platform or
             not, you agree to check and scan this file for any virus or malicious software prior to
             opening or using this file.
             You will indemnify us, defend us, and hold us harmless from and against any and all
             claims, losses, causes of action, demands, liabilities, costs or expenses (including, but not
             limited to, litigation and reasonable attorneys' fees and expenses) arising out of or
             relating to any of the following:
-            <br />a) your access to or use of the Platform;
-            <br />b) any actions made with your account or Account Access whether by you or by
+            <br><br>a) your access to or use of the Platform;
+            <br><br>b) any actions made with your account or Account Access whether by you or by
             someone else;
-            <br />c) your violation of any of the provisions of this Agreement;
-            <br />d) non-payment for any of the services which were provided through the Platform;
-            <br />e) your violation of any third party right, including, without limitation, any
+            <br><br>c) your violation of any of the provisions of this Agreement;
+            <br><br>d) non-payment for any of the services which were provided through the Platform;
+            <br><br>e) your violation of any third party right, including, without limitation, any
             intellectual property right, publicity, confidentiality, property or privacy right.
             This clause shall survive expiration or termination of this Agreement.</span>
         </div>
@@ -450,35 +441,35 @@
             related information that you provided and will provide in the future, to or through the
             Platform, is accurate, current and correct and will continue to be accurate, current and
             correct.
-            <br />You agree to pay all fees and charges associated with your account on a timely basis and
+            <br><br>You agree to pay all fees and charges associated with your account on a timely basis and
             according to the fees schedule, the terms and the rates as published on the Platform. By
             providing us with your Payment Means you authorize us to bill and charge you through
             that Payment Means and you agree to maintain valid Payment Means information in your
             account information.
-            <br /></span><span class="font-bold">Modifications, Termination, Interruption and Disruptions to the Platform</span><span class="">
-            <br />You understand, agree and acknowledge that we may modify, suspend, disrupt or
+            <br><br></span><span class="font-bold">Modifications, Termination, Interruption and Disruptions to the Platform</span><span class="">
+            <br><br>You understand, agree and acknowledge that we may modify, suspend, disrupt or
             discontinue the Platform, any part of the Platform or the use of the Platform, whether to
             all clients or to you specifically, at any time with or without notice to you. You agree and
             acknowledge that we will not be liable for any of the aforementioned actions or for any
             losses or damages that are caused by any of the aforementioned actions.
-            <br />The Platform depends on various factors such as software, hardware and tools, either our
+            <br><br>The Platform depends on various factors such as software, hardware and tools, either our
             own or those owned and/or operated by our contractors and suppliers. While we make
             commercially reasonable efforts to ensure the Platform's reliability and accessibility, you
             understand and agree that no platform can be 100% reliable and accessible and so we
             cannot guarantee that access to the Platform will be uninterrupted or that it will be
             accessible, consistent, timely or error-free at all times.
-            <br /></span><span class="font-bold">Notices
-            <br /></span><span class="">We may provide notices or other communications to you regarding this Agreement or
+            <br><br></span><span class="font-bold">Notices
+            <br><br></span><span class="">We may provide notices or other communications to you regarding this Agreement or
             any aspect of the Platform, by email to the email address that we have on record, by
             regular mail or by posting it online. The date of receipt shall be deemed the date on which
             such notice is given. Notices sent to us must be delivered by email to admin@PsychInsights.com.
-            <br />Important Notes about our Agreement
-            <br />This Agreement and our relationship with you shall both be interpreted solely in
+            <br><br>Important Notes about our Agreement
+            <br><br>This Agreement and our relationship with you shall both be interpreted solely in
             accordance with the laws of Australia excluding any rules governing choice of laws.
-            <br /></span><span class="font-medium">THIS AGREEMENT CONSTITUTES THE ENTIRE AGREEMENT BETWEEN YOU AND US.
-            <br />YOU CONFIRM THAT YOU HAVE NOT RELIED UPON ANY PROMISES OR
+            <br><br></span><span class="font-medium">THIS AGREEMENT CONSTITUTES THE ENTIRE AGREEMENT BETWEEN YOU AND US.
+            <br><br>YOU CONFIRM THAT YOU HAVE NOT RELIED UPON ANY PROMISES OR
             REPRESENTATIONS BY US EXCEPT AS SET FORTH IN THIS AGREEMENT.
-            <br /></span><span class="">You irrevocably agree that the exclusive venue for any action or proceeding arising out
+            <br><br></span><span class="">You irrevocably agree that the exclusive venue for any action or proceeding arising out
             of relating to this Agreement or our relationship with you, regardless of theory, shall be
             in Canberra, Australia. You irrevocably consent to the personal jurisdiction of the courts
             of record in the aforementioned location and hereby waive any objection to the exercise
@@ -486,17 +477,17 @@
             choice of the laws of Australia, affects your statutory rights as a consumer to rely on the
             mandatory consumer protection provisions contained in the law of the country in which
             you live.
-            <br />We may change this Agreement by posting modifications on the Platform. Unless
+            <br><br>We may change this Agreement by posting modifications on the Platform. Unless
             otherwise specified by us, all modifications shall be effective upon posting. Therefore, you
             are encouraged to check the terms of this Agreement frequently. The last update date of
             this Agreement is posted at the bottom of the Agreement. By using the Platform after the
             changes become effective, you agree to be bound by such changes to the Agreement. If
             you do not agree to the changes, you must terminate access to the Platform and
             participation in its services.
-            <br />We may freely transfer or assign this Agreement or any of its obligations hereunder.
+            <br><br>We may freely transfer or assign this Agreement or any of its obligations hereunder.
             The paragraph headings in this Agreement are solely for the sake of convenience and will
             not be applied in the interpretation of this Agreement.
-            <br />If any provision of this Agreement is held by a court of competent jurisdiction to be illegal,
+            <br><br>If any provision of this Agreement is held by a court of competent jurisdiction to be illegal,
             invalid, unenforceable, or otherwise contrary to law, the remaining provisions of this
             Agreement will remain in full force and effect.
             To clear any doubt, all clauses regarding arbitration, limitations of liabilities, and

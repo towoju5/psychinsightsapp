@@ -78,11 +78,11 @@
 				<p class="values__text">
 					<br>
 					Psych Insights was created as an answer to this question, providing individuals with the resources and strategies they need to enhance their wellbeing and lead a more fulfilling life. It all started with a simple yet profound realization: mental health is just as important as physical health. In a world that often prioritizes the visible, we recognized the need to create a space where the invisible struggles are not only acknowledged, but also met with targeted solutions and support.
-					<br>
+					<br><br>
 					Psych Insights stands out by acknowledging that mental wellness journeys are as unique as the individuals undertaking them. We revolutionize support by offering resources that are specifically curated to align with your psychological profile and cater to your distinct needs. Whether your goal is to reduce stress, increase productivity, elevate your mood, foster restful sleep, accomplish specific objectives, or simply expand your knowledge and self-awareness, we’re here to guide and support you every step of the way. 
-					<br>
+					<br><br>
 					Our platform features an extensive collection of evidence-based psychological resources, spanning a variety of modalities to cater to diverse needs and preferences. This includes but is not limited to educational videos, thought-provoking articles, interactive activities, evidence-based strategies, carefully selected podcast and book recommendations, guided audio sessions, and much more—all meticulously chosen to guide you on your path towards optimizing your mental health and striving for continual self-improvement. 
-					<br>
+					<br><br>
 					As Psych Insights continues to expand and evolve, our dedication to promoting psychological wellness remains unwavering. Our narrative intertwines with yours, painting a story of resilience, hope, and the conviction that with the right insights and guidance, you can embark on a journey to not just surviving, but thriving.
 				</p>
 			</div>
