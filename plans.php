@@ -79,7 +79,9 @@
                     </span>
                     <h3 class="text-center text-2xl lg:text-left md:text-2xl lg:text-[2rem] font-extrabold">Goal Setting & Achievement
                         Tracker</h3>
-                    <p class="plans__sub-text text-center lg:text-left">Unlock expert video tips, meticulously designed to nurture and enhance your psychological health. Experience the privilege of professional guidance at your fingertips.
+                    <p class="plans__sub-text text-center lg:text-left">Experience transformative growth with our Goal Setting & Achievement Tracker, designed to
+help you set, monitor, and accomplish your goals. This intuitive tool not only keeps you focused on your journey but also visually displays your progress, making your achievements
+ tangible and inspiring.
                     </p>
                 </div>
                 <div class="plans__col">
