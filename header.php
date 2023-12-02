@@ -18,10 +18,10 @@
 	<script src="static/js/tailwind.js"></script>
 	<!-- <script src="//cdn.tailwindcss.com"></script> -->
 	<link href="//cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowsbite.min.css">
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+	<link rel="stylesheet" href="static/css/tw-elements.min.css" />
 	<link href="//fonts.cdnfonts.com/css/jost" rel="stylesheet">
 	<script src="./static/js/jquery-3.7.1.min.js"></script>
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="static/css/animate.css">
 
 	<!-- <link rel='stylesheet' href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"> -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
