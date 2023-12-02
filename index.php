@@ -22,12 +22,7 @@ require_once('header.php') ?>
 								<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
 									<h1 class="home__heading home__heading-good">Good Mental Health&colon;<br>A Right&comma;
 										Not a Privilege</h1>
-									<p><small class="home__small">Every individual deserves mental clarity and peace&period;
-											Explore our
-											extensive
-											resources&comma;
-											ensuring accessible&comma; quality mental health solutions for
-											all&period;</small></p>
+									<p><small class="home__small">Good Mental Health: A Right Not a Privilege We are all deserving of mental clarity and tranquility. We offer a wide array of resources, with the goal of providing accessible, science-backed mental health solutions for everyone.</small></p>
 								</div>
 							</div>
 							<!--Second item-->
@@ -35,12 +30,7 @@ require_once('header.php') ?>
 								<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
 									<h1 class="home__heading home__heading-elevate">Elevate And Optimize Your Mental
 										Well&dash;Being </h1>
-									<small class="home__small">Embrace a comprehensive approach&period; Personalized mental
-										wellness
-										strategries
-										designed
-										for everyone&period; Elevate your mindset&comma; and find balance in daily
-										life&period;</small>
+									<small class="home__small">Elevate And Optimize Your Well-Being Adopt a holistic approach to your mental wellness. Our protocols are personalized to your unique needs and psychological profile, and aim to bring peace to your mind, a spring to your step, and a smile to your face.</small>
 								</div>
 							</div>
 							<!--Third item-->
@@ -48,12 +38,7 @@ require_once('header.php') ?>
 								<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
 									<h1 class="home__heading home__heading-empower">Empower Your Journey With Our Insightful
 										Guidance </h1>
-									<small class="home__small home__small-empower">Uncover deep insights to guide your
-										life&apos;s
-										journey&period;
-										We provide
-										strategries and perspectives to help you take charge & thrive with
-										confidence&period;</small>
+									<small class="home__small home__small-empower">Empower Your Journey With Our Insightful Guidance Discover profound insights that illuminate your life’s path. We provide evidence-based strategies, empowering you to take control and become the best version of yourself.</small>
 								</div>
 							</div>
 						</div>
@@ -82,13 +67,13 @@ require_once('header.php') ?>
 				</video> -->
 			</div>
 			<div class="w-full px-3 py-2 text-left">
-				<h1 class="pb-14 ball__title-heading">Elevate Your Mental Health: No Cost, No Card, No Stress</h1>
+				<h1 class="pb-14 ball__title-heading">Elevate Your Mental Health: No Cost, No Card, No Stress.</h1>
 				<ul class="space-y-8">
 					<li class="flex items-start gap-10">
 						<img src="./static/images/index/location.svg" alt="Location">
 						<div class="group">
 							<p class="ball__title-text">Simply Start, No Strings Attached</p>
-							<p class="reviews__text text-left">Begin Your 7-Day Trial of our Premium Mental Health Resources. No credit card required we’re committed to providing hassle-free access to improved psychological wellbeing.</p>
+							<p class="reviews__text text-left">Begin Your 7-Day Trial of our Premium Mental Health Resources. No credit card required. We’re committed to providing hassle-free access to improved psychological wellbeing.</p>
 						</div>
 					</li>
 					<li class="flex items-start gap-10">
@@ -216,7 +201,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/001.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
-							<p class="catty_text mb-6 md:px-12">Emotions Soothing Heavy Emotions is a guided practice designed to help individuals find calm and inner peace by addressing and soothing overwhelming or intense emotions.</p>
+							<p class="catty_text mb-6 md:px-12">Elevate your mood with our curated mindfulness recordings, specifically designed to revitalize your spirit and add a spring to your step.</p>
 							<div class="py-4 px-4 bg-white rounded-xl items-center gap-4">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer" data-audio="">
@@ -241,7 +226,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/003.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
-							<p class="catty_text mb-6">Mindfulness Meditation is a guided practice that encourages individuals to cultivate present-moment awareness, reduce stress, and enhance their overall well-being through focused attention and mindful breathing.</p>
+							<p class="catty_text mb-6">Alleviate your worries with our handpicked relaxation tracks, crafted to calm your mind and bring tranquility to your daily life.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Anxiety)  Mindfulness Meditation.mp3">
@@ -266,7 +251,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/005.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
-							<p class="catty_text mb-6">Powerful Stress Reduction is a guided practice that empowers individuals with effective techniques to significantly reduce stress, fostering relaxation, mental clarity, and emotional balance.</p>
+							<p class="catty_text mb-6">Calm the chaos in your mind with our stress-relief audios, tailored to ease your tension and restore a sense of balance.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Stress) Powerful Stress Reduction.mp3">
@@ -291,7 +276,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/007.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
-							<p class="catty_text mb-6">Improve Your Concentration is a guided practice designed to enhance focus and attention by providing techniques and exercises that support individuals in sharpening their concentration skills and mental clarity.</p>
+							<p class="catty_text mb-6">Drift into a restful slumber with our selection of soothing sleep audios, car.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
@@ -316,7 +301,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/009.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
-							<p class="catty_text mb-6">Energizing Breath is a guided practice that utilizes specific breathing techniques to revitalize the body and mind, promoting increased energy, alertness, and a sense of vitality.</p>
+							<p class="catty_text mb-6">Ignite your drive with our inspiring audio collection, specifically designed to spark your enthusiasm and fuel your ambition for the day ahead.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
@@ -341,7 +326,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/011.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
-							<p class="catty_text mb-6">Progressive Muscle Relaxation is a systematic practice that leads individuals through a series of muscle groups, helping them release tension and achieve a profound state of physical relaxation and calmness.</p>
+							<p class="catty_text mb-6">Sharpen your focus with our specialized concentration recordings, deliberately chosen to enhance your mental clarity and boost your productivity.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
