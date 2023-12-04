@@ -279,12 +279,12 @@ require_once('header.php') ?>
 							<p class="catty_text mb-6 text-center">Drift into a restful slumber with our selection of soothing sleep audios, carefully chosen to help you relax and enhance the quality of your sleep</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
-									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
+									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Sleep). Progressive Muscle Relaxation.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
 									<div class="lg:text-2xl flex gap-2 items-center audio_player-4 p-2" data-title="Progressive Muscle Relaxation">
 										<audio crossorigin class="psy_audio-player">
-											<source src="./audio/(Focus_Concentraion) Improve Your Concentration.mp3" type="audio/mpeg">
+											<source src="./audio/(Sleep). Progressive Muscle Relaxation.mp3" type="audio/mpeg">
 										</audio>
 									</div>
 								</div>
