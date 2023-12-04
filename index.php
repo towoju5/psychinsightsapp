@@ -201,7 +201,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/001.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
-							<p class="catty_text mb-6 md:px-12">Elevate your mood with our curated mindfulness recordings, specifically designed to revitalize your spirit and add a spring to your step.</p>
+							<p class="catty_text mb-6 text-center md:px-12">Elevate your mood with our curated mindfulness recordings, specifically designed to revitalize your spirit and add a spring to your step.</p>
 							<div class="py-4 px-4 bg-white rounded-xl items-center gap-4">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer" data-audio="">
@@ -226,7 +226,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/003.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
-							<p class="catty_text mb-6">Alleviate your worries with our handpicked relaxation tracks, crafted to calm your mind and bring tranquility to your daily life.</p>
+							<p class="catty_text mb-6 text-center">Alleviate your worries with our handpicked relaxation tracks, crafted to calm your mind and bring tranquility to your daily life.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Anxiety)  Mindfulness Meditation.mp3">
@@ -251,7 +251,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/005.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
-							<p class="catty_text mb-6">Calm the chaos in your mind with our stress-relief audios, tailored to ease your tension and restore a sense of balance.</p>
+							<p class="catty_text mb-6 text-center">Calm the chaos in your mind with our stress-relief audios, tailored to ease your tension and restore a sense of balance.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Stress) Powerful Stress Reduction.mp3">
@@ -276,13 +276,13 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/007.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
-							<p class="catty_text mb-6">Drift into a restful slumber with our selection of soothing sleep audios, car.</p>
+							<p class="catty_text mb-6 text-center">Progressive Muscle Relaxation is a systematic practice that leads individuals through a series of muscle groups, helping them release tension and achieve a profound state of physical relaxation and calmness.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<div class="lg:text-2xl flex gap-2 items-center audio_player-4 p-2" data-title="Improving Your Concentration">
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-4 p-2" data-title="Progressive Muscle Relaxation">
 										<audio crossorigin class="psy_audio-player">
 											<source src="./audio/(Focus_Concentraion) Improve Your Concentration.mp3" type="audio/mpeg">
 										</audio>
@@ -301,7 +301,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/009.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
-							<p class="catty_text mb-6">Ignite your drive with our inspiring audio collection, specifically designed to spark your enthusiasm and fuel your ambition for the day ahead.</p>
+							<p class="catty_text mb-6 text-center">Ignite your drive with our inspiring audio collection, specifically designed to spark your enthusiasm and fuel your ambition for the day ahead.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
@@ -326,13 +326,13 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/011.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
-							<p class="catty_text mb-6">Sharpen your focus with our specialized concentration recordings, deliberately chosen to enhance your mental clarity and boost your productivity.</p>
+							<p class="catty_text mb-6 text-center">SImprove Your Concentration is a guided practice designed to enhance focus and attention by providing techniques and exercises that support individuals in sharpening their concentration skills and mental clarity..</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
 								</div>
 								<div class="text-2multi-line text-blalck gap-4 w-full">
-									<div class="lg:text-2xl flex gap-2 items-center audio_player-0 p-2" data-title="Progressive Muscle Relaxation">
+									<div class="lg:text-2xl flex gap-2 items-center audio_player-0 p-2" data-title="Improving Your Concentration">
 										<audio crossorigin class="psy_audio-player">
 											<source src="./audio/(Focus_Concentraion) Improve Your Concentration.mp3" type="audio/mpeg">
 										</audio>
