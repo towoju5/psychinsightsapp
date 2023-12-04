@@ -326,7 +326,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/011.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
-							<p class="catty_text mb-6 text-center">SImprove Your Concentration is a guided practice designed to enhance focus and attention by providing techniques and exercises that support individuals in sharpening their concentration skills and mental clarity..</p>
+							<p class="catty_text mb-6 text-center">Improve Your Concentration is a guided practice designed to enhance focus and attention by providing techniques and exercises that support individuals in sharpening their concentration skills and mental clarity..</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
