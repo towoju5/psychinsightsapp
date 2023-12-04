@@ -12,15 +12,15 @@
 	<!-- Open Graph meta tags for social media preview -->
 	<meta property="og:title" content="Psych Insights">
 	<meta property="og:description" content="Everyone deserves sound mental health.">
-	<meta property="og:image" content="static/images/favicon.png">
-	<meta property="og:url" content="static/images/favicon/favicon-16x16.png">
+	<meta property="og:image" content="https://psychinsightsapp.com/static/images/favicon.png">
+	<meta property="og:url" content="https://psychinsightsapp.com/">
 	<meta property="og:type" content="website">
 
 	<!-- Twitter Card meta tags (optional, but recommended for Twitter) -->
 	<meta name="twitter:card" content="Everyone deserves sound mental health.">
 	<meta name="twitter:title" content="Psych Insights">
 	<meta name="twitter:description" content="Everyone deserves sound mental health.">
-	<meta name="twitter:image" content="static/images/favicon.png">
+	<meta name="twitter:image" content="https://psychinsightsapp.com/static/images/favicon.png">
 
 	
 	<link rel="manifest" href="/static/images/favicon/site.webmanifest">
