@@ -59,8 +59,8 @@ function () {
         _this.totalTime.textContent = GreenAudioPlayer.formatTime(self.player.duration);
       });
       this.player.addEventListener('seeking', this.showLoadingIndicator.bind(self));
-      this.player.addEventListener('loadedmetadata', this.hideLoadingIndicator.bind(self));
       this.player.addEventListener('canplay', this.hideLoadingIndicator.bind(self));
+      this.player.addEventListener('loadedmetadata', this.hideLoadingIndicator.bind(self));
       this.player.addEventListener('ended', function () {
         self.playPause.attributes.d.value = 'M18 12L0 24V0';
         self.player.currentTime = 0;
