@@ -14,7 +14,7 @@ require_once('header.php') ?>
 					</div>
 				</div>
 				<div class="lg:w-1/2 md:order-1 md:pb-6">
-					<div id="carouselExampleCrossfade" class="relative" data-te-carousel-init data-te-ride="carousel" data-te-interval="15500">
+					<div id="carouselExampleCrossfade" class="relative" data-te-carousel-init data-te-ride="carousel" data-te-interval="15000">
 						<!--Carousel items-->
 						<div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
 							<!--First item-->
@@ -22,7 +22,7 @@ require_once('header.php') ?>
 								<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
 									<h1 class="home__heading home__heading-good">Good Mental Health&colon;<br>A Right&comma;
 										Not a Privilege</h1>
-									<p><small class="home__small">Good Mental Health: A Right Not a Privilege We are all deserving of mental clarity and tranquility. We offer a wide array of resources, with the goal of providing accessible, science-backed mental health solutions for everyone.</small></p>
+									<p><small class="home__small">A Right Not a Privilege We are all deserving of mental clarity and tranquility. We offer a wide array of resources, with the goal of providing accessible, science-backed mental health solutions for everyone.</small></p>
 								</div>
 							</div>
 							<!--Second item-->
@@ -30,7 +30,7 @@ require_once('header.php') ?>
 								<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
 									<h1 class="home__heading home__heading-elevate">Elevate And Optimize Your Mental
 										Well&dash;Being </h1>
-									<small class="home__small">Elevate And Optimize Your Well-Being Adopt a holistic approach to your mental wellness. Our protocols are personalized to your unique needs and psychological profile, and aim to bring peace to your mind, a spring to your step, and a smile to your face.</small>
+									<small class="home__small">Adopt a holistic approach to your mental wellness. Our protocols are personalized to your unique needs and psychological profile, and aim to bring peace to your mind, a spring to your step, and a smile to your face.</small>
 								</div>
 							</div>
 							<!--Third item-->
@@ -38,7 +38,7 @@ require_once('header.php') ?>
 								<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
 									<h1 class="home__heading home__heading-empower">Empower Your Journey With Our Insightful
 										Guidance </h1>
-									<small class="home__small home__small-empower">Empower Your Journey With Our Insightful Guidance Discover profound insights that illuminate your life’s path. We provide evidence-based strategies, empowering you to take control and become the best version of yourself.</small>
+									<small class="home__small home__small-empower">Discover profound insights that illuminate your life’s path. We provide evidence-based strategies, empowering you to take control and become the best version of yourself.</small>
 								</div>
 							</div>
 						</div>
@@ -153,7 +153,7 @@ require_once('header.php') ?>
 							<img src="static/images/humaan-stoic.png" alt="this is a humaan stoic file" class="humaans__image mx-auto">
 							<p class="humaans__text">Define your goals clearly - be it reducing stress, improving sleep, or boosting your productivity.</p>
 						</div>
-						<div class="hidden lg:block text-center mx-auto">
+						<div class="md:hidden lg:block text-center mx-auto">
 							<h3 class="humaans__heading-3">Take a break&comma; <br> refresh your mind&period;</h3>
 							<img src="static/images/humaan-yoga.png" alt="yoga posture" class="humaans__image mx-auto">
 							<p class="humaans__text">Push ‘pause’ on your chaotic life to focus on revitalizing your health, clearing your mind, and striving for continuous self-improvement</p>
@@ -200,7 +200,7 @@ require_once('header.php') ?>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/index/mp3-mockups/001.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
 							<p class="catty_text mb-6 md:px-12">Elevate your mood with our curated mindfulness recordings, specifically designed to revitalize your spirit and add a spring to your step.</p>
 							<div class="py-4 px-4 bg-white rounded-xl items-center gap-4">
 								<div class="playPauseBtn play-pause-btn hidden">
@@ -225,7 +225,7 @@ require_once('header.php') ?>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/index/mp3-mockups/003.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
 							<p class="catty_text mb-6">Alleviate your worries with our handpicked relaxation tracks, crafted to calm your mind and bring tranquility to your daily life.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
@@ -250,7 +250,7 @@ require_once('header.php') ?>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/index/mp3-mockups/005.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
 							<p class="catty_text mb-6">Calm the chaos in your mind with our stress-relief audios, tailored to ease your tension and restore a sense of balance.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
@@ -275,7 +275,7 @@ require_once('header.php') ?>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/index/mp3-mockups/007.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
 							<p class="catty_text mb-6">Drift into a restful slumber with our selection of soothing sleep audios, car.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
@@ -300,7 +300,7 @@ require_once('header.php') ?>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/index/mp3-mockups/009.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
 							<p class="catty_text mb-6">Ignite your drive with our inspiring audio collection, specifically designed to spark your enthusiasm and fuel your ambition for the day ahead.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
@@ -325,7 +325,7 @@ require_once('header.php') ?>
 						<div class="w-1/5 hidden md:block animate__animated animate__fadeInLeft">
 							<img src="./static/images/index/mp3-mockups/011.png" alt="sleep_001s" class="mx-auto">
 						</div>
-						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md">
+						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
 							<p class="catty_text mb-6">Sharpen your focus with our specialized concentration recordings, deliberately chosen to enhance your mental clarity and boost your productivity.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">

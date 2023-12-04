@@ -1910,10 +1910,53 @@
     transform: translate3d(0, 0, 0);
   }
 }
+
 .animate__fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
 }
+
+/* .animate__fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+} */
+
+/* // Emmanuel animation starts here */
+
+.animate__30bgInLeft {
+  -webkit-animation-name: _30bgInLeft;
+  animation-name: _30bgInLeft;
+}
+
+@-webkit-keyframes _30bgInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(15deg) translateX(50%);
+    transform: rotate(15deg) translateZ(0px);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(30deg) translateZ(0px);
+    transform: rotate(30deg) translateZ(0px);
+  }
+}
+@keyframes _30bgInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: rotate(15deg) translateZ(0px);
+    transform: rotate(15deg) translateZ(0px);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: rotate(30deg) translateZ(0px);
+    transform: rotate(30deg) translateZ(0px);
+  }
+}
+
+ /* // Emmanuel animation stops here */
+
 @-webkit-keyframes fadeInLeftBig {
   from {
     opacity: 0;
@@ -1940,6 +1983,7 @@
     transform: translate3d(0, 0, 0);
   }
 }
+
 .animate__fadeInLeftBig {
   -webkit-animation-name: fadeInLeftBig;
   animation-name: fadeInLeftBig;

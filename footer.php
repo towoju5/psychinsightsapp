@@ -136,7 +136,7 @@
 									</li>
 								</ul>
 							</div>
-							<span style="font-size: 12px;" class="text-white">Pysch Insights © <?= date('Y') ?>. All rights reserved</span>
+							<span style="font-size: 12px;" class="text-white">Psych Insights © <?= date('Y') ?>. All rights reserved</span>
 						</div>
 					</div>
 				</div>
