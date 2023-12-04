@@ -22,7 +22,7 @@ require_once('header.php') ?>
 								<div class="home__texts home__texts-empower home__texts-active text-center lg:text-left w-full">
 									<h1 class="home__heading home__heading-good">Good Mental Health&colon;<br>A Right&comma;
 										Not a Privilege</h1>
-									<p><small class="home__small">A Right Not a Privilege We are all deserving of mental clarity and tranquility. We offer a wide array of resources, with the goal of providing accessible, science-backed mental health solutions for everyone.</small></p>
+									<p><small class="home__small">We are all deserving of mental clarity and tranquility. We offer a wide array of resources, with the goal of providing accessible, science-backed mental health solutions for everyone.</small></p>
 								</div>
 							</div>
 							<!--Second item-->
