@@ -190,7 +190,7 @@ require_once('header.php') ?>
 						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3 hover:bg-[#1E6C7C] hover:text-white" id="settings-tab-Motivation" type="button" role="tab" aria-controls="settings-Motivation" aria-selected="false">Motivation</button>
 					</li>
 					<li class="mr-2 psy_li-nav" role="presentation">
-						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3 hover:bg-[#1E6C7C] hover:text-white" id="contacts-tab-Concentration" type="button" role="tab" aria-controls="contacts-Concentration" aria-selected="false">Concentration</button>
+						<button class="bg-[#E2F8F9] md:text-xl lg:text-4xl text-black rounded-xl px-12 py-3 hover:bg-[#1E6C7C] hover:text-white" id="contacts-tab-Concentration" type="button" role="tab" aria-controls="contacts-Concentration" aria-selected="false">Focus</button>
 					</li>
 				</ul>
 			</div>
@@ -276,7 +276,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/007.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
-							<p class="catty_text mb-6 text-center">Progressive Muscle Relaxation is a systematic practice that leads individuals through a series of muscle groups, helping them release tension and achieve a profound state of physical relaxation and calmness.</p>
+							<p class="catty_text mb-6 text-center">Drift into a restful slumber with our selection of soothing sleep audios, carefully chosen to help you relax and enhance the quality of your sleep</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton" data-audio="audio/(Focus_Concentraion) Improve Your Concentration.mp3">
@@ -326,7 +326,7 @@ require_once('header.php') ?>
 							<img src="./static/images/index/mp3-mockups/011.png" alt="sleep_001s" class="mx-auto">
 						</div>
 						<div class="w-full md:w-3/5 py-[4rem] rounded-lg px-3 bg-[#e2f9f9] shadow-md mx-4 animate__animated animate__slideInRight">
-							<p class="catty_text mb-6 text-center">Improve Your Concentration is a guided practice designed to enhance focus and attention by providing techniques and exercises that support individuals in sharpening their concentration skills and mental clarity..</p>
+							<p class="catty_text mb-6 text-center">Sharpen your focus with our specialized concentration recordings, deliberately chosen to enhance your mental clarity and boost your productivity.</p>
 							<div class="mx-[1rem] bg-white rounded-xl flex items-center gap-10 lg:gap-20">
 								<div class="playPauseBtn play-pause-btn hidden">
 									<img src="./static/images/play.svg" alt="play-btn" class="hover:cursor-pointer playPauseButton">
