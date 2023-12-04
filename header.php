@@ -7,6 +7,22 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon/favicon-16x16.png">
+
+
+	<!-- Open Graph meta tags for social media preview -->
+	<meta property="og:title" content="Psych Insights">
+	<meta property="og:description" content="Everyone deserves sound mental health.">
+	<meta property="og:image" content="static/images/favicon.png">
+	<meta property="og:url" content="static/images/favicon/favicon-16x16.png">
+	<meta property="og:type" content="website">
+
+	<!-- Twitter Card meta tags (optional, but recommended for Twitter) -->
+	<meta name="twitter:card" content="Everyone deserves sound mental health.">
+	<meta name="twitter:title" content="Psych Insights">
+	<meta name="twitter:description" content="Everyone deserves sound mental health.">
+	<meta name="twitter:image" content="static/images/favicon.png">
+
+	
 	<link rel="manifest" href="/static/images/favicon/site.webmanifest">
 	<link rel="mask-icon" href="/static/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
