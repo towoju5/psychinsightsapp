@@ -4,7 +4,7 @@
     <section class="plans" id="plans">
         <div class="plans__inner py-[2rem]">
             <div class="plans__row plans__row--1 mb-12">
-                <h3 class="plans__heading">Upgrade to Our Premium Plan</h3>
+                <h3 class="plans__heading">Upgrade To Our Premium Plan</h3>
                 <small class="plans__small">Boost Your Well-being Today With Our Premium Personalized Resources. They are Just a Click Away.</small>
             </div>
 
